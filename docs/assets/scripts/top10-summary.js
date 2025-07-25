@@ -126,23 +126,32 @@ function renderAIRankings(aiRankings) {
 
 // 詳細ランキング表示
 function renderDetailedRanking() {
-    if (!integratedData) return;
+    if (!integratedData) {
+        console.error('❌ integratedData is null or undefined');
+        return;
+    }
     
-    console.log('Full analysis data:', integratedData.full_analysis);
+    console.log('🔍 詳細ランキング表示開始');
+    console.log('Full analysis array length:', integratedData.full_analysis?.length);
+    console.log('Full analysis data sample:', integratedData.full_analysis?.slice(0, 3));
     
     // TOP10の詳細表示
     const top10Data = integratedData.full_analysis.slice(0, 10);
+    console.log('📊 TOP10データ:', top10Data.length, '件');
     renderDetailedTier('detailed-top10', top10Data);
     
     // 11-20位の表示
     const tier11_20 = integratedData.full_analysis.slice(10, 20);
+    console.log('📊 11-20位データ:', tier11_20.length, '件', tier11_20);
     renderDetailedTier('detailed-tier11-20', tier11_20);
     
     // 21-30位の表示（存在する分だけ）
     const tier21_30 = integratedData.full_analysis.slice(20, 30);
+    console.log('📊 21-30位データ:', tier21_30.length, '件', tier21_30);
     if (tier21_30.length > 0) {
         renderDetailedTier('detailed-tier21-30', tier21_30);
     } else {
+        console.warn('⚠️ 21-30位のデータが不足');
         // データが不足している場合のメッセージ
         const container = document.getElementById('detailed-tier21-30');
         if (container) {
@@ -154,45 +163,82 @@ function renderDetailedRanking() {
             `;
         }
     }
+    
+    console.log('✅ 詳細ランキング表示完了');
 }
 
 // 詳細Tier表示
 function renderDetailedTier(containerId, data) {
+    console.log(`🎯 renderDetailedTier called for: ${containerId}`);
+    console.log(`🎯 Data received:`, data?.length, 'items');
+    
     const container = document.getElementById(containerId);
-    if (!container || !data || data.length === 0) {
-        console.log(`Container ${containerId} not found or no data:`, data);
+    
+    if (!container) {
+        console.error(`❌ Container not found: ${containerId}`);
+        console.log('🔍 Available containers:', 
+            Array.from(document.querySelectorAll('[id*="detailed"]')).map(el => el.id)
+        );
         return;
     }
     
-    console.log(`Rendering tier ${containerId} with ${data.length} items:`, data);
+    if (!data || data.length === 0) {
+        console.warn(`⚠️ No data for container: ${containerId}`);
+        container.innerHTML = '<div class="no-data-message"><p>データがありません</p></div>';
+        return;
+    }
     
-    const tierHTML = data.map((dish, index) => `
-        <div class="detailed-ranking-item">
-            <div class="detailed-rank">${dish.integrated_rank || dish.overall_rank}</div>
-            <div class="detailed-info">
-                <div class="detailed-dish-name">${dish.dish_name}</div>
-                <div class="detailed-stats">
-                    スコア: ${Math.round(dish.total_score)} | 
-                    AI選択数: ${dish.ai_count}/4 | 
-                    平均順位: ${dish.average_rank.toFixed(1)}位
+    console.log(`✅ Container found: ${containerId}, rendering ${data.length} items`);
+    
+    const tierHTML = data.map((dish, index) => {
+        const rankValue = dish.integrated_rank || dish.overall_rank;
+        const dishName = dish.dish_name || '不明な料理';
+        const totalScore = Math.round(dish.total_score || 0);
+        const aiCount = dish.ai_count || 0;
+        const avgRank = (dish.average_rank || 0).toFixed(1);
+        
+        return `
+            <div class="detailed-ranking-item">
+                <div class="detailed-rank">${rankValue}</div>
+                <div class="detailed-info">
+                    <div class="detailed-dish-name">${dishName}</div>
+                    <div class="detailed-stats">
+                        スコア: ${totalScore} | 
+                        AI選択数: ${aiCount}/4 | 
+                        平均順位: ${avgRank}位
+                    </div>
                 </div>
             </div>
-        </div>
-    `).join('');
+        `;
+    }).join('');
     
     container.innerHTML = tierHTML;
-    console.log(`Successfully rendered ${data.length} items in ${containerId}`);
+    console.log(`✅ Successfully rendered ${data.length} items in ${containerId}`);
+    console.log(`📝 Generated HTML length: ${tierHTML.length} characters`);
 }
 
 // Tier切り替え
 function switchTier(tierName) {
-    console.log('Switching to tier:', tierName);
+    console.log('🔄 switchTier called with:', tierName);
+    
+    // 全ての利用可能な要素をチェック
+    console.log('🔍 Available tier-content elements:');
+    document.querySelectorAll('.tier-content').forEach(el => {
+        console.log(`  - ${el.id} (hidden: ${el.classList.contains('hidden')})`);
+    });
     
     // ボタンのアクティブ状態切り替え
     document.querySelectorAll('.tier-btn').forEach(btn => {
         btn.classList.remove('active');
     });
-    document.querySelector(`[data-tier="${tierName}"]`).classList.add('active');
+    
+    const activeBtn = document.querySelector(`[data-tier="${tierName}"]`);
+    if (activeBtn) {
+        activeBtn.classList.add('active');
+        console.log('✅ Button activated:', tierName);
+    } else {
+        console.error('❌ Button not found for tier:', tierName);
+    }
     
     // コンテンツの表示切り替え
     document.querySelectorAll('.tier-content').forEach(content => {
@@ -211,12 +257,26 @@ function switchTier(tierName) {
         targetId = `tier-${tierName}`;
     }
     
+    console.log('🎯 Looking for target element:', targetId);
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
         targetElement.classList.remove('hidden');
-        console.log('Successfully switched to:', targetId);
+        console.log('✅ Successfully switched to:', targetId);
+        
+        // 内容が表示されているかチェック
+        const contentList = targetElement.querySelector('.detailed-ranking-list');
+        if (contentList) {
+            console.log('📝 Content inside:', contentList.children.length, 'items');
+            if (contentList.children.length === 0) {
+                console.warn('⚠️ Content list is empty!');
+            }
+        }
     } else {
-        console.error('Target element not found:', targetId);
+        console.error('❌ Target element not found:', targetId);
+        console.log('🔍 All elements with "tier" in ID:');
+        document.querySelectorAll('[id*="tier"]').forEach(el => {
+            console.log(`  - ${el.id}`);
+        });
     }
 }
 
