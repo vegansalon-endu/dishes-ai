@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本料理AI比較システム - 各AIの料理ランキング</title>
+    <meta name="description" content="Gemini、ChatGPT、Claude、Qwen3による日本料理トップ100の比較分析">
+    <meta name="keywords" content="日本料理,AI比較,Gemini,ChatGPT,Claude,Qwen3,料理ランキング,ヴィーガン,レシピ">
+    <meta name="author" content="ヴィーガン栄養専門サイト">
+    <meta property="og:title" content="日本料理AI比較システム">
+    <meta property="og:description" content="4つのAIモデルが選ぶ日本料理トップ100を比較分析">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/styles/dishes-comparison.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>🍱 日本料理AI比較システム</h1>
+            <ul>
+                <li><a href="#hero">ホーム</a></li>
+                <li><a href="#comparison-grid" class="active">AI比較</a></li>
+                <li><a href="#about">このプロジェクトについて</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>各AIによる日本料理トップ100比較</h2>
+            <p>Gemini、ChatGPT、Claude、Qwen3が選んだ日本の代表的な料理を比較分析</p>
+        </section>
+
+        <section id="controls">
+            <div class="control-panel">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="料理名で検索...">
+                    <button id="searchBtn">🔍</button>
+                </div>
+                
+                <div class="filters">
+                    <select id="categoryFilter">
+                        <option value="">カテゴリ: 全て</option>
+                        <option value="主食">主食</option>
+                        <option value="主菜">主菜</option>
+                        <option value="副菜">副菜</option>
+                        <option value="汁物">汁物</option>
+                    </select>
+                    
+                    <select id="typeFilter">
+                        <option value="">系統: 全て</option>
+                        <option value="和食">和食</option>
+                        <option value="洋食">洋食</option>
+                        <option value="中華">中華</option>
+                        <option value="エスニック">エスニック</option>
+                    </select>
+                    
+                    <button id="resetFilters">リセット</button>
+                </div>
+            </div>
+            
+            <div class="stats-panel">
+                <div class="stat-card">
+                    <span class="stat-label">比較対象AI</span>
+                    <span class="stat-value" id="activeAI">4</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">総料理数</span>
+                    <span class="stat-value" id="totalDishes">100</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">表示中</span>
+                    <span class="stat-value" id="displayedDishes">100</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="comparison-grid">
+            <div class="ai-columns">
+                <div class="ai-column" data-ai="gemini">
+                    <div class="ai-header">
+                        <h3>🤖 Gemini</h3>
+                        <span class="completion-status completed">完了</span>
+                        <p class="ai-description">Google の大規模言語モデル</p>
+                    </div>
+                    <div class="dishes-list" id="gemini-list">
+                        <!-- Gemini の料理リストがここに表示される -->
+                    </div>
+                </div>
+                
+                <div class="ai-column" data-ai="chatgpt">
+                    <div class="ai-header">
+                        <h3>💬 ChatGPT</h3>
+                        <span class="completion-status completed">完了</span>
+                        <p class="ai-description">OpenAI の対話型AIモデル</p>
+                    </div>
+                    <div class="dishes-list" id="chatgpt-list">
+                        <div class="placeholder">
+                            <p>📝 データ収集中...</p>
+                            <p class="placeholder-note">ChatGPTからの料理リストを待っています</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ai-column" data-ai="claude">
+                    <div class="ai-header">
+                        <h3>🎭 Claude</h3>
+                        <span class="completion-status completed">完了</span>
+                        <p class="ai-description">Anthropic の対話型AIアシスタント</p>
+                    </div>
+                    <div class="dishes-list" id="claude-list">
+                        <div class="placeholder">
+                            <p>📝 データ収集中...</p>
+                            <p class="placeholder-note">Claudeからの料理リストを待っています</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ai-column" data-ai="qwen3">
+                    <div class="ai-header">
+                        <h3>🐉 Qwen3</h3>
+                        <span class="completion-status completed">完了</span>
+                        <p class="ai-description">Alibaba の多言語対応AIモデル</p>
+                    </div>
+                    <div class="dishes-list" id="qwen3-list">
+                        <div class="placeholder">
+                            <p>📝 データ収集中...</p>
+                            <p class="placeholder-note">Qwen3からの料理リストを待っています</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="insights">
+            <h3>🔍 分析・インサイト</h3>
+            <div class="insight-cards">
+                <div class="insight-card">
+                    <h4>共通料理</h4>
+                    <p id="commonDishes">複数のAIで共通してランクインした料理を分析中...</p>
+                </div>
+                <div class="insight-card">
+                    <h4>AI別特徴</h4>
+                    <p id="aiCharacteristics">各AIの選択傾向を分析中...</p>
+                </div>
+                <div class="insight-card">
+                    <h4>ヴィーガン対応可能性</h4>
+                    <p id="veganPotential">植物性食材での再現可能な料理を特定中...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h3>📋 このプロジェクトについて</h3>
+            <div class="about-content">
+                <p>このシステムは、異なるAIモデルが選ぶ「日本の代表的な料理」を比較分析するためのツールです。</p>
+                
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h4>🎯 目的</h4>
+                        <ul>
+                            <li>各AIの文化的理解度の比較</li>
+                            <li>日本料理の客観的ランキング作成</li>
+                            <li>ヴィーガンレシピ開発の基礎データ収集</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="about-card">
+                        <h4>🔮 今後の展開</h4>
+                        <ul>
+                            <li>他国料理への拡張（ジョージア、イタリア、中国、トルコ）</li>
+                            <li>各料理のヴィーガン・糖質制限版レシピ開発</li>
+                            <li>ユーザー投稿型レシピサイトの構築</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 ヴィーガン栄養専門サイト - 日本料理AI比較システム</p>
+            <p>※このデータは研究・分析目的で収集されており、各AIの特性を理解するためのものです</p>
+        </div>
+    </footer>
+
+    <script src="./assets/scripts/dishes-comparison.js"></script>
+</body>
+</html>
