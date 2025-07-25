@@ -1,7 +1,7 @@
 {
   "metadata": {
     "analysis_date": "2025-07-25",
-    "total_dishes_analyzed": 19,
+    "total_dishes_analyzed": 228,
     "ai_sources": [
       "gemini",
       "chatgpt",
@@ -432,119 +432,196 @@
       "dish_name": "カレーライス",
       "total_score": 555,
       "ai_count": 4,
-      "average_rank": 3.3
+      "average_rank": 3.25
     },
     {
       "overall_rank": 4,
       "dish_name": "ハンバーグ",
       "total_score": 495,
       "ai_count": 4,
-      "average_rank": 6.3
+      "average_rank": 6.25
     },
     {
       "overall_rank": 5,
       "dish_name": "鶏の唐揚げ",
       "total_score": 446.6666666666667,
       "ai_count": 3,
-      "average_rank": 3.7
+      "average_rank": 3.6666666666666665
     },
     {
       "overall_rank": 6,
-      "dish_name": "豚の生姜焼き",
-      "total_score": 386.66666666666663,
-      "ai_count": 3,
-      "average_rank": 6.7
+      "dish_name": "肉じゃが",
+      "total_score": 420,
+      "ai_count": 4,
+      "average_rank": 10
     },
     {
       "overall_rank": 7,
-      "dish_name": "餃子",
-      "total_score": 280,
-      "ai_count": 2,
-      "average_rank": 7
+      "dish_name": "豚の生姜焼き",
+      "total_score": 386.66666666666663,
+      "ai_count": 3,
+      "average_rank": 6.666666666666667
     },
     {
       "overall_rank": 8,
-      "dish_name": "麻婆豆腐",
-      "total_score": 280,
-      "ai_count": 2,
-      "average_rank": 7
+      "dish_name": "親子丼",
+      "total_score": 375,
+      "ai_count": 4,
+      "average_rank": 12.25
     },
     {
       "overall_rank": 9,
-      "dish_name": "親子丼",
-      "total_score": 280,
-      "ai_count": 2,
-      "average_rank": 7
+      "dish_name": "餃子",
+      "total_score": 353.3333333333333,
+      "ai_count": 3,
+      "average_rank": 8.333333333333334
     },
     {
       "overall_rank": 10,
-      "dish_name": "肉じゃが",
-      "total_score": 270,
-      "ai_count": 2,
-      "average_rank": 7.5
+      "dish_name": "麻婆豆腐",
+      "total_score": 340,
+      "ai_count": 4,
+      "average_rank": 14
     },
     {
       "overall_rank": 11,
       "dish_name": "チャーハン",
-      "total_score": 240,
-      "ai_count": 2,
-      "average_rank": 9
+      "total_score": 293.3333333333333,
+      "ai_count": 3,
+      "average_rank": 11.333333333333334
     },
     {
       "overall_rank": 12,
-      "dish_name": "卵焼き",
-      "total_score": 200,
-      "ai_count": 1,
-      "average_rank": 6
+      "dish_name": "オムライス",
+      "total_score": 255,
+      "ai_count": 4,
+      "average_rank": 18.25
     },
     {
       "overall_rank": 13,
+      "dish_name": "卵焼き",
+      "total_score": 230,
+      "ai_count": 2,
+      "average_rank": 9.5
+    },
+    {
+      "overall_rank": 14,
+      "dish_name": "とんかつ",
+      "total_score": 220,
+      "ai_count": 3,
+      "average_rank": 15
+    },
+    {
+      "overall_rank": 15,
+      "dish_name": "焼き魚",
+      "total_score": 190,
+      "ai_count": 2,
+      "average_rank": 11.5
+    },
+    {
+      "overall_rank": 16,
       "dish_name": "豚カツ",
       "total_score": 180,
       "ai_count": 1,
       "average_rank": 7
     },
     {
-      "overall_rank": 14,
-      "dish_name": "とんかつ",
-      "total_score": 180,
-      "ai_count": 1,
-      "average_rank": 7
-    },
-    {
-      "overall_rank": 15,
-      "dish_name": "ラーメン",
-      "total_score": 160,
-      "ai_count": 1,
-      "average_rank": 8
-    },
-    {
-      "overall_rank": 16,
-      "dish_name": "野菜炒め",
-      "total_score": 160,
-      "ai_count": 1,
-      "average_rank": 8
-    },
-    {
       "overall_rank": 17,
+      "dish_name": "天ぷら",
+      "total_score": 166.66666666666663,
+      "ai_count": 3,
+      "average_rank": 17.666666666666668
+    },
+    {
+      "overall_rank": 18,
       "dish_name": "生姜焼き",
       "total_score": 160,
       "ai_count": 1,
       "average_rank": 8
     },
     {
-      "overall_rank": 18,
-      "dish_name": "刺身",
-      "total_score": 120,
-      "ai_count": 1,
-      "average_rank": 10
+      "overall_rank": 19,
+      "dish_name": "焼きそば",
+      "total_score": 146.66666666666663,
+      "ai_count": 3,
+      "average_rank": 18.666666666666668
     },
     {
-      "overall_rank": 19,
-      "dish_name": "青椒肉絲",
-      "total_score": 120,
+      "overall_rank": 20,
+      "dish_name": "焼き鮭",
+      "total_score": 100,
       "ai_count": 1,
-      "average_rank": 10
+      "average_rank": 11
+    },
+    {
+      "overall_rank": 21,
+      "dish_name": "筑前煮",
+      "total_score": 95,
+      "ai_count": 4,
+      "average_rank": 26.25
+    },
+    {
+      "overall_rank": 22,
+      "dish_name": "豚汁",
+      "total_score": 95,
+      "ai_count": 4,
+      "average_rank": 26.25
+    },
+    {
+      "overall_rank": 23,
+      "dish_name": "寿司",
+      "total_score": 90,
+      "ai_count": 2,
+      "average_rank": 16.5
+    },
+    {
+      "overall_rank": 24,
+      "dish_name": "すき焼き",
+      "total_score": 86.66666666666663,
+      "ai_count": 3,
+      "average_rank": 21.666666666666668
+    },
+    {
+      "overall_rank": 25,
+      "dish_name": "さばの味噌煮",
+      "total_score": 80,
+      "ai_count": 1,
+      "average_rank": 12
+    },
+    {
+      "overall_rank": 26,
+      "dish_name": "コロッケ",
+      "total_score": 75,
+      "ai_count": 4,
+      "average_rank": 27.25
+    },
+    {
+      "overall_rank": 27,
+      "dish_name": "ラーメン",
+      "total_score": 60,
+      "ai_count": 2,
+      "average_rank": 18
+    },
+    {
+      "overall_rank": 28,
+      "dish_name": "チャーハン（焼き飯）",
+      "total_score": 40,
+      "ai_count": 1,
+      "average_rank": 14
+    },
+    {
+      "overall_rank": 29,
+      "dish_name": "納豆",
+      "total_score": 40,
+      "ai_count": 1,
+      "average_rank": 14
+    },
+    {
+      "overall_rank": 30,
+      "dish_name": "野菜炒め",
+      "total_score": 26.66666666666663,
+      "ai_count": 3,
+      "average_rank": 24.666666666666668
     }
   ]
 }

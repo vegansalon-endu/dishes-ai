@@ -122,20 +122,45 @@ function renderAIRankings(aiRankings) {
 function renderDetailedRanking() {
     if (!integratedData) return;
     
-    // TOP10の詳細表示
-    renderDetailedTier('detailed-top10', integratedData.integrated_top10);
+    console.log('Full analysis data:', integratedData.full_analysis);
     
-    // 11-20位の表示（full_analysisから取得）
+    // TOP10の詳細表示
+    const top10Data = integratedData.full_analysis.slice(0, 10);
+    renderDetailedTier('detailed-top10', top10Data);
+    
+    // 11-20位の表示
     const tier11_20 = integratedData.full_analysis.slice(10, 20);
     renderDetailedTier('detailed-11-20', tier11_20);
+    
+    // 21-30位の表示（存在する分だけ）
+    const tier21_30 = integratedData.full_analysis.slice(20, 30);
+    if (tier21_30.length > 0) {
+        renderDetailedTier('detailed-21-30', tier21_30);
+    } else {
+        // データが不足している場合のメッセージ
+        const container = document.getElementById('detailed-21-30');
+        if (container) {
+            container.innerHTML = `
+                <div class="no-data-message">
+                    <p>🔍 21位以降のデータは現在準備中です</p>
+                    <p>より多くの料理データを収集して拡充予定です</p>
+                </div>
+            `;
+        }
+    }
 }
 
 // 詳細Tier表示
 function renderDetailedTier(containerId, data) {
     const container = document.getElementById(containerId);
-    if (!container || !data) return;
+    if (!container || !data || data.length === 0) {
+        console.log(`Container ${containerId} not found or no data:`, data);
+        return;
+    }
     
-    const tierHTML = data.map(dish => `
+    console.log(`Rendering tier ${containerId} with ${data.length} items:`, data);
+    
+    const tierHTML = data.map((dish, index) => `
         <div class="detailed-ranking-item">
             <div class="detailed-rank">${dish.integrated_rank || dish.overall_rank}</div>
             <div class="detailed-info">
@@ -150,6 +175,7 @@ function renderDetailedTier(containerId, data) {
     `).join('');
     
     container.innerHTML = tierHTML;
+    console.log(`Successfully rendered ${data.length} items in ${containerId}`);
 }
 
 // Tier切り替え

@@ -498,6 +498,27 @@ main {
     color: var(--text-light);
 }
 
+/* No Data Message */
+.no-data-message {
+    text-align: center;
+    padding: 3rem 2rem;
+    color: var(--text-light);
+    background: var(--gray-light);
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.no-data-message p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.no-data-message p:first-child {
+    font-size: 1.2rem;
+    color: var(--primary-green);
+    font-weight: 600;
+}
+
 /* Vegan Analysis */
 #vegan-potential {
     margin-bottom: 3rem;
