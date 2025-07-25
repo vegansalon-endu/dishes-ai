@@ -19,6 +19,12 @@ async function initializeApp() {
         renderDetailedRanking();
         initializeEventListeners();
         
+        // デフォルトのTier表示を確認
+        console.log('初期化後の要素確認:');
+        console.log('- tier-top10:', document.getElementById('tier-top10'));
+        console.log('- tier-tier11-20:', document.getElementById('tier-tier11-20'));
+        console.log('- tier-tier21-30:', document.getElementById('tier-tier21-30'));
+        
         console.log('✅ 初期化完了');
     } catch (error) {
         console.error('❌ 初期化エラー:', error);
@@ -130,15 +136,15 @@ function renderDetailedRanking() {
     
     // 11-20位の表示
     const tier11_20 = integratedData.full_analysis.slice(10, 20);
-    renderDetailedTier('detailed-11-20', tier11_20);
+    renderDetailedTier('detailed-tier11-20', tier11_20);
     
     // 21-30位の表示（存在する分だけ）
     const tier21_30 = integratedData.full_analysis.slice(20, 30);
     if (tier21_30.length > 0) {
-        renderDetailedTier('detailed-21-30', tier21_30);
+        renderDetailedTier('detailed-tier21-30', tier21_30);
     } else {
         // データが不足している場合のメッセージ
-        const container = document.getElementById('detailed-21-30');
+        const container = document.getElementById('detailed-tier21-30');
         if (container) {
             container.innerHTML = `
                 <div class="no-data-message">
@@ -180,6 +186,8 @@ function renderDetailedTier(containerId, data) {
 
 // Tier切り替え
 function switchTier(tierName) {
+    console.log('Switching to tier:', tierName);
+    
     // ボタンのアクティブ状態切り替え
     document.querySelectorAll('.tier-btn').forEach(btn => {
         btn.classList.remove('active');
@@ -190,7 +198,26 @@ function switchTier(tierName) {
     document.querySelectorAll('.tier-content').forEach(content => {
         content.classList.add('hidden');
     });
-    document.getElementById(`tier-${tierName}`).classList.remove('hidden');
+    
+    // 正しいIDパターンで要素を取得
+    let targetId;
+    if (tierName === 'top10') {
+        targetId = 'tier-top10';
+    } else if (tierName === 'tier11-20') {
+        targetId = 'tier-tier11-20';
+    } else if (tierName === 'tier21-30') {
+        targetId = 'tier-tier21-30';
+    } else {
+        targetId = `tier-${tierName}`;
+    }
+    
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+        targetElement.classList.remove('hidden');
+        console.log('Successfully switched to:', targetId);
+    } else {
+        console.error('Target element not found:', targetId);
+    }
 }
 
 // ヴィーガン対応可能性分析
