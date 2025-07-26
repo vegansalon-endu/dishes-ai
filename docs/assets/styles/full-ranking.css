@@ -1,0 +1,570 @@
+/* 完全版ランキングページのスタイル */
+
+:root {
+    --primary-gold: #d4af37;
+    --primary-dark: #1a1a1a;
+    --primary-light: #f8f9fa;
+    --secondary-gray: #6c757d;
+    --accent-blue: #007bff;
+    --accent-green: #28a745;
+    --accent-red: #dc3545;
+    --success-color: #e8f5e9;
+    --warning-color: #fff3e0;
+    --error-color: #ffebee;
+    --border-color: #dee2e6;
+    --shadow-light: 0 2px 4px rgba(0,0,0,0.1);
+    --shadow-medium: 0 4px 8px rgba(0,0,0,0.15);
+    --shadow-strong: 0 8px 16px rgba(0,0,0,0.2);
+    --transition-fast: 0.2s ease;
+    --transition-smooth: 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo UI', 'MS UI Gothic', sans-serif;
+    line-height: 1.6;
+    color: var(--primary-dark);
+    background-color: var(--primary-light);
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ヘッダー */
+.header {
+    background: linear-gradient(135deg, var(--primary-gold), #e4bf47);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: var(--shadow-medium);
+}
+
+.header-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.header-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+    padding: 0.5rem 1rem;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: var(--transition-smooth);
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+.nav-link:hover {
+    background: rgba(255,255,255,0.3);
+    transform: translateY(-2px);
+}
+
+.nav-link.current {
+    background: rgba(255,255,255,0.4);
+    font-weight: bold;
+}
+
+/* メインコンテンツ */
+.main {
+    padding: 2rem 0;
+}
+
+/* プロジェクト概要 */
+.project-overview {
+    margin-bottom: 3rem;
+}
+
+.project-overview h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: var(--primary-gold);
+}
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.overview-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-light);
+    text-align: center;
+    transition: var(--transition-smooth);
+    border: 1px solid var(--border-color);
+}
+
+.overview-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-medium);
+}
+
+.overview-card h3 {
+    color: var(--primary-gold);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.overview-card p {
+    color: var(--secondary-gray);
+    font-size: 1.1rem;
+}
+
+/* ナビゲーションセクション */
+.navigation-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-light);
+    margin-bottom: 3rem;
+}
+
+.navigation-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-gold);
+}
+
+.tier-navigation {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tier-btn {
+    padding: 1rem;
+    background: var(--primary-light);
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.tier-btn:hover {
+    border-color: var(--primary-gold);
+    background: rgba(212, 175, 55, 0.1);
+    transform: translateY(-2px);
+}
+
+.tier-btn.active {
+    background: var(--primary-gold);
+    color: white;
+    border-color: var(--primary-gold);
+    box-shadow: var(--shadow-medium);
+}
+
+/* ランキング表示 */
+.ranking-display {
+    margin-bottom: 3rem;
+}
+
+.tier-content {
+    display: none;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-light);
+}
+
+.tier-content.active {
+    display: block;
+    animation: fadeIn 0.5s ease;
+}
+
+.tier-content h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-gold);
+    font-size: 1.8rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.ranking-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.rank-item {
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: var(--transition-smooth);
+    position: relative;
+    overflow: hidden;
+}
+
+.rank-item:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-medium);
+    border-color: var(--primary-gold);
+}
+
+.rank-item.top-3 {
+    border: 2px solid var(--primary-gold);
+    background: linear-gradient(135deg, #fff, #fffbf0);
+}
+
+.rank-item.top-10 {
+    border: 2px solid #c0c0c0;
+    background: linear-gradient(135deg, #fff, #f8f9fa);
+}
+
+.rank-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.rank-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-gold);
+    background: rgba(212, 175, 55, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    min-width: 60px;
+    text-align: center;
+}
+
+.ai-count {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--secondary-gray);
+}
+
+.ai-badge {
+    background: var(--accent-blue);
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.dish-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary-dark);
+    margin-bottom: 1rem;
+}
+
+.score-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.score-item {
+    text-align: center;
+    padding: 0.5rem;
+    background: var(--primary-light);
+    border-radius: 6px;
+}
+
+.score-value {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--primary-gold);
+}
+
+.score-label {
+    font-size: 0.8rem;
+    color: var(--secondary-gray);
+    margin-top: 0.2rem;
+}
+
+.appearances {
+    margin-top: 1rem;
+}
+
+.appearances-title {
+    font-size: 0.9rem;
+    color: var(--secondary-gray);
+    margin-bottom: 0.5rem;
+}
+
+.ai-appearances {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.ai-appearance {
+    background: var(--success-color);
+    padding: 0.3rem 0.6rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    color: var(--primary-dark);
+    border: 1px solid rgba(40, 167, 69, 0.3);
+}
+
+/* 統計情報 */
+.statistics {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-light);
+    margin-bottom: 3rem;
+}
+
+.statistics h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-gold);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.stat-card {
+    text-align: center;
+    padding: 2rem;
+    background: var(--primary-light);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    transition: var(--transition-smooth);
+}
+
+.stat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-medium);
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary-gold);
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    color: var(--secondary-gray);
+    font-size: 1.1rem;
+}
+
+/* 統合効果解説 */
+.integration-impact {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-light);
+    margin-bottom: 3rem;
+}
+
+.integration-impact h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-gold);
+}
+
+.impact-before-after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.impact-card {
+    background: var(--primary-light);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    border: 1px solid var(--border-color);
+}
+
+.impact-card h3 {
+    color: var(--primary-gold);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.arrow {
+    font-size: 2rem;
+    color: var(--primary-gold);
+    font-weight: bold;
+}
+
+.major-changes {
+    background: var(--success-color);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(40, 167, 69, 0.3);
+}
+
+.major-changes h3 {
+    color: var(--accent-green);
+    margin-bottom: 1rem;
+}
+
+.major-changes ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.major-changes li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(40, 167, 69, 0.2);
+}
+
+.major-changes li:last-child {
+    border-bottom: none;
+}
+
+/* フッター */
+.footer {
+    background: var(--primary-dark);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+.footer p {
+    margin-bottom: 0.5rem;
+    opacity: 0.8;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 2rem;
+    }
+    
+    .header-subtitle {
+        font-size: 1rem;
+    }
+    
+    .tier-navigation {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .tier-btn {
+        padding: 0.8rem;
+        font-size: 0.8rem;
+    }
+    
+    .ranking-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .rank-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .score-info {
+        grid-template-columns: 1fr;
+    }
+    
+    .impact-before-after {
+        flex-direction: column;
+    }
+    
+    .arrow {
+        transform: rotate(90deg);
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .header-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .tier-navigation {
+        grid-template-columns: 1fr;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .stat-number {
+        font-size: 2.5rem;
+    }
+}
+
+/* ダークモード対応 */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-light: #2d3748;
+        --primary-dark: #e2e8f0;
+        --border-color: #4a5568;
+        --secondary-gray: #a0aec0;
+    }
+    
+    body {
+        background-color: #1a202c;
+    }
+    
+    .overview-card,
+    .tier-content,
+    .statistics,
+    .integration-impact {
+        background: #2d3748;
+        color: #e2e8f0;
+    }
+    
+    .rank-item {
+        background: #2d3748;
+        color: #e2e8f0;
+    }
+}

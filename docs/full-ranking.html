@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本料理ランキング完全版（1-100位）| 4AI統合</title>
+    <meta name="description" content="Gemini、ChatGPT、Claude、Qwen3の4つのAIによる日本料理ランキングを重複統合した完全版TOP100">
+    <meta name="keywords" content="日本料理,ランキング,AI比較,料理,食べ物,Gemini,ChatGPT,Claude,Qwen3">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="日本料理ランキング完全版（1-100位）| 4AI統合">
+    <meta property="og:description" content="4つのAIによる日本料理ランキングを重複統合した決定版TOP100">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
+    
+    <link rel="stylesheet" href="./assets/styles/full-ranking.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">日本料理ランキング完全版</h1>
+            <p class="header-subtitle">4AI統合による究極のTOP100</p>
+            <nav class="header-nav">
+                <a href="./index.html" class="nav-link">4AI比較</a>
+                <a href="./top10-summary.html" class="nav-link">TOP10詳細</a>
+                <span class="nav-link current">完全版1-100位</span>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- プロジェクト概要 -->
+            <section class="project-overview">
+                <h2>🎯 プロジェクト概要</h2>
+                <div class="overview-grid">
+                    <div class="overview-card">
+                        <h3>📊 データソース</h3>
+                        <p>Gemini、ChatGPT、Claude、Qwen3の4つのAI</p>
+                    </div>
+                    <div class="overview-card">
+                        <h3>🔧 重複統合</h3>
+                        <p>228料理→195料理（37件統合処理）</p>
+                    </div>
+                    <div class="overview-card">
+                        <h3>⚡ スコア計算</h3>
+                        <p>共通度ボーナス + 順位ボーナス</p>
+                    </div>
+                    <div class="overview-card">
+                        <h3>🏆 最終結果</h3>
+                        <p>科学的根拠に基づくTOP100</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ナビゲーション -->
+            <section class="navigation-section">
+                <h2>🗂️ ランキングナビゲーション</h2>
+                <div class="tier-navigation">
+                    <button class="tier-btn active" data-tier="1-10">🥇 TOP10</button>
+                    <button class="tier-btn" data-tier="11-20">🥈 11-20位</button>
+                    <button class="tier-btn" data-tier="21-30">🥉 21-30位</button>
+                    <button class="tier-btn" data-tier="31-40">📊 31-40位</button>
+                    <button class="tier-btn" data-tier="41-50">📊 41-50位</button>
+                    <button class="tier-btn" data-tier="51-60">📊 51-60位</button>
+                    <button class="tier-btn" data-tier="61-70">📊 61-70位</button>
+                    <button class="tier-btn" data-tier="71-80">📊 71-80位</button>
+                    <button class="tier-btn" data-tier="81-90">📊 81-90位</button>
+                    <button class="tier-btn" data-tier="91-100">📊 91-100位</button>
+                </div>
+            </section>
+
+            <!-- ランキング表示エリア -->
+            <section class="ranking-display">
+                <div id="tier-1-10" class="tier-content active">
+                    <h2>🥇 TOP10 - 最高人気の日本料理</h2>
+                    <div class="ranking-grid" id="ranking-1-10">
+                        <!-- TOP10のデータがここに挿入されます -->
+                    </div>
+                </div>
+
+                <div id="tier-11-20" class="tier-content">
+                    <h2>🥈 11-20位 - 高人気の日本料理</h2>
+                    <div class="ranking-grid" id="ranking-11-20">
+                        <!-- 11-20位のデータがここに挿入されます -->
+                    </div>
+                </div>
+
+                <div id="tier-21-30" class="tier-content">
+                    <h2>🥉 21-30位 - 人気の日本料理</h2>
+                    <div class="ranking-grid" id="ranking-21-30">
+                        <!-- 21-30位のデータがここに挿入されます -->
+                    </div>
+                </div>
+
+                <div id="tier-31-40" class="tier-content">
+                    <h2>📊 31-40位</h2>
+                    <div class="ranking-grid" id="ranking-31-40">
+                        <!-- 31-40位のデータがここに挿入されます -->
+                    </div>
+                </div>
+
+                <div id="tier-41-50" class="tier-content">
+                    <h2>📊 41-50位</h2>
+                    <div class="ranking-grid" id="ranking-41-50">
+                        <!-- 41-50位のデータがここに挿入されます -->
+                    </div>
+                </div>
+
+                <div id="tier-51-60" class="tier-content">
+                    <h2>📊 51-60位</h2>
+                    <div class="ranking-grid" id="ranking-51-60">
+                        <!-- 51-60位のデータがここに挿入されます -->
+                    </div>
+                </div>
+
+                <div id="tier-61-70" class="tier-content">
+                    <h2>📊 61-70位</h2>
+                    <div class="ranking-grid" id="ranking-61-70">
+                        <!-- 61-70位のデータがここに挿入されます -->
+                    </div>
+                </div>
+
+                <div id="tier-71-80" class="tier-content">
+                    <h2>📊 71-80位</h2>
+                    <div class="ranking-grid" id="ranking-71-80">
+                        <!-- 71-80位のデータがここに挿入されます -->
+                    </div>
+                </div>
+
+                <div id="tier-81-90" class="tier-content">
+                    <h2>📊 81-90位</h2>
+                    <div class="ranking-grid" id="ranking-81-90">
+                        <!-- 81-90位のデータがここに挿入されます -->
+                    </div>
+                </div>
+
+                <div id="tier-91-100" class="tier-content">
+                    <h2>📊 91-100位</h2>
+                    <div class="ranking-grid" id="ranking-91-100">
+                        <!-- 91-100位のデータがここに挿入されます -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- 統計情報 -->
+            <section class="statistics">
+                <h2>📈 ランキング統計</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number" id="ai4-count">-</div>
+                        <div class="stat-label">4AI共通料理</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="ai3-count">-</div>  
+                        <div class="stat-label">3AI共通料理</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="ai2-count">-</div>
+                        <div class="stat-label">2AI共通料理</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="ai1-count">-</div>
+                        <div class="stat-label">1AI独占料理</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 統合効果解説 -->
+            <section class="integration-impact">
+                <h2>🔄 重複統合の効果</h2>
+                <div class="impact-content">
+                    <div class="impact-before-after">
+                        <div class="impact-card">
+                            <h3>統合前</h3>
+                            <p>228種類の料理（重複あり）</p>
+                            <p>表記揺れや類似料理による分散</p>
+                        </div>
+                        <div class="arrow">→</div>
+                        <div class="impact-card">
+                            <h3>統合後</h3>
+                            <p>195種類の料理（重複解消）</p>
+                            <p>真の人気料理が上位に浮上</p>
+                        </div>
+                    </div>
+                    
+                    <div class="major-changes">
+                        <h3>🚀 主要な変化</h3>
+                        <ul>
+                            <li><strong>生姜焼き</strong>：分散→3位浮上（4AI統合効果）</li>
+                            <li><strong>とんかつ</strong>：表記統合で8位浮上</li>
+                            <li><strong>味噌汁</strong>：4バリエーション統合で16位安定</li>
+                            <li><strong>だし巻き卵</strong>：3種統合で14位確定</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 日本料理AI比較システム - 4AI統合による科学的ランキング</p>
+            <p>データソース: Gemini, ChatGPT, Claude, Qwen3 | 統合処理: 37件 | 最終更新: 2025-07-25</p>
+        </div>
+    </footer>
+
+    <script src="./assets/scripts/full-ranking.js"></script>
+</body>
+</html>
