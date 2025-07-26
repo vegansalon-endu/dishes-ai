@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>白ご飯の代替案 - ヴィーガン・糖質制限対応</title>
+    <link rel="stylesheet" href="./assets/styles/rice-alternatives.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1><i class="fas fa-seedling"></i> 白ご飯の代替案</h1>
+            <p class="subtitle">ヴィーガン・糖質制限・高たんぱく質対応</p>
+            <nav class="breadcrumb">
+                <a href="index.html">ホーム</a> 
+                <span>></span> 
+                <a href="full-ranking.html">TOP100ランキング</a>
+                <span>></span>
+                <span>白ご飯の代替案</span>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- 糖質削減効果概要 -->
+            <section class="reduction-overview">
+                <h2><i class="fas fa-chart-line"></i> 糖質削減効果</h2>
+                <div class="comparison-cards">
+                    <div class="comparison-card baseline">
+                        <h3>白米（基準）</h3>
+                        <div class="amount">36.8g</div>
+                        <div class="serving">100gあたり</div>
+                    </div>
+                    <div class="comparison-card best">
+                        <h3>最高削減</h3>
+                        <div class="amount">0.1g</div>
+                        <div class="reduction">99.7% 削減</div>
+                        <div class="alternative">こんにゃくライス</div>
+                    </div>
+                    <div class="comparison-card popular">
+                        <h3>人気No.1</h3>
+                        <div class="amount">2.3g</div>
+                        <div class="reduction">93.8% 削減</div>
+                        <div class="alternative">カリフラワーライス</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- フィルター・検索セクション -->
+            <section class="filter-section">
+                <h2><i class="fas fa-filter"></i> 条件で絞り込み</h2>
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="carb-range">糖質量（100gあたり）</label>
+                        <input type="range" id="carb-range" min="0" max="25" value="25">
+                        <span id="carb-value">25g以下</span>
+                    </div>
+                    <div class="filter-group">
+                        <label for="difficulty">調理難易度</label>
+                        <select id="difficulty">
+                            <option value="all">すべて</option>
+                            <option value="easy">簡単</option>
+                            <option value="medium">普通</option>
+                            <option value="hard">難しい</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="cuisine-type">料理用途</label>
+                        <select id="cuisine-type">
+                            <option value="all">すべて</option>
+                            <option value="curry">カレー</option>
+                            <option value="sushi">寿司</option>
+                            <option value="fried_rice">チャーハン</option>
+                            <option value="rice_bowl">丼物</option>
+                            <option value="furikake">ふりかけご飯</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 用途別タブ -->
+            <section class="cuisine-tabs">
+                <div class="tab-nav">
+                    <button class="tab-btn active" data-tab="all">すべて</button>
+                    <button class="tab-btn" data-tab="curry">カレー</button>
+                    <button class="tab-btn" data-tab="sushi">寿司</button>
+                    <button class="tab-btn" data-tab="fried_rice">チャーハン</button>
+                    <button class="tab-btn" data-tab="rice_bowl">丼物</button>
+                    <button class="tab-btn" data-tab="furikake">ふりかけご飯</button>
+                </div>
+            </section>
+
+            <!-- 代替案一覧 -->
+            <section class="alternatives-grid" id="alternatives-container">
+                <!-- JavaScript で動的に生成 -->
+            </section>
+
+            <!-- 比較対象表 -->
+            <section class="comparison-table-section">
+                <h2><i class="fas fa-balance-scale"></i> 一般的な主食との比較</h2>
+                <div class="table-container">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>食材</th>
+                                <th>糖質量（100g）</th>
+                                <th>比較グラフ</th>
+                                <th>削減率</th>
+                            </tr>
+                        </thead>
+                        <tbody id="comparison-table-body">
+                            <!-- JavaScript で動的に生成 -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- 調理法詳細モーダル -->
+            <div id="recipe-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div id="modal-body">
+                        <!-- JavaScript で動的に生成 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 ヴィーガン栄養サイト - 糖質制限・高たんぱく質専門</p>
+            <div class="footer-links">
+                <a href="index.html">ホーム</a>
+                <a href="full-ranking.html">TOP100ランキング</a>
+                <a href="#contact">お問い合わせ</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/scripts/rice-alternatives.js"></script>
+</body>
+</html>

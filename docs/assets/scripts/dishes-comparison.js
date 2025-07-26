@@ -30,7 +30,7 @@ async function initializeApp() {
 // データ読み込み
 async function loadDishesData() {
     try {
-        const response = await fetch('./data/dishes-data.json');
+        const response = await fetch('../data/dishes-data.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
