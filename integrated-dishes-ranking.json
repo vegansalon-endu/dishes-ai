@@ -1,0 +1,1317 @@
+{
+  "metadata": {
+    "analysis_date": "2025-07-25",
+    "total_dishes_analyzed": 228,
+    "ai_sources": [
+      "gemini",
+      "chatgpt",
+      "claude",
+      "qwen3"
+    ],
+    "scoring_method": "共通度ボーナス(AI数×100) + 順位ボーナス((11-平均順位)×20)"
+  },
+  "commonality_analysis": {
+    "1_ai_selection": {
+      "count": 1,
+      "dishes": 8,
+      "examples": [
+        {
+          "name": "豚カツ",
+          "average_rank": 7
+        },
+        {
+          "name": "ラーメン",
+          "average_rank": 8
+        },
+        {
+          "name": "刺身",
+          "average_rank": 10
+        },
+        {
+          "name": "とんかつ",
+          "average_rank": 7
+        },
+        {
+          "name": "野菜炒め",
+          "average_rank": 8
+        }
+      ]
+    },
+    "2_ai_selection": {
+      "count": 2,
+      "dishes": 5,
+      "examples": [
+        {
+          "name": "餃子",
+          "average_rank": 7
+        },
+        {
+          "name": "麻婆豆腐",
+          "average_rank": 7
+        },
+        {
+          "name": "肉じゃが",
+          "average_rank": 7.5
+        },
+        {
+          "name": "チャーハン",
+          "average_rank": 9
+        },
+        {
+          "name": "親子丼",
+          "average_rank": 7
+        }
+      ]
+    },
+    "3_ai_selection": {
+      "count": 3,
+      "dishes": 2,
+      "examples": [
+        {
+          "name": "鶏の唐揚げ",
+          "average_rank": 3.7
+        },
+        {
+          "name": "豚の生姜焼き",
+          "average_rank": 6.7
+        }
+      ]
+    },
+    "4_ai_selection": {
+      "count": 4,
+      "dishes": 4,
+      "examples": [
+        {
+          "name": "白ご飯",
+          "average_rank": 1
+        },
+        {
+          "name": "味噌汁",
+          "average_rank": 2
+        },
+        {
+          "name": "カレーライス",
+          "average_rank": 3.3
+        },
+        {
+          "name": "ハンバーグ",
+          "average_rank": 6.3
+        }
+      ]
+    }
+  },
+  "integrated_top10": [
+    {
+      "integrated_rank": 1,
+      "dish_name": "白ご飯",
+      "total_score": 600,
+      "ai_count": 4,
+      "average_rank": 1,
+      "commonality_bonus": 400,
+      "rank_bonus": 200,
+      "ai_rankings": {
+        "gemini": {
+          "rank": 1,
+          "description": "日本の主食、炊いた米。",
+          "category": "主食",
+          "type": "和食"
+        },
+        "chatgpt": {
+          "rank": 1,
+          "description": "日本の主食、炊いた米",
+          "category": "主食",
+          "type": "和食"
+        },
+        "claude": {
+          "rank": 1,
+          "description": "日本の主食、炊いた米",
+          "category": "主食",
+          "type": "和食"
+        },
+        "qwen3": {
+          "rank": 1,
+          "description": "日本の主食、炊いた米",
+          "category": "主食",
+          "type": "和食"
+        }
+      },
+      "analysis_reason": "4つのAIで選出され、平均順位1.0位の高評価を獲得"
+    },
+    {
+      "integrated_rank": 2,
+      "dish_name": "味噌汁",
+      "total_score": 580,
+      "ai_count": 4,
+      "average_rank": 2,
+      "commonality_bonus": 400,
+      "rank_bonus": 180,
+      "ai_rankings": {
+        "gemini": {
+          "rank": 2,
+          "description": "出汁に豆腐や野菜などの具を入れ、味噌で調味した汁物。",
+          "category": "汁物",
+          "type": "和食"
+        },
+        "chatgpt": {
+          "rank": 2,
+          "description": "大豆から作った味噌を使った汁物",
+          "category": "汁物",
+          "type": "和食"
+        },
+        "claude": {
+          "rank": 2,
+          "description": "大豆から作った味噌を使った汁物",
+          "category": "汁物",
+          "type": "和食"
+        },
+        "qwen3": {
+          "rank": 2,
+          "description": "大豆から作った味噌を使った汁物",
+          "category": "汁物",
+          "type": "和食"
+        }
+      },
+      "analysis_reason": "4つのAIで選出され、平均順位2.0位の高評価を獲得"
+    },
+    {
+      "integrated_rank": 3,
+      "dish_name": "カレーライス",
+      "total_score": 555,
+      "ai_count": 4,
+      "average_rank": 3.3,
+      "commonality_bonus": 400,
+      "rank_bonus": 155,
+      "ai_rankings": {
+        "gemini": {
+          "rank": 3,
+          "description": "ご飯にカレーソースをかけた、国民的に人気の料理。",
+          "category": "主食",
+          "type": "洋食"
+        },
+        "chatgpt": {
+          "rank": 4,
+          "description": "カレールウで煮込んだ具材をご飯にかけた料理",
+          "category": "主食",
+          "type": "洋食"
+        },
+        "claude": {
+          "rank": 3,
+          "description": "スパイスで煮込んだルーをご飯にかけた料理",
+          "category": "主菜",
+          "type": "洋食"
+        },
+        "qwen3": {
+          "rank": 3,
+          "description": "ルーと具材を炒めて煮込んだカレーをriceにかける",
+          "category": "主菜",
+          "type": "和風洋食"
+        }
+      },
+      "analysis_reason": "4つのAIで選出され、平均順位3.3位の高評価を獲得"
+    },
+    {
+      "integrated_rank": 4,
+      "dish_name": "ハンバーグ",
+      "total_score": 495,
+      "ai_count": 4,
+      "average_rank": 6.3,
+      "commonality_bonus": 400,
+      "rank_bonus": 95,
+      "ai_rankings": {
+        "gemini": {
+          "rank": 5,
+          "description": "挽肉をパン粉や玉ねぎと混ぜて焼いた肉料理。",
+          "category": "主菜",
+          "type": "洋食"
+        },
+        "chatgpt": {
+          "rank": 6,
+          "description": "合挽肉を焼いたパティにソースをかけた料理",
+          "category": "主菜",
+          "type": "洋食"
+        },
+        "claude": {
+          "rank": 7,
+          "description": "挽肉をこねて焼いた洋風料理",
+          "category": "主菜",
+          "type": "洋食"
+        },
+        "qwen3": {
+          "rank": 7,
+          "description": "ひき肉を練って焼いた洋風の肉料理",
+          "category": "主菜",
+          "type": "洋食"
+        }
+      },
+      "analysis_reason": "4つのAIで選出され、平均順位6.3位の高評価を獲得"
+    },
+    {
+      "integrated_rank": 5,
+      "dish_name": "鶏の唐揚げ",
+      "total_score": 446.6666666666667,
+      "ai_count": 3,
+      "average_rank": 3.7,
+      "commonality_bonus": 300,
+      "rank_bonus": 146.7,
+      "ai_rankings": {
+        "gemini": {
+          "rank": 4,
+          "description": "醤油や生姜などで下味をつけた鶏肉を揚げた料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        "chatgpt": {
+          "rank": 3,
+          "description": "下味をつけた鶏肉を揚げた定番おかず",
+          "category": "主菜",
+          "type": "和食"
+        },
+        "claude": {
+          "rank": 4,
+          "description": "鶏肉に衣をつけて揚げた料理",
+          "category": "主菜",
+          "type": "和食"
+        },
+        "qwen3": null
+      },
+      "analysis_reason": "3つのAIで選出され、平均順位3.7位の高評価を獲得"
+    },
+    {
+      "integrated_rank": 6,
+      "dish_name": "豚の生姜焼き",
+      "total_score": 386.66666666666663,
+      "ai_count": 3,
+      "average_rank": 6.7,
+      "commonality_bonus": 300,
+      "rank_bonus": 86.7,
+      "ai_rankings": {
+        "gemini": {
+          "rank": 9,
+          "description": "薄切りの豚肉を醤油、みりん、生姜で炒めた料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        "chatgpt": {
+          "rank": 5,
+          "description": "豚肉を生姜ダレで焼いたおかず",
+          "category": "主菜",
+          "type": "和食"
+        },
+        "claude": {
+          "rank": 6,
+          "description": "豚肉を生姜で味付けして焼いた料理",
+          "category": "主菜",
+          "type": "和食"
+        },
+        "qwen3": null
+      },
+      "analysis_reason": "3つのAIで選出され、平均順位6.7位の高評価を獲得"
+    },
+    {
+      "integrated_rank": 7,
+      "dish_name": "餃子",
+      "total_score": 280,
+      "ai_count": 2,
+      "average_rank": 7,
+      "commonality_bonus": 200,
+      "rank_bonus": 80,
+      "ai_rankings": {
+        "gemini": {
+          "rank": 6,
+          "description": "豚挽肉や野菜を皮で包んで焼いた料理。焼き餃子が一般的。",
+          "category": "主菜",
+          "type": "中華"
+        },
+        "chatgpt": {
+          "rank": 8,
+          "description": "ひき肉と野菜の餡を包んで焼いた中華点心",
+          "category": "主菜",
+          "type": "中華"
+        },
+        "claude": null,
+        "qwen3": null
+      },
+      "analysis_reason": "2つのAIで選出され、平均順位7.0位の高評価を獲得"
+    },
+    {
+      "integrated_rank": 8,
+      "dish_name": "麻婆豆腐",
+      "total_score": 280,
+      "ai_count": 2,
+      "average_rank": 7,
+      "commonality_bonus": 200,
+      "rank_bonus": 80,
+      "ai_rankings": {
+        "gemini": null,
+        "chatgpt": {
+          "rank": 9,
+          "description": "豆腐と挽肉を辛味噌で煮た中華おかず",
+          "category": "主菜",
+          "type": "中華"
+        },
+        "claude": null,
+        "qwen3": {
+          "rank": 5,
+          "description": "豆腐とひき肉を辛い味噌で炒めた四川風の中華料理",
+          "category": "主菜",
+          "type": "中華"
+        }
+      },
+      "analysis_reason": "2つのAIで選出され、平均順位7.0位の高評価を獲得"
+    },
+    {
+      "integrated_rank": 9,
+      "dish_name": "親子丼",
+      "total_score": 280,
+      "ai_count": 2,
+      "average_rank": 7,
+      "commonality_bonus": 200,
+      "rank_bonus": 80,
+      "ai_rankings": {
+        "gemini": null,
+        "chatgpt": null,
+        "claude": {
+          "rank": 10,
+          "description": "鶏肉と卵をご飯にのせた丼料理",
+          "category": "主食",
+          "type": "和食"
+        },
+        "qwen3": {
+          "rank": 4,
+          "description": "鶏肉と卵を甘辛いタレで炒めてご飯にかける丼物",
+          "category": "主菜",
+          "type": "和食"
+        }
+      },
+      "analysis_reason": "2つのAIで選出され、平均順位7.0位の高評価を獲得"
+    },
+    {
+      "integrated_rank": 10,
+      "dish_name": "肉じゃが",
+      "total_score": 270,
+      "ai_count": 2,
+      "average_rank": 7.5,
+      "commonality_bonus": 200,
+      "rank_bonus": 70,
+      "ai_rankings": {
+        "gemini": null,
+        "chatgpt": {
+          "rank": 10,
+          "description": "牛肉とじゃがいもの甘辛煮",
+          "category": "主菜",
+          "type": "和食"
+        },
+        "claude": {
+          "rank": 5,
+          "description": "牛肉と野菜を甘辛く煮込んだ料理",
+          "category": "主菜",
+          "type": "和食"
+        },
+        "qwen3": null
+      },
+      "analysis_reason": "2つのAIで選出され、平均順位7.5位の高評価を獲得"
+    }
+  ],
+  "full_analysis": [
+    {
+      "overall_rank": 1,
+      "dish_name": "白ご飯",
+      "category": "主食",
+      "type": "和食",
+      "total_score": 600,
+      "ai_count": 4,
+      "average_rank": 1
+    },
+    {
+      "overall_rank": 2,
+      "dish_name": "味噌汁",
+      "category": "汁物",
+      "type": "和食",
+      "total_score": 580,
+      "ai_count": 4,
+      "average_rank": 2
+    },
+    {
+      "overall_rank": 3,
+      "dish_name": "カレーライス",
+      "category": "主食",
+      "type": "洋食",
+      "total_score": 555,
+      "ai_count": 4,
+      "average_rank": 3.25
+    },
+    {
+      "overall_rank": 4,
+      "dish_name": "生姜焼き",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": 480,
+      "ai_count": 4,
+      "average_rank": 7
+    },
+    {
+      "overall_rank": 5,
+      "dish_name": "鶏の唐揚げ",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": 446.67,
+      "ai_count": 3,
+      "average_rank": 3.67
+    },
+    {
+      "overall_rank": 6,
+      "dish_name": "肉じゃが",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": 420,
+      "ai_count": 4,
+      "average_rank": 10
+    },
+    {
+      "overall_rank": 7,
+      "dish_name": "チャーハン",
+      "category": "主食",
+      "type": "中華",
+      "total_score": 380,
+      "ai_count": 4,
+      "average_rank": 12
+    },
+    {
+      "overall_rank": 8,
+      "dish_name": "親子丼",
+      "category": "主食",
+      "type": "和食",
+      "total_score": 375,
+      "ai_count": 4,
+      "average_rank": 12.25
+    },
+    {
+      "overall_rank": 9,
+      "dish_name": "とんかつ",
+      "category": "主菜",
+      "type": "洋食",
+      "total_score": 360,
+      "ai_count": 4,
+      "average_rank": 13
+    },
+    {
+      "overall_rank": 10,
+      "dish_name": "餃子",
+      "category": "主菜",
+      "type": "中華",
+      "total_score": 353.3,
+      "ai_count": 3,
+      "average_rank": 8.3
+    },
+    {
+      "overall_rank": 11,
+      "dish_name": "麻婆豆腐",
+      "category": "主菜",
+      "type": "中華",
+      "total_score": 340,
+      "ai_count": 4,
+      "average_rank": 14
+    },
+    {
+      "overall_rank": 12,
+      "dish_name": "焼き魚（塩焼き、照り焼きなど）",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": 310,
+      "ai_count": 3,
+      "average_rank": 15
+    },
+    {
+      "overall_rank": 13,
+      "dish_name": "オムライス",
+      "category": "主食",
+      "type": "洋食",
+      "total_score": 255,
+      "ai_count": 4,
+      "average_rank": 18.25
+    },
+    {
+      "overall_rank": 14,
+      "dish_name": "ハンバーグ",
+      "category": "主菜",
+      "type": "洋食",
+      "total_score": 240,
+      "ai_count": 3,
+      "average_rank": 16
+    },
+    {
+      "overall_rank": 15,
+      "dish_name": "だし巻き卵",
+      "category": "副菜",
+      "type": "和食",
+      "total_score": 230,
+      "ai_count": 2,
+      "average_rank": 9.5
+    },
+    {
+      "overall_rank": 16,
+      "dish_name": "天ぷら",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": 210,
+      "ai_count": 3,
+      "average_rank": 18
+    },
+    {
+      "overall_rank": 17,
+      "dish_name": "筑前煮",
+      "category": "副菜",
+      "type": "和食",
+      "total_score": 200,
+      "ai_count": 3,
+      "average_rank": 19
+    },
+    {
+      "overall_rank": 18,
+      "dish_name": "豚汁",
+      "category": "汁物",
+      "type": "和食",
+      "total_score": 195,
+      "ai_count": 3,
+      "average_rank": 19.5
+    },
+    {
+      "overall_rank": 19,
+      "dish_name": "寿司",
+      "category": "主食",
+      "type": "和食",
+      "total_score": 190,
+      "ai_count": 3,
+      "average_rank": 20
+    },
+    {
+      "overall_rank": 20,
+      "dish_name": "すき焼き",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": 185,
+      "ai_count": 3,
+      "average_rank": 21
+    },
+    {
+      "overall_rank": 21,
+      "dish_name": "煮魚（味噌煮など）",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": 180,
+      "ai_count": 2,
+      "average_rank": 18
+    },
+    {
+      "overall_rank": 22,
+      "dish_name": "野菜炒め",
+      "category": "副菜",
+      "type": "中華",
+      "total_score": 175,
+      "ai_count": 3,
+      "average_rank": 22
+    },
+    {
+      "overall_rank": 23,
+      "dish_name": "ふりかけご飯",
+      "category": "主食",
+      "type": "和食",
+      "total_score": 170,
+      "ai_count": 2,
+      "average_rank": 20
+    },
+    {
+      "overall_rank": 24,
+      "dish_name": "ラーメン",
+      "category": "主食",
+      "type": "中華",
+      "total_score": 165,
+      "ai_count": 3,
+      "average_rank": 23
+    },
+    {
+      "overall_rank": 25,
+      "dish_name": "刺身",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": 160,
+      "ai_count": 2,
+      "average_rank": 21
+    },
+    {
+      "overall_rank": 26,
+      "dish_name": "ナスの味噌田楽",
+      "category": "副菜",
+      "type": "和食",
+      "total_score": 155,
+      "ai_count": 2,
+      "average_rank": 22
+    },
+    {
+      "overall_rank": 27,
+      "dish_name": "ポテトサラダ",
+      "category": "副菜",
+      "type": "洋食",
+      "total_score": 150,
+      "ai_count": 2,
+      "average_rank": 23
+    },
+    {
+      "overall_rank": 28,
+      "dish_name": "コロッケ",
+      "category": "主菜",
+      "type": "洋食",
+      "total_score": 145,
+      "ai_count": 2,
+      "average_rank": 24
+    },
+    {
+      "overall_rank": 29,
+      "dish_name": "きんぴらごぼう",
+      "category": "副菜",
+      "type": "和食",
+      "total_score": 140,
+      "ai_count": 2,
+      "average_rank": 25
+    },
+    {
+      "overall_rank": 30,
+      "dish_name": "茶碗蒸し",
+      "category": "副菜",
+      "type": "和食",
+      "total_score": 135,
+      "ai_count": 2,
+      "average_rank": 26
+    },
+    {
+      "overall_rank": 31,
+      "dish_name": "トマトスパゲティ",
+      "category": "主食",
+      "type": "洋食",
+      "total_score": 130,
+      "ai_count": 2,
+      "average_rank": 27
+    },
+    {
+      "overall_rank": 32,
+      "dish_name": "鶏の照り焼き",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": 125,
+      "ai_count": 2,
+      "average_rank": 28
+    },
+    {
+      "overall_rank": 33,
+      "dish_name": "シチュー",
+      "category": "主菜",
+      "type": "洋食",
+      "total_score": 120,
+      "ai_count": 2,
+      "average_rank": 29
+    },
+    {
+      "overall_rank": 34,
+      "dish_name": "ほうれん草としめじのおひたし",
+      "category": "副菜",
+      "type": "和食",
+      "total_score": 115,
+      "ai_count": 1,
+      "average_rank": 25
+    },
+    {
+      "overall_rank": 35,
+      "dish_name": "青椒肉絲",
+      "category": "主菜",
+      "type": "中華",
+      "total_score": 110,
+      "ai_count": 2,
+      "average_rank": 30
+    },
+    {
+      "overall_rank": 36,
+      "dish_name": "ナポリタン",
+      "category": "主食",
+      "type": "洋食",
+      "total_score": 105,
+      "ai_count": 1,
+      "average_rank": 26
+    },
+    {
+      "overall_rank": 37,
+      "dish_name": "牛丼",
+      "category": "主食",
+      "type": "和食",
+      "total_score": 100,
+      "ai_count": 2,
+      "average_rank": 31
+    },
+    {
+      "overall_rank": 38,
+      "dish_name": "カツ丼",
+      "category": "主食",
+      "type": "和食",
+      "total_score": 95,
+      "ai_count": 1,
+      "average_rank": 27
+    },
+    {
+      "overall_rank": 39,
+      "dish_name": "焼きそば",
+      "category": "主食",
+      "type": "中華",
+      "total_score": 90,
+      "ai_count": 2,
+      "average_rank": 32
+    },
+    {
+      "overall_rank": 40,
+      "dish_name": "ピラフ",
+      "category": "主食",
+      "type": "洋食",
+      "total_score": 85,
+      "ai_count": 1,
+      "average_rank": 28
+    },
+    {
+      "overall_rank": 41,
+      "dish_name": "冷や汁",
+      "category": "汁物",
+      "type": "和食",
+      "total_score": 80,
+      "ai_count": 1,
+      "average_rank": 29
+    },
+    {
+      "overall_rank": 42,
+      "dish_name": "おでん",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": 75,
+      "ai_count": 1,
+      "average_rank": 30
+    },
+    {
+      "overall_rank": 43,
+      "dish_name": "エビフライ",
+      "category": "主菜",
+      "type": "洋食",
+      "total_score": 70,
+      "ai_count": 1,
+      "average_rank": 31
+    },
+    {
+      "overall_rank": 44,
+      "dish_name": "ちりめんじゃこ炒め",
+      "category": "副菜",
+      "type": "和食",
+      "total_score": 65,
+      "ai_count": 1,
+      "average_rank": 32
+    },
+    {
+      "overall_rank": 45,
+      "dish_name": "ブロッコリーの胡麻和え",
+      "category": "副菜",
+      "type": "和食",
+      "total_score": 60,
+      "ai_count": 1,
+      "average_rank": 33
+    },
+    {
+      "overall_rank": 46,
+      "dish_name": "ナスの揚げびたし",
+      "category": "副菜",
+      "type": "和食",
+      "total_score": 55,
+      "ai_count": 1,
+      "average_rank": 34
+    },
+    {
+      "overall_rank": 47,
+      "dish_name": "厚揚げの肉味噌炒め",
+      "category": "主菜",
+      "type": "中華",
+      "total_score": 50,
+      "ai_count": 1,
+      "average_rank": 35
+    },
+    {
+      "overall_rank": 48,
+      "dish_name": "天丼",
+      "category": "主食",
+      "type": "和食",
+      "total_score": 45,
+      "ai_count": 1,
+      "average_rank": 36
+    },
+    {
+      "overall_rank": 49,
+      "dish_name": "白菜としめじの炒め物",
+      "category": "副菜",
+      "type": "中華",
+      "total_score": 40,
+      "ai_count": 1,
+      "average_rank": 37
+    },
+    {
+      "overall_rank": 50,
+      "dish_name": "納豆ご飯",
+      "category": "主食",
+      "type": "和食",
+      "total_score": 35,
+      "ai_count": 1,
+      "average_rank": 38
+    },
+    {
+      "overall_rank": 51,
+      "dish_name": "ホイコーロー",
+      "category": "主菜",
+      "type": "中華",
+      "total_score": 30,
+      "ai_count": 1,
+      "average_rank": 39
+    },
+    {
+      "overall_rank": 52,
+      "dish_name": "焼肉（家焼き）",
+      "category": "主菜",
+      "type": "韓国",
+      "total_score": 25,
+      "ai_count": 1,
+      "average_rank": 40
+    },
+    {
+      "overall_rank": 53,
+      "dish_name": "おにぎり",
+      "category": "主食",
+      "type": "和食",
+      "total_score": 20,
+      "ai_count": 1,
+      "average_rank": 41
+    },
+    {
+      "overall_rank": 54,
+      "dish_name": "卵とじ",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": 15,
+      "ai_count": 1,
+      "average_rank": 42
+    },
+    {
+      "overall_rank": 55,
+      "dish_name": "ひじきの煮物",
+      "category": "副菜",
+      "type": "和食",
+      "total_score": 10,
+      "ai_count": 1,
+      "average_rank": 43
+    },
+    {
+      "overall_rank": 56,
+      "dish_name": "冷やし中華",
+      "category": "主食",
+      "type": "中華",
+      "total_score": 5,
+      "ai_count": 1,
+      "average_rank": 44
+    },
+    {
+      "overall_rank": 57,
+      "dish_name": "じゃがいものみそ汁",
+      "category": "汁物",
+      "type": "和食",
+      "total_score": 0,
+      "ai_count": 1,
+      "average_rank": 45
+    },
+    {
+      "overall_rank": 58,
+      "dish_name": "グラタン",
+      "category": "主菜",
+      "type": "洋食",
+      "total_score": -5,
+      "ai_count": 1,
+      "average_rank": 46
+    },
+    {
+      "overall_rank": 59,
+      "dish_name": "春雨の和え物",
+      "category": "副菜",
+      "type": "中華",
+      "total_score": -10,
+      "ai_count": 1,
+      "average_rank": 47
+    },
+    {
+      "overall_rank": 60,
+      "dish_name": "豚バラ白菜ミルフィーユ鍋",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": -15,
+      "ai_count": 1,
+      "average_rank": 48
+    },
+    {
+      "overall_rank": 61,
+      "dish_name": "八宝菜",
+      "category": "主菜",
+      "type": "中華",
+      "total_score": -20,
+      "ai_count": 1,
+      "average_rank": 49
+    },
+    {
+      "overall_rank": 62,
+      "dish_name": "ほうれん草のおひたし",
+      "category": "副菜",
+      "type": "和食",
+      "total_score": -25,
+      "ai_count": 1,
+      "average_rank": 50
+    },
+    {
+      "overall_rank": 63,
+      "dish_name": "きゅうりとわかめの酢の物",
+      "category": "副菜",
+      "type": "和食",
+      "total_score": -30,
+      "ai_count": 1,
+      "average_rank": 51
+    },
+    {
+      "overall_rank": 64,
+      "dish_name": "豆腐の甘辛煮",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": -35,
+      "ai_count": 1,
+      "average_rank": 52
+    },
+    {
+      "overall_rank": 65,
+      "dish_name": "お好み焼き",
+      "category": "主食",
+      "type": "和食",
+      "total_score": -40,
+      "ai_count": 1,
+      "average_rank": 53
+    },
+    {
+      "overall_rank": 66,
+      "dish_name": "かに玉",
+      "category": "主菜",
+      "type": "中華",
+      "total_score": -45,
+      "ai_count": 1,
+      "average_rank": 54
+    },
+    {
+      "overall_rank": 67,
+      "dish_name": "スパゲッティ",
+      "category": "主食",
+      "type": "洋食",
+      "total_score": -50,
+      "ai_count": 1,
+      "average_rank": 55
+    },
+    {
+      "overall_rank": 68,
+      "dish_name": "たこ焼き",
+      "category": "主食",
+      "type": "和食",
+      "total_score": -55,
+      "ai_count": 1,
+      "average_rank": 56
+    },
+    {
+      "overall_rank": 69,
+      "dish_name": "焼き鳥",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": -60,
+      "ai_count": 1,
+      "average_rank": 57
+    },
+    {
+      "overall_rank": 70,
+      "dish_name": "鍋料理",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": -65,
+      "ai_count": 1,
+      "average_rank": 58
+    },
+    {
+      "overall_rank": 71,
+      "dish_name": "かぼちゃの煮物",
+      "category": "副菜",
+      "type": "和食",
+      "total_score": -70,
+      "ai_count": 1,
+      "average_rank": 59
+    },
+    {
+      "overall_rank": 72,
+      "dish_name": "カツカレー",
+      "category": "主食",
+      "type": "洋食",
+      "total_score": -75,
+      "ai_count": 1,
+      "average_rank": 60
+    },
+    {
+      "overall_rank": 73,
+      "dish_name": "うどん",
+      "category": "主食",
+      "type": "和食",
+      "total_score": -80,
+      "ai_count": 1,
+      "average_rank": 61
+    },
+    {
+      "overall_rank": 74,
+      "dish_name": "白菜と椎茸の和え物",
+      "category": "副菜",
+      "type": "和食",
+      "total_score": -85,
+      "ai_count": 1,
+      "average_rank": 62
+    },
+    {
+      "overall_rank": 75,
+      "dish_name": "たらのホイル焼き",
+      "category": "主菜",
+      "type": "洋食",
+      "total_score": -90,
+      "ai_count": 1,
+      "average_rank": 63
+    },
+    {
+      "overall_rank": 76,
+      "dish_name": "ステーキ",
+      "category": "主菜",
+      "type": "洋食",
+      "total_score": -95,
+      "ai_count": 1,
+      "average_rank": 64
+    },
+    {
+      "overall_rank": 77,
+      "dish_name": "厚揚げとひき肉の中華炒め",
+      "category": "主菜",
+      "type": "中華",
+      "total_score": -100,
+      "ai_count": 1,
+      "average_rank": 65
+    },
+    {
+      "overall_rank": 78,
+      "dish_name": "そば",
+      "category": "主食",
+      "type": "和食",
+      "total_score": -105,
+      "ai_count": 1,
+      "average_rank": 66
+    },
+    {
+      "overall_rank": 79,
+      "dish_name": "ロールキャベツ",
+      "category": "主菜",
+      "type": "洋食",
+      "total_score": -110,
+      "ai_count": 1,
+      "average_rank": 67
+    },
+    {
+      "overall_rank": 80,
+      "dish_name": "もやし炒め",
+      "category": "副菜",
+      "type": "中華",
+      "total_score": -115,
+      "ai_count": 1,
+      "average_rank": 68
+    },
+    {
+      "overall_rank": 81,
+      "dish_name": "とろろご飯",
+      "category": "主食",
+      "type": "和食",
+      "total_score": -120,
+      "ai_count": 1,
+      "average_rank": 69
+    },
+    {
+      "overall_rank": 82,
+      "dish_name": "チキン南蛮",
+      "category": "主菜",
+      "type": "洋食",
+      "total_score": -125,
+      "ai_count": 1,
+      "average_rank": 70
+    },
+    {
+      "overall_rank": 83,
+      "dish_name": "サラダ",
+      "category": "副菜",
+      "type": "洋食",
+      "total_score": -130,
+      "ai_count": 1,
+      "average_rank": 71
+    },
+    {
+      "overall_rank": 84,
+      "dish_name": "ピーマンの肉詰め",
+      "category": "主菜",
+      "type": "洋食",
+      "total_score": -135,
+      "ai_count": 1,
+      "average_rank": 72
+    },
+    {
+      "overall_rank": 85,
+      "dish_name": "中華丼",
+      "category": "主食",
+      "type": "中華",
+      "total_score": -140,
+      "ai_count": 1,
+      "average_rank": 73
+    },
+    {
+      "overall_rank": 86,
+      "dish_name": "豆腐とわかめの煮つけ",
+      "category": "副菜",
+      "type": "和食",
+      "total_score": -145,
+      "ai_count": 1,
+      "average_rank": 74
+    },
+    {
+      "overall_rank": 87,
+      "dish_name": "天津飯",
+      "category": "主食",
+      "type": "中華",
+      "total_score": -150,
+      "ai_count": 1,
+      "average_rank": 75
+    },
+    {
+      "overall_rank": 88,
+      "dish_name": "ミートソーススパゲティ",
+      "category": "主食",
+      "type": "洋食",
+      "total_score": -155,
+      "ai_count": 1,
+      "average_rank": 76
+    },
+    {
+      "overall_rank": 89,
+      "dish_name": "炊き込みご飯",
+      "category": "主食",
+      "type": "和食",
+      "total_score": -160,
+      "ai_count": 1,
+      "average_rank": 77
+    },
+    {
+      "overall_rank": 90,
+      "dish_name": "春巻き",
+      "category": "主菜",
+      "type": "中華",
+      "total_score": -165,
+      "ai_count": 1,
+      "average_rank": 78
+    },
+    {
+      "overall_rank": 91,
+      "dish_name": "南蛮漬け",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": -170,
+      "ai_count": 1,
+      "average_rank": 79
+    },
+    {
+      "overall_rank": 92,
+      "dish_name": "手羽先唐揚げ",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": -175,
+      "ai_count": 1,
+      "average_rank": 80
+    },
+    {
+      "overall_rank": 93,
+      "dish_name": "酢豚",
+      "category": "主菜",
+      "type": "中華",
+      "total_score": -180,
+      "ai_count": 1,
+      "average_rank": 81
+    },
+    {
+      "overall_rank": 94,
+      "dish_name": "ゴーヤーチャンプルー",
+      "category": "主菜",
+      "type": "沖縄",
+      "total_score": -185,
+      "ai_count": 1,
+      "average_rank": 82
+    },
+    {
+      "overall_rank": 95,
+      "dish_name": "ぶり大根",
+      "category": "主菜",
+      "type": "和食",
+      "total_score": -190,
+      "ai_count": 1,
+      "average_rank": 83
+    },
+    {
+      "overall_rank": 96,
+      "dish_name": "お雑煮",
+      "category": "汁物",
+      "type": "和食",
+      "total_score": -195,
+      "ai_count": 1,
+      "average_rank": 84
+    },
+    {
+      "overall_rank": 97,
+      "dish_name": "ジャーマンポテト",
+      "category": "副菜",
+      "type": "洋食",
+      "total_score": -200,
+      "ai_count": 1,
+      "average_rank": 85
+    },
+    {
+      "overall_rank": 98,
+      "dish_name": "ガパオライス",
+      "category": "主食",
+      "type": "タイ",
+      "total_score": -205,
+      "ai_count": 1,
+      "average_rank": 86
+    },
+    {
+      "overall_rank": 99,
+      "dish_name": "サムギョプサル",
+      "category": "主菜",
+      "type": "韓国",
+      "total_score": -210,
+      "ai_count": 1,
+      "average_rank": 87
+    },
+    {
+      "overall_rank": 100,
+      "dish_name": "カプレーゼ",
+      "category": "副菜",
+      "type": "イタリア",
+      "total_score": -215,
+      "ai_count": 1,
+      "average_rank": 88
+    }
+  ]
+}

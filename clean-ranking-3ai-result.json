@@ -1,0 +1,2191 @@
+{
+  "metadata": {
+    "project": "日本料理AI比較システム - 改良3AI版",
+    "purpose": "3つのAI（Gemini, ChatGPT, Claude）による信頼性の高い日本料理ランキング",
+    "version": "3.0",
+    "created": "2025-07-26",
+    "totalDishes": 100,
+    "originalEntries": 288,
+    "cleanedEntries": 288,
+    "aiSources": [
+      "Gemini",
+      "ChatGPT",
+      "Claude"
+    ],
+    "excludedAI": [
+      "Qwen3"
+    ],
+    "scoringMethod": "共通度ボーナス(AI数×100) + 順位ボーナス((21-平均順位)×10)"
+  },
+  "qualityImprovements": {
+    "excludedAmbiguousDishes": [
+      "サラダ",
+      "パスタ",
+      "スパゲッティ",
+      "煮物",
+      "酢の物",
+      "鍋料理",
+      "コーヒー",
+      "刺身",
+      "寿司"
+    ],
+    "duplicateResolutions": 0,
+    "dataCleaningSteps": [
+      "QWEN3データの除外",
+      "曖昧な料理名の除外",
+      "重複エントリの解決",
+      "改良されたスコアリングアルゴリズムの適用"
+    ]
+  },
+  "statistics": {
+    "ai3_dishes": 30,
+    "ai2_dishes": 22,
+    "ai1_dishes": 48,
+    "excluded_ambiguous": 9,
+    "duplicate_resolutions": 0
+  },
+  "top100_ranking": [
+    {
+      "rank": 1,
+      "name": "白ご飯",
+      "score": 500,
+      "aiCount": 3,
+      "averageRank": 1,
+      "commonBonus": 300,
+      "rankBonus": 200,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 1
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 1
+        },
+        {
+          "ai": "claude",
+          "rank": 1
+        }
+      ],
+      "description": "日本の主食、炊いた米。",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 2,
+      "name": "味噌汁",
+      "score": 490,
+      "aiCount": 3,
+      "averageRank": 2,
+      "commonBonus": 300,
+      "rankBonus": 190,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 2
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 2
+        },
+        {
+          "ai": "claude",
+          "rank": 2
+        }
+      ],
+      "description": "出汁に豆腐や野菜などの具を入れ、味噌で調味した汁物。",
+      "category": "汁物",
+      "type": "和食"
+    },
+    {
+      "rank": 3,
+      "name": "カレーライス",
+      "score": 476.7,
+      "aiCount": 3,
+      "averageRank": 3.3,
+      "commonBonus": 300,
+      "rankBonus": 176.7,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 3
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 4
+        },
+        {
+          "ai": "claude",
+          "rank": 3
+        }
+      ],
+      "description": "ご飯にカレーソースをかけた、国民的に人気の料理。",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 4,
+      "name": "鶏の唐揚げ",
+      "score": 473.3,
+      "aiCount": 3,
+      "averageRank": 3.7,
+      "commonBonus": 300,
+      "rankBonus": 173.3,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 4
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 3
+        },
+        {
+          "ai": "claude",
+          "rank": 4
+        }
+      ],
+      "description": "醤油や生姜などで下味をつけた鶏肉を揚げた料理。",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 5,
+      "name": "ハンバーグ",
+      "score": 450,
+      "aiCount": 3,
+      "averageRank": 6,
+      "commonBonus": 300,
+      "rankBonus": 150,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 5
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 6
+        },
+        {
+          "ai": "claude",
+          "rank": 7
+        }
+      ],
+      "description": "挽肉をパン粉や玉ねぎと混ぜて焼いた肉料理。",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 6,
+      "name": "豚の生姜焼き",
+      "score": 443.3,
+      "aiCount": 3,
+      "averageRank": 6.7,
+      "commonBonus": 300,
+      "rankBonus": 143.3,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 9
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 5
+        },
+        {
+          "ai": "claude",
+          "rank": 6
+        }
+      ],
+      "description": "薄切りの豚肉を醤油、みりん、生姜で炒めた料理。",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 7,
+      "name": "餃子",
+      "score": 426.7,
+      "aiCount": 3,
+      "averageRank": 8.3,
+      "commonBonus": 300,
+      "rankBonus": 126.7,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 6
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 8
+        },
+        {
+          "ai": "claude",
+          "rank": 11
+        }
+      ],
+      "description": "豚挽肉や野菜を皮で包んで焼いた料理。焼き餃子が一般的。",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 8,
+      "name": "肉じゃが",
+      "score": 420,
+      "aiCount": 3,
+      "averageRank": 9,
+      "commonBonus": 300,
+      "rankBonus": 120,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 12
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 10
+        },
+        {
+          "ai": "claude",
+          "rank": 5
+        }
+      ],
+      "description": "肉、じゃがいも、人参などを醤油と砂糖で煮込んだ家庭料理。",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 9,
+      "name": "親子丼",
+      "score": 360,
+      "aiCount": 3,
+      "averageRank": 15,
+      "commonBonus": 300,
+      "rankBonus": 60,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 16
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 19
+        },
+        {
+          "ai": "claude",
+          "rank": 10
+        }
+      ],
+      "description": "鶏肉を玉ねぎと卵でとじ、ご飯にのせた丼物。",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 10,
+      "name": "麻婆豆腐",
+      "score": 340,
+      "aiCount": 3,
+      "averageRank": 17,
+      "commonBonus": 300,
+      "rankBonus": 40,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 20
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 9
+        },
+        {
+          "ai": "claude",
+          "rank": 22
+        }
+      ],
+      "description": "豆腐を唐辛子や豆板醤で煮込んだ、辛い中華料理。",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 11,
+      "name": "天ぷら",
+      "score": 333.3,
+      "aiCount": 3,
+      "averageRank": 17.7,
+      "commonBonus": 300,
+      "rankBonus": 33.3,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 17
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 20
+        },
+        {
+          "ai": "claude",
+          "rank": 16
+        }
+      ],
+      "description": "魚介類や野菜などに衣をつけて揚げた料理。",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 12,
+      "name": "焼きそば",
+      "score": 323.3,
+      "aiCount": 3,
+      "averageRank": 18.7,
+      "commonBonus": 300,
+      "rankBonus": 23.3,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 24
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 17
+        },
+        {
+          "ai": "claude",
+          "rank": 15
+        }
+      ],
+      "description": "中華麺を肉や野菜とソースで炒めた料理。",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 13,
+      "name": "オムライス",
+      "score": 313.3,
+      "aiCount": 3,
+      "averageRank": 19.7,
+      "commonBonus": 300,
+      "rankBonus": 13.3,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 28
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 18
+        },
+        {
+          "ai": "claude",
+          "rank": 13
+        }
+      ],
+      "description": "ケチャップライスを卵で包んだ料理。",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 14,
+      "name": "焼き魚",
+      "score": 295,
+      "aiCount": 2,
+      "averageRank": 11.5,
+      "commonBonus": 200,
+      "rankBonus": 95,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 11
+        },
+        {
+          "ai": "claude",
+          "rank": 12
+        }
+      ],
+      "description": "鮭、鯖、秋刀魚などを塩焼きや照り焼きにしたもの。",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 15,
+      "name": "すき焼き",
+      "score": 293.3,
+      "aiCount": 3,
+      "averageRank": 21.7,
+      "commonBonus": 300,
+      "rankBonus": -6.7,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 27
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 21
+        },
+        {
+          "ai": "claude",
+          "rank": 17
+        }
+      ],
+      "description": "薄切り牛肉と野菜を甘辛い割り下で煮ながら食べる鍋料理。",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 16,
+      "name": "チャーハン",
+      "score": 285,
+      "aiCount": 2,
+      "averageRank": 12.5,
+      "commonBonus": 200,
+      "rankBonus": 85,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 16
+        },
+        {
+          "ai": "claude",
+          "rank": 9
+        }
+      ],
+      "description": "炒めご飯の中華定番",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 17,
+      "name": "豚汁",
+      "score": 283.3,
+      "aiCount": 3,
+      "averageRank": 22.7,
+      "commonBonus": 300,
+      "rankBonus": -16.7,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 32
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 22
+        },
+        {
+          "ai": "claude",
+          "rank": 14
+        }
+      ],
+      "description": "豚肉と野菜がたっぷり入った具沢山の味噌汁。",
+      "category": "汁物",
+      "type": "和食"
+    },
+    {
+      "rank": 18,
+      "name": "とんかつ",
+      "score": 275,
+      "aiCount": 2,
+      "averageRank": 13.5,
+      "commonBonus": 200,
+      "rankBonus": 75,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 7
+        },
+        {
+          "ai": "claude",
+          "rank": 20
+        }
+      ],
+      "description": "豚ロースを衣で揚げた料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 19,
+      "name": "野菜炒め",
+      "score": 263.3,
+      "aiCount": 3,
+      "averageRank": 24.7,
+      "commonBonus": 300,
+      "rankBonus": -36.7,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 21
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 45
+        },
+        {
+          "ai": "claude",
+          "rank": 8
+        }
+      ],
+      "description": "様々な野菜と肉を炒めた、手軽な家庭料理。",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 20,
+      "name": "豚カツ",
+      "score": 240,
+      "aiCount": 1,
+      "averageRank": 7,
+      "commonBonus": 100,
+      "rankBonus": 140,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 7
+        }
+      ],
+      "description": "豚ロース肉に衣をつけて揚げた料理。",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 21,
+      "name": "コロッケ",
+      "score": 233.3,
+      "aiCount": 3,
+      "averageRank": 27.7,
+      "commonBonus": 300,
+      "rankBonus": -66.7,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 23
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 23
+        },
+        {
+          "ai": "claude",
+          "rank": 37
+        }
+      ],
+      "description": "じゃがいもや挽肉を混ぜ、衣をつけて揚げた料理。",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 22,
+      "name": "ラーメン",
+      "score": 230,
+      "aiCount": 2,
+      "averageRank": 18,
+      "commonBonus": 200,
+      "rankBonus": 30,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 8
+        },
+        {
+          "ai": "claude",
+          "rank": 28
+        }
+      ],
+      "description": "中華麺とスープ、様々な具材からなる麺料理。",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 23,
+      "name": "筑前煮",
+      "score": 210,
+      "aiCount": 3,
+      "averageRank": 30,
+      "commonBonus": 300,
+      "rankBonus": -90,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 29
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 37
+        },
+        {
+          "ai": "claude",
+          "rank": 24
+        }
+      ],
+      "description": "鶏肉と根菜を醤油ベースで煮込んだ、福岡の郷土料理。",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 24,
+      "name": "うどん",
+      "score": 200,
+      "aiCount": 2,
+      "averageRank": 21,
+      "commonBonus": 200,
+      "rankBonus": 0,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 13
+        },
+        {
+          "ai": "claude",
+          "rank": 29
+        }
+      ],
+      "description": "小麦粉から作られた太い麺。温かい出汁や冷たいつけ汁で食べる。",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 25,
+      "name": "焼き鮭",
+      "score": 200,
+      "aiCount": 1,
+      "averageRank": 11,
+      "commonBonus": 100,
+      "rankBonus": 100,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 11
+        }
+      ],
+      "description": "塩をふって焼いた鮭の切り身",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 26,
+      "name": "ポテトサラダ",
+      "score": 190,
+      "aiCount": 2,
+      "averageRank": 22,
+      "commonBonus": 200,
+      "rankBonus": -10,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 19
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 25
+        }
+      ],
+      "description": "茹でたじゃがいもをマヨネーズで和えたサラダ。",
+      "category": "副菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 27,
+      "name": "さばの味噌煮",
+      "score": 190,
+      "aiCount": 1,
+      "averageRank": 12,
+      "commonBonus": 100,
+      "rankBonus": 90,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 12
+        }
+      ],
+      "description": "サバを味噌だれで煮込んだ料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 28,
+      "name": "卵焼き",
+      "score": 180,
+      "aiCount": 1,
+      "averageRank": 13,
+      "commonBonus": 100,
+      "rankBonus": 80,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 13
+        }
+      ],
+      "description": "甘口または出汁入りで焼いた卵料理",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 29,
+      "name": "だし巻き卵",
+      "score": 175,
+      "aiCount": 2,
+      "averageRank": 23.5,
+      "commonBonus": 200,
+      "rankBonus": -25,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 26
+        },
+        {
+          "ai": "claude",
+          "rank": 21
+        }
+      ],
+      "description": "出汁を効かせたふわふわ卵焼き",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 30,
+      "name": "チャーハン（焼き飯）",
+      "score": 170,
+      "aiCount": 1,
+      "averageRank": 14,
+      "commonBonus": 100,
+      "rankBonus": 70,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 14
+        }
+      ],
+      "description": "ご飯を卵や具材と共に炒めた料理。",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 31,
+      "name": "納豆",
+      "score": 170,
+      "aiCount": 1,
+      "averageRank": 14,
+      "commonBonus": 100,
+      "rankBonus": 70,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 14
+        }
+      ],
+      "description": "発酵大豆を混ぜて食べる伝統食品",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 32,
+      "name": "ふりかけ",
+      "score": 160,
+      "aiCount": 1,
+      "averageRank": 15,
+      "commonBonus": 100,
+      "rankBonus": 60,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 15
+        }
+      ],
+      "description": "ご飯にかける乾燥調味料",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 33,
+      "name": "カツ丼",
+      "score": 143.3,
+      "aiCount": 3,
+      "averageRank": 36.7,
+      "commonBonus": 300,
+      "rankBonus": -156.7,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 49
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 30
+        },
+        {
+          "ai": "claude",
+          "rank": 31
+        }
+      ],
+      "description": "豚カツを甘辛い出汁で煮て卵でとじ、ご飯にのせた丼物。",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 34,
+      "name": "おでん",
+      "score": 136.7,
+      "aiCount": 3,
+      "averageRank": 37.3,
+      "commonBonus": 300,
+      "rankBonus": -163.3,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 43
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 43
+        },
+        {
+          "ai": "claude",
+          "rank": 26
+        }
+      ],
+      "description": "大根、卵、練り物などを出汁で長時間煮込んだ料理。",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 35,
+      "name": "そば",
+      "score": 135,
+      "aiCount": 2,
+      "averageRank": 27.5,
+      "commonBonus": 200,
+      "rankBonus": -65,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 25
+        },
+        {
+          "ai": "claude",
+          "rank": 30
+        }
+      ],
+      "description": "そば粉から作られた麺。冷たい「ざるそば」や温かい「かけそば」がある。",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 36,
+      "name": "エビフライ",
+      "score": 133.3,
+      "aiCount": 3,
+      "averageRank": 37.7,
+      "commonBonus": 300,
+      "rankBonus": -166.7,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 35
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 42
+        },
+        {
+          "ai": "claude",
+          "rank": 36
+        }
+      ],
+      "description": "エビに衣をつけて揚げた料理。",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 37,
+      "name": "卵焼き・だし巻き卵",
+      "score": 130,
+      "aiCount": 1,
+      "averageRank": 18,
+      "commonBonus": 100,
+      "rankBonus": 30,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 18
+        }
+      ],
+      "description": "溶き卵を焼いて巻いたもの。甘い味付けや出汁を効かせたものがある。",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 38,
+      "name": "ナポリタン",
+      "score": 120,
+      "aiCount": 2,
+      "averageRank": 29,
+      "commonBonus": 200,
+      "rankBonus": -80,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 39
+        },
+        {
+          "ai": "claude",
+          "rank": 19
+        }
+      ],
+      "description": "ケチャップ味の日本式パスタ",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 39,
+      "name": "回鍋肉",
+      "score": 80,
+      "aiCount": 1,
+      "averageRank": 23,
+      "commonBonus": 100,
+      "rankBonus": -20,
+      "appearances": [
+        {
+          "ai": "claude",
+          "rank": 23
+        }
+      ],
+      "description": "豚肉とキャベツを炒めた中華料理",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 40,
+      "name": "ひじきの煮物",
+      "score": 76.7,
+      "aiCount": 3,
+      "averageRank": 43.3,
+      "commonBonus": 300,
+      "rankBonus": -223.3,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 46
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 28
+        },
+        {
+          "ai": "claude",
+          "rank": 56
+        }
+      ],
+      "description": "乾燥ひじきを人参や油揚げと煮た常備菜。",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 41,
+      "name": "クリームシチュー",
+      "score": 70,
+      "aiCount": 1,
+      "averageRank": 24,
+      "commonBonus": 100,
+      "rankBonus": -30,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 24
+        }
+      ],
+      "description": "鶏肉と野菜をホワイトソースで煮たシチュー",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 42,
+      "name": "煮魚",
+      "score": 60,
+      "aiCount": 1,
+      "averageRank": 25,
+      "commonBonus": 100,
+      "rankBonus": -40,
+      "appearances": [
+        {
+          "ai": "claude",
+          "rank": 25
+        }
+      ],
+      "description": "魚を甘辛く煮込んだ和食",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 43,
+      "name": "グラタン",
+      "score": 50,
+      "aiCount": 3,
+      "averageRank": 46,
+      "commonBonus": 300,
+      "rankBonus": -250,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 34
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 64
+        },
+        {
+          "ai": "claude",
+          "rank": 40
+        }
+      ],
+      "description": "マカロニや具材をベシャメルソースとチーズで焼いた料理。",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 44,
+      "name": "シチュー",
+      "score": 40,
+      "aiCount": 2,
+      "averageRank": 37,
+      "commonBonus": 200,
+      "rankBonus": -160,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 26
+        },
+        {
+          "ai": "claude",
+          "rank": 48
+        }
+      ],
+      "description": "肉や野菜を煮込んだスープ料理。クリームシチューやビーフシチュー。",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 45,
+      "name": "キンピラごぼう",
+      "score": 40,
+      "aiCount": 1,
+      "averageRank": 27,
+      "commonBonus": 100,
+      "rankBonus": -60,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 27
+        }
+      ],
+      "description": "ごぼうと人参の甘辛炒め",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 46,
+      "name": "照り焼きチキン",
+      "score": 40,
+      "aiCount": 1,
+      "averageRank": 27,
+      "commonBonus": 100,
+      "rankBonus": -60,
+      "appearances": [
+        {
+          "ai": "claude",
+          "rank": 27
+        }
+      ],
+      "description": "鶏肉を甘辛いタレで焼いた料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 47,
+      "name": "茶碗蒸し",
+      "score": 35,
+      "aiCount": 2,
+      "averageRank": 37.5,
+      "commonBonus": 200,
+      "rankBonus": -165,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 42
+        },
+        {
+          "ai": "claude",
+          "rank": 33
+        }
+      ],
+      "description": "卵と出汁を混ぜ、具材と共に蒸した料理。",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 48,
+      "name": "ブロッコリーの胡麻和え",
+      "score": 20,
+      "aiCount": 1,
+      "averageRank": 29,
+      "commonBonus": 100,
+      "rankBonus": -80,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 29
+        }
+      ],
+      "description": "茹でブロッコリーを胡麻だれで和えた副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 49,
+      "name": "鯖の味噌煮",
+      "score": 0,
+      "aiCount": 1,
+      "averageRank": 31,
+      "commonBonus": 100,
+      "rankBonus": -100,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 31
+        }
+      ],
+      "description": "鯖を味噌、砂糖、生姜で煮付けた料理。",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 50,
+      "name": "牛丼",
+      "score": 0,
+      "aiCount": 3,
+      "averageRank": 51,
+      "commonBonus": 300,
+      "rankBonus": -300,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 33
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 31
+        },
+        {
+          "ai": "claude",
+          "rank": 89
+        }
+      ],
+      "description": "薄切り牛肉と玉ねぎを甘辛く煮てご飯にのせた丼物。",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 51,
+      "name": "焼肉（家焼き）",
+      "score": -10,
+      "aiCount": 1,
+      "averageRank": 32,
+      "commonBonus": 100,
+      "rankBonus": -110,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 32
+        }
+      ],
+      "description": "ホットプレートで焼く各種肉",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 52,
+      "name": "たこ焼き",
+      "score": -13.3,
+      "aiCount": 3,
+      "averageRank": 52.3,
+      "commonBonus": 300,
+      "rankBonus": -313.3,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 44
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 50
+        },
+        {
+          "ai": "claude",
+          "rank": 63
+        }
+      ],
+      "description": "小麦粉の生地にタコを入れて球状に焼いた大阪名物。",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 53,
+      "name": "焼き鳥",
+      "score": -13.3,
+      "aiCount": 3,
+      "averageRank": 52.3,
+      "commonBonus": 300,
+      "rankBonus": -313.3,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 79
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 33
+        },
+        {
+          "ai": "claude",
+          "rank": 45
+        }
+      ],
+      "description": "鶏肉を串に刺して焼いた料理。居酒屋の定番メニュー。",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 54,
+      "name": "おにぎり",
+      "score": -20,
+      "aiCount": 2,
+      "averageRank": 43,
+      "commonBonus": 200,
+      "rankBonus": -220,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 22
+        },
+        {
+          "ai": "claude",
+          "rank": 64
+        }
+      ],
+      "description": "ご飯を握り固め、梅干しや鮭などの具を入れた携帯食。",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 55,
+      "name": "八宝菜",
+      "score": -20,
+      "aiCount": 2,
+      "averageRank": 43,
+      "commonBonus": 200,
+      "rankBonus": -220,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 48
+        },
+        {
+          "ai": "claude",
+          "rank": 38
+        }
+      ],
+      "description": "海鮮と野菜のとろみ炒め",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 56,
+      "name": "ほうれん草のおひたし",
+      "score": -25,
+      "aiCount": 2,
+      "averageRank": 43.5,
+      "commonBonus": 200,
+      "rankBonus": -225,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 52
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 35
+        }
+      ],
+      "description": "茹でたほうれん草に醤油や出汁をかけたシンプルな副菜。",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 57,
+      "name": "ぶり照り焼き",
+      "score": -30,
+      "aiCount": 1,
+      "averageRank": 34,
+      "commonBonus": 100,
+      "rankBonus": -130,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 34
+        }
+      ],
+      "description": "ぶりを醤油みりんで照り焼きにした魚料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 58,
+      "name": "お好み焼き",
+      "score": -50,
+      "aiCount": 2,
+      "averageRank": 46,
+      "commonBonus": 200,
+      "rankBonus": -250,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 30
+        },
+        {
+          "ai": "claude",
+          "rank": 62
+        }
+      ],
+      "description": "小麦粉の生地にキャベツや肉などを混ぜて焼く鉄板料理。",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 59,
+      "name": "きんぴらごぼう",
+      "score": -55,
+      "aiCount": 2,
+      "averageRank": 46.5,
+      "commonBonus": 200,
+      "rankBonus": -255,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 36
+        },
+        {
+          "ai": "claude",
+          "rank": 57
+        }
+      ],
+      "description": "ごぼうと人参を細切りにし、醤油と砂糖で炒り煮にした常備菜。",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 60,
+      "name": "ロールキャベツ",
+      "score": -60,
+      "aiCount": 3,
+      "averageRank": 57,
+      "commonBonus": 300,
+      "rankBonus": -360,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 73
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 51
+        },
+        {
+          "ai": "claude",
+          "rank": 47
+        }
+      ],
+      "description": "挽肉をキャベツの葉で巻いて煮込んだ料理。",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 61,
+      "name": "春巻き",
+      "score": -65,
+      "aiCount": 2,
+      "averageRank": 47.5,
+      "commonBonus": 200,
+      "rankBonus": -265,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 51
+        },
+        {
+          "ai": "claude",
+          "rank": 44
+        }
+      ],
+      "description": "具材を皮で巻いて揚げた中華料理。",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 62,
+      "name": "冷やし中華",
+      "score": -70,
+      "aiCount": 3,
+      "averageRank": 58,
+      "commonBonus": 300,
+      "rankBonus": -370,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 40
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 47
+        },
+        {
+          "ai": "claude",
+          "rank": 87
+        }
+      ],
+      "description": "冷たい中華麺に様々な具をのせ、タレをかけて食べる夏の麺料理。",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 63,
+      "name": "豚バラ白菜ミルフィーユ鍋",
+      "score": -70,
+      "aiCount": 1,
+      "averageRank": 38,
+      "commonBonus": 100,
+      "rankBonus": -170,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 38
+        }
+      ],
+      "description": "白菜と豚バラを重ねた鍋",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 64,
+      "name": "回鍋肉（ホイコーロー）",
+      "score": -80,
+      "aiCount": 1,
+      "averageRank": 39,
+      "commonBonus": 100,
+      "rankBonus": -180,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 39
+        }
+      ],
+      "description": "豚肉とキャベツを甜麺醤で炒めた中華料理。",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 65,
+      "name": "ピラフ",
+      "score": -80,
+      "aiCount": 1,
+      "averageRank": 39,
+      "commonBonus": 100,
+      "rankBonus": -180,
+      "appearances": [
+        {
+          "ai": "claude",
+          "rank": 39
+        }
+      ],
+      "description": "米を炒めて炊いた洋風料理",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 66,
+      "name": "味噌ラーメン（袋麺）",
+      "score": -90,
+      "aiCount": 1,
+      "averageRank": 40,
+      "commonBonus": 100,
+      "rankBonus": -190,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 40
+        }
+      ],
+      "description": "家庭で作る味噌味ラーメン",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 67,
+      "name": "鶏の照り焼き",
+      "score": -100,
+      "aiCount": 1,
+      "averageRank": 41,
+      "commonBonus": 100,
+      "rankBonus": -200,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 41
+        }
+      ],
+      "description": "鶏肉を醤油とみりんの甘辛いタレで焼いた料理。",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 68,
+      "name": "炊き込みご飯",
+      "score": -110,
+      "aiCount": 2,
+      "averageRank": 52,
+      "commonBonus": 200,
+      "rankBonus": -310,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 55
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 49
+        }
+      ],
+      "description": "米に具材と調味料を加えて一緒に炊き込んだご飯。",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 69,
+      "name": "かぼちゃの煮物",
+      "score": -113.3,
+      "aiCount": 3,
+      "averageRank": 62.3,
+      "commonBonus": 300,
+      "rankBonus": -413.3,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 68
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 36
+        },
+        {
+          "ai": "claude",
+          "rank": 83
+        }
+      ],
+      "description": "かぼちゃを醤油と砂糖で甘く煮た家庭的な副菜。",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 70,
+      "name": "青椒肉絲",
+      "score": -120,
+      "aiCount": 1,
+      "averageRank": 43,
+      "commonBonus": 100,
+      "rankBonus": -220,
+      "appearances": [
+        {
+          "ai": "claude",
+          "rank": 43
+        }
+      ],
+      "description": "牛肉とピーマンを炒めた中華料理",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 71,
+      "name": "酢豚",
+      "score": -126.7,
+      "aiCount": 3,
+      "averageRank": 63.7,
+      "commonBonus": 300,
+      "rankBonus": -426.7,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 78
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 78
+        },
+        {
+          "ai": "claude",
+          "rank": 35
+        }
+      ],
+      "description": "揚げた豚肉と野菜を甘酢あんで絡めた中華料理。",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 72,
+      "name": "チキン南蛮",
+      "score": -130,
+      "aiCount": 2,
+      "averageRank": 54,
+      "commonBonus": 200,
+      "rankBonus": -330,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 67
+        },
+        {
+          "ai": "chatgpt",
+          "rank": 41
+        }
+      ],
+      "description": "揚げた鶏肉を甘酢に浸し、タルタルソースをかけた宮崎発祥の料理。",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 73,
+      "name": "カツカレー",
+      "score": -130,
+      "aiCount": 1,
+      "averageRank": 44,
+      "commonBonus": 100,
+      "rankBonus": -230,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 44
+        }
+      ],
+      "description": "とんかつを乗せたカレーライス",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 74,
+      "name": "たらのホイル焼き",
+      "score": -150,
+      "aiCount": 1,
+      "averageRank": 46,
+      "commonBonus": 100,
+      "rankBonus": -250,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 46
+        }
+      ],
+      "description": "タラと野菜を包み蒸し焼きに",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 75,
+      "name": "ステーキ",
+      "score": -150,
+      "aiCount": 1,
+      "averageRank": 46,
+      "commonBonus": 100,
+      "rankBonus": -250,
+      "appearances": [
+        {
+          "ai": "claude",
+          "rank": 46
+        }
+      ],
+      "description": "牛肉を焼いた洋食",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 76,
+      "name": "青椒肉絲（チンジャオロース）",
+      "score": -160,
+      "aiCount": 1,
+      "averageRank": 47,
+      "commonBonus": 100,
+      "rankBonus": -260,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 47
+        }
+      ],
+      "description": "細切りにしたピーマンと肉を炒めた中華料理。",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 77,
+      "name": "とろろご飯",
+      "score": -170,
+      "aiCount": 1,
+      "averageRank": 48,
+      "commonBonus": 100,
+      "rankBonus": -270,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 48
+        }
+      ],
+      "description": "すりおろした山芋をご飯にかけて食べる料理。",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 78,
+      "name": "ピーマンの肉詰め",
+      "score": -190,
+      "aiCount": 1,
+      "averageRank": 50,
+      "commonBonus": 100,
+      "rankBonus": -290,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 50
+        }
+      ],
+      "description": "ピーマンに挽肉を詰めて焼いた料理。",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 79,
+      "name": "中華丼",
+      "score": -190,
+      "aiCount": 1,
+      "averageRank": 50,
+      "commonBonus": 100,
+      "rankBonus": -290,
+      "appearances": [
+        {
+          "ai": "claude",
+          "rank": 50
+        }
+      ],
+      "description": "中華風あんかけをご飯にかけた料理",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 80,
+      "name": "ドリア",
+      "score": -200,
+      "aiCount": 2,
+      "averageRank": 61,
+      "commonBonus": 200,
+      "rankBonus": -400,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 81
+        },
+        {
+          "ai": "claude",
+          "rank": 41
+        }
+      ],
+      "description": "バターライスの上にベシャメルソースとチーズをかけて焼いた料理。",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 81,
+      "name": "天津飯",
+      "score": -200,
+      "aiCount": 1,
+      "averageRank": 51,
+      "commonBonus": 100,
+      "rankBonus": -300,
+      "appearances": [
+        {
+          "ai": "claude",
+          "rank": 51
+        }
+      ],
+      "description": "かに玉をご飯にのせた中華料理",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 82,
+      "name": "ミートソーススパゲティ",
+      "score": -210,
+      "aiCount": 1,
+      "averageRank": 52,
+      "commonBonus": 100,
+      "rankBonus": -310,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 52
+        }
+      ],
+      "description": "ひき肉トマトソースのパスタ",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 83,
+      "name": "南蛮漬け",
+      "score": -220,
+      "aiCount": 1,
+      "averageRank": 53,
+      "commonBonus": 100,
+      "rankBonus": -320,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 53
+        }
+      ],
+      "description": "揚げたアジなどの小魚を、唐辛子入りの甘酢に漬けた料理。",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 84,
+      "name": "手羽先唐揚げ",
+      "score": -220,
+      "aiCount": 1,
+      "averageRank": 53,
+      "commonBonus": 100,
+      "rankBonus": -320,
+      "appearances": [
+        {
+          "ai": "claude",
+          "rank": 53
+        }
+      ],
+      "description": "鶏の手羽先を揚げた料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 85,
+      "name": "メンチカツ",
+      "score": -230,
+      "aiCount": 1,
+      "averageRank": 54,
+      "commonBonus": 100,
+      "rankBonus": -330,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 54
+        }
+      ],
+      "description": "挽肉と玉ねぎを混ぜて衣をつけ、揚げたカツ。",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 86,
+      "name": "豚キムチ炒め",
+      "score": -230,
+      "aiCount": 1,
+      "averageRank": 54,
+      "commonBonus": 100,
+      "rankBonus": -330,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 54
+        }
+      ],
+      "description": "豚肉とキムチの炒め物",
+      "category": "主菜",
+      "type": "エスニック"
+    },
+    {
+      "rank": 87,
+      "name": "肉豆腐",
+      "score": -230,
+      "aiCount": 1,
+      "averageRank": 54,
+      "commonBonus": 100,
+      "rankBonus": -330,
+      "appearances": [
+        {
+          "ai": "claude",
+          "rank": 54
+        }
+      ],
+      "description": "牛肉と豆腐を煮込んだ和食",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 88,
+      "name": "ししゃも焼き",
+      "score": -240,
+      "aiCount": 1,
+      "averageRank": 55,
+      "commonBonus": 100,
+      "rankBonus": -340,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 55
+        }
+      ],
+      "description": "小魚ししゃもを焼いたおかず",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 89,
+      "name": "切り干し大根",
+      "score": -240,
+      "aiCount": 1,
+      "averageRank": 55,
+      "commonBonus": 100,
+      "rankBonus": -340,
+      "appearances": [
+        {
+          "ai": "claude",
+          "rank": 55
+        }
+      ],
+      "description": "干した大根を煮込んだ和食",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 90,
+      "name": "カニクリームコロッケ",
+      "score": -250,
+      "aiCount": 1,
+      "averageRank": 56,
+      "commonBonus": 100,
+      "rankBonus": -350,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 56
+        }
+      ],
+      "description": "カニとベシャメルソースで作るクリームコロッケ。",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 91,
+      "name": "きんぴらレンコン",
+      "score": -250,
+      "aiCount": 1,
+      "averageRank": 56,
+      "commonBonus": 100,
+      "rankBonus": -350,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 56
+        }
+      ],
+      "description": "レンコンの甘辛炒め",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 92,
+      "name": "ちらし寿司",
+      "score": -260,
+      "aiCount": 1,
+      "averageRank": 57,
+      "commonBonus": 100,
+      "rankBonus": -360,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 57
+        }
+      ],
+      "description": "酢飯の上に様々な具材を彩りよく散らした寿司。",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 93,
+      "name": "冷や奴",
+      "score": -260,
+      "aiCount": 1,
+      "averageRank": 57,
+      "commonBonus": 100,
+      "rankBonus": -360,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 57
+        }
+      ],
+      "description": "冷たい豆腐に薬味をのせた副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 94,
+      "name": "里芋の煮ころがし",
+      "score": -270,
+      "aiCount": 1,
+      "averageRank": 58,
+      "commonBonus": 100,
+      "rankBonus": -370,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 58
+        }
+      ],
+      "description": "里芋を甘辛煮にした副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 95,
+      "name": "天丼",
+      "score": -280,
+      "aiCount": 1,
+      "averageRank": 59,
+      "commonBonus": 100,
+      "rankBonus": -380,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 59
+        }
+      ],
+      "description": "ご飯の上に天ぷらをのせ、タレをかけた丼物。",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 96,
+      "name": "冷奴",
+      "score": -280,
+      "aiCount": 2,
+      "averageRank": 69,
+      "commonBonus": 200,
+      "rankBonus": -480,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 80
+        },
+        {
+          "ai": "claude",
+          "rank": 58
+        }
+      ],
+      "description": "冷たい豆腐に薬味と醤油をかけたシンプルな料理。",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 97,
+      "name": "かき揚げ",
+      "score": -280,
+      "aiCount": 2,
+      "averageRank": 69,
+      "commonBonus": 200,
+      "rankBonus": -480,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 86
+        },
+        {
+          "ai": "claude",
+          "rank": 52
+        }
+      ],
+      "description": "小エビや野菜などをまとめて揚げた天ぷらの一種。",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 98,
+      "name": "ぶり大根",
+      "score": -280,
+      "aiCount": 1,
+      "averageRank": 59,
+      "commonBonus": 100,
+      "rankBonus": -380,
+      "appearances": [
+        {
+          "ai": "chatgpt",
+          "rank": 59
+        }
+      ],
+      "description": "ぶりと大根を煮込んだ冬料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 99,
+      "name": "納豆ご飯",
+      "score": -280,
+      "aiCount": 1,
+      "averageRank": 59,
+      "commonBonus": 100,
+      "rankBonus": -380,
+      "appearances": [
+        {
+          "ai": "claude",
+          "rank": 59
+        }
+      ],
+      "description": "納豆をご飯にかけた和食",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 100,
+      "name": "エビチリ",
+      "score": -290,
+      "aiCount": 1,
+      "averageRank": 60,
+      "commonBonus": 100,
+      "rankBonus": -390,
+      "appearances": [
+        {
+          "ai": "gemini",
+          "rank": 60
+        }
+      ],
+      "description": "エビをチリソースで炒めた、日本で人気の中華料理。",
+      "category": "主菜",
+      "type": "中華"
+    }
+  ],
+  "excluded_dishes": {
+    "ambiguous": [
+      "サラダ",
+      "パスタ",
+      "スパゲッティ",
+      "煮物",
+      "酢の物",
+      "鍋料理",
+      "コーヒー",
+      "刺身",
+      "寿司"
+    ],
+    "duplicates": []
+  }
+}
