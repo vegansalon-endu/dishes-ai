@@ -63,7 +63,7 @@ function renderTop10Grid() {
     const grid = document.getElementById('top10-grid');
     if (!grid || !integratedData) return;
     
-    const top10 = integratedData.integrated_top10;
+    const top10 = integratedData.full_analysis.top100_ranking.slice(0, 10);
     
     const gridHTML = top10.map(dish => `
         <div class="ranking-item rank-${dish.integrated_rank}" data-rank="${dish.integrated_rank}">
@@ -136,17 +136,17 @@ function renderDetailedRanking() {
     console.log('Full analysis data sample:', integratedData.full_analysis?.slice(0, 3));
     
     // TOP10の詳細表示
-    const top10Data = integratedData.full_analysis.slice(0, 10);
+    const top10Data = integratedData.full_analysis.top100_ranking.slice(0, 10);
     console.log('📊 TOP10データ:', top10Data.length, '件');
     renderDetailedTier('detailed-top10', top10Data);
     
     // 11-20位の表示
-    const tier11_20 = integratedData.full_analysis.slice(10, 20);
+    const tier11_20 = integratedData.full_analysis.top100_ranking.slice(10, 20);
     console.log('📊 11-20位データ:', tier11_20.length, '件', tier11_20);
     renderDetailedTier('detailed-tier11-20', tier11_20);
     
     // 21-30位の表示（存在する分だけ）
-    const tier21_30 = integratedData.full_analysis.slice(20, 30);
+    const tier21_30 = integratedData.full_analysis.top100_ranking.slice(20, 30);
     console.log('📊 21-30位データ:', tier21_30.length, '件', tier21_30);
     if (tier21_30.length > 0) {
         renderDetailedTier('detailed-tier21-30', tier21_30);
@@ -284,7 +284,7 @@ function switchTier(tierName) {
 function analyzeVeganPotential() {
     if (!integratedData) return;
     
-    const top10 = integratedData.integrated_top10;
+    const top10 = integratedData.full_analysis.top100_ranking.slice(0, 10);
     const veganFriendly = [];
     const needsAdaptation = [];
     
@@ -371,7 +371,7 @@ function showSuccess(message) {
 function getStatistics() {
     if (!integratedData) return null;
     
-    const top10 = integratedData.integrated_top10;
+    const top10 = integratedData.full_analysis.top100_ranking.slice(0, 10);
     
     return {
         totalDishes: integratedData.metadata.total_dishes_analyzed,
@@ -397,7 +397,7 @@ function exportData(format = 'json') {
             break;
         
         case 'csv':
-            data = convertToCSV(integratedData.integrated_top10);
+            data = convertToCSV(integratedData.full_analysis.top100_ranking.slice(0, 10));
             filename = 'japanese-dishes-top10.csv';
             mimeType = 'text/csv';
             break;
@@ -440,7 +440,7 @@ function convertToCSV(data) {
 function filterDishes(query, options = {}) {
     if (!integratedData) return [];
     
-    let dishes = integratedData.integrated_top10;
+    let dishes = integratedData.full_analysis.top100_ranking.slice(0, 10);
     
     // テキスト検索
     if (query) {
