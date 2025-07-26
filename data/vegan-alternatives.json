@@ -1,0 +1,228 @@
+{
+  "metadata": {
+    "created_date": "2025-07-26",
+    "purpose": "ヴィーガン・糖質制限・高たんぱく質代替食材データベース",
+    "ai_sources": ["gemini", "chatgpt", "claude", "qwen3"],
+    "version": "1.0"
+  },
+  "comparison_standards": {
+    "rice_types": {
+      "white_rice_cooked": { "carbs_per_100g": 36.8, "name": "白米（炊飯後）" },
+      "brown_rice_cooked": { "carbs_per_100g": 35.6, "name": "玄米（炊飯後）" },
+      "red_rice": { "carbs_per_100g": 41.9, "name": "赤飯" }
+    },
+    "bread_types": {
+      "white_bread": { "carbs_per_100g": 44.4, "name": "食パン" },
+      "french_bread": { "carbs_per_100g": 54.8, "name": "フランスパン" },
+      "croissant": { "carbs_per_100g": 42.1, "name": "クロワッサン" }
+    },
+    "noodle_types": {
+      "ramen_fresh": { "carbs_per_100g": 53.6, "name": "ラーメン（生麺）" },
+      "udon_cooked": { "carbs_per_100g": 20.8, "name": "うどん（茹で）" },
+      "soba_cooked": { "carbs_per_100g": 24.0, "name": "そば（茹で）" },
+      "spaghetti_cooked": { "carbs_per_100g": 28.4, "name": "スパゲティ（茹で）" },
+      "somen_cooked": { "carbs_per_100g": 25.8, "name": "そうめん（茹で）" }
+    }
+  },
+  "dishes": [
+    {
+      "dish_id": 1,
+      "original_dish": "白ご飯",
+      "rank": 1,
+      "category": "主食",
+      "type": "和食",
+      "alternatives": {
+        "ultra_low_carb": [
+          {
+            "name": "こんにゃくライス",
+            "carbs_per_100g": 0.1,
+            "protein_per_100g": 0.1,
+            "calories_per_100g": 5,
+            "fiber_per_100g": 2.2,
+            "carb_reduction_vs_white_rice": 99.7,
+            "preparation": "しらたきを細かく刻み、乾煎りして水分と臭みを除去。昆布だしで味付け",
+            "texture": "モチモチ、プリプリ",
+            "best_for": ["カレー", "汁だく丼", "ふりかけご飯"],
+            "difficulty": "medium",
+            "ai_sources": ["gemini", "chatgpt", "claude", "qwen3"],
+            "tips": "カリフラワーライスと1:1で混ぜると食感と満足感が向上"
+          },
+          {
+            "name": "カリフラワーライス",
+            "carbs_per_100g": 2.3,
+            "protein_per_100g": 1.9,
+            "calories_per_100g": 25,
+            "fiber_per_100g": 2.5,
+            "carb_reduction_vs_white_rice": 93.8,
+            "preparation": "フードプロセッサーで米粒状にカット、フライパンで水分を飛ばすまで炒める",
+            "texture": "ふっくら、粒感あり",
+            "best_for": ["カレー", "チャーハン", "丼ぶり", "ふりかけご飯"],
+            "difficulty": "easy",
+            "ai_sources": ["gemini", "chatgpt", "claude", "qwen3"],
+            "tips": "ターメリック少々で色付けすると白米により近づく"
+          },
+          {
+            "name": "ブロッコリーライス",
+            "carbs_per_100g": 4.1,
+            "protein_per_100g": 2.8,
+            "calories_per_100g": 34,
+            "fiber_per_100g": 2.6,
+            "carb_reduction_vs_white_rice": 88.9,
+            "preparation": "ブロッコリーの茎部分を中心に使用、細かく刻んで軽く炒める",
+            "texture": "噛み応え強め、青い香り控えめ",
+            "best_for": ["ガパオライス", "タコライス", "エスニック料理"],
+            "difficulty": "easy",
+            "ai_sources": ["gemini", "chatgpt", "claude"],
+            "tips": "緑色が気になる場合はターメリックで着色"
+          }
+        ],
+        "low_carb": [
+          {
+            "name": "豆腐そぼろライス",
+            "carbs_per_100g": 1.2,
+            "protein_per_100g": 6.6,
+            "calories_per_100g": 72,
+            "fiber_per_100g": 0.4,
+            "carb_reduction_vs_white_rice": 96.7,
+            "preparation": "木綿豆腐を細かく崩し、フライパンで水分を飛ばすまで炒る",
+            "texture": "卵のような食感、ポロポロ",
+            "best_for": ["チャーハン", "そぼろ丼", "ガパオライス"],
+            "difficulty": "easy",
+            "ai_sources": ["gemini", "chatgpt", "claude"],
+            "tips": "高たんぱく・低糖質を両立、炒り卵の代用としても使用可能"
+          },
+          {
+            "name": "大根ライス",
+            "carbs_per_100g": 2.7,
+            "protein_per_100g": 0.5,
+            "calories_per_100g": 18,
+            "fiber_per_100g": 1.4,
+            "carb_reduction_vs_white_rice": 92.7,
+            "preparation": "大根をみじん切りにして塩もみ、水分を絞って軽く炒める",
+            "texture": "さっぱり、シャキシャキ",
+            "best_for": ["ふりかけご飯", "あっさり系丼", "お茶漬け"],
+            "difficulty": "easy",
+            "ai_sources": ["claude", "chatgpt"],
+            "tips": "煮汁をよく吸うため、汁気の多い料理に最適"
+          },
+          {
+            "name": "エリンギライス",
+            "carbs_per_100g": 3.1,
+            "protein_per_100g": 2.8,
+            "calories_per_100g": 24,
+            "fiber_per_100g": 4.3,
+            "carb_reduction_vs_white_rice": 91.6,
+            "preparation": "エリンギを細かく刻み、強火で水分を飛ばしながら炒める",
+            "texture": "コリコリ、旨味強め",
+            "best_for": ["チャーハン", "炒め物", "和風料理"],
+            "difficulty": "easy",
+            "ai_sources": ["claude"],
+            "tips": "きのこの旨味が強く、だしいらずで美味しく仕上がる"
+          }
+        ],
+        "moderate_carb": [
+          {
+            "name": "キヌア",
+            "carbs_per_100g": 21.3,
+            "protein_per_100g": 4.4,
+            "calories_per_100g": 120,
+            "fiber_per_100g": 2.8,
+            "carb_reduction_vs_white_rice": 42.1,
+            "preparation": "1:2の割合で水と茹でる（15分）、少し冷まして粘り気を出す",
+            "texture": "プチプチ、ほのかな香ばしさ",
+            "best_for": ["寿司", "サラダボウル", "リゾット風"],
+            "difficulty": "medium",
+            "ai_sources": ["gemini", "chatgpt", "claude"],
+            "tips": "完全タンパク質で栄養価が非常に高い、酢との相性良好"
+          },
+          {
+            "name": "アマランサス",
+            "carbs_per_100g": 18.7,
+            "protein_per_100g": 4.2,
+            "calories_per_100g": 103,
+            "fiber_per_100g": 2.1,
+            "carb_reduction_vs_white_rice": 49.2,
+            "preparation": "小粒なので茹で時間短め（10分）、炊くと粘り気が出る",
+            "texture": "タラコのような見た目、もっちり",
+            "best_for": ["寿司", "おにぎり", "リゾット風"],
+            "difficulty": "medium",
+            "ai_sources": ["gemini", "claude"],
+            "tips": "粘り気を活かしてシャリのまとまりを作りやすい"
+          }
+        ],
+        "specialty_blends": [
+          {
+            "name": "カリフラワー×こんにゃく ブレンド",
+            "ratio": "カリフラワー70% + こんにゃく30%",
+            "carbs_per_100g": 1.6,
+            "protein_per_100g": 1.3,
+            "calories_per_100g": 18,
+            "carb_reduction_vs_white_rice": 95.7,
+            "preparation": "こんにゃくを乾煎り後、カリフラワーと混ぜて炒める",
+            "best_for": ["汁だく丼", "カレー", "万能使用"],
+            "difficulty": "medium",
+            "ai_sources": ["gemini", "chatgpt"],
+            "tips": "互いの短所を補い、食感・満足感が劇的に向上"
+          },
+          {
+            "name": "カリフラワー×ヘンプシード",
+            "ratio": "カリフラワー85% + ヘンプシード15%",
+            "carbs_per_100g": 3.2,
+            "protein_per_100g": 4.1,
+            "calories_per_100g": 45,
+            "carb_reduction_vs_white_rice": 91.3,
+            "preparation": "カリフラワーを炒めた後、ヘンプシードを混ぜ合わせる",
+            "best_for": ["キーマカレー", "ドライカレー"],
+            "difficulty": "easy",
+            "ai_sources": ["chatgpt"],
+            "tips": "たんぱく質とω-3脂肪酸を同時に補給可能"
+          }
+        ],
+        "by_cuisine_type": {
+          "curry": {
+            "primary_recommendation": "カリフラワーライス",
+            "alternatives": ["こんにゃくライス", "ブロッコリーライス"],
+            "special_preparation": "ターメリック少々で色付け、皿を予熱して水分残りを防止"
+          },
+          "sushi": {
+            "primary_recommendation": "キヌア",
+            "alternatives": ["アマランサス", "豆腐そぼろ+チアシード"],
+            "special_preparation": "寿司酢代替：リンゴ酢2:甘酒1:塩0.5の比率"
+          },
+          "fried_rice": {
+            "primary_recommendation": "豆腐そぼろライス",
+            "alternatives": ["カリフラワーライス", "エリンギライス"],
+            "special_preparation": "強火でパラパラになるまでしっかり炒める"
+          },
+          "rice_bowl": {
+            "primary_recommendation": "カリフラワー×こんにゃく ブレンド",
+            "alternatives": ["大根ライス", "カリフラワーライス"],
+            "special_preparation": "つゆを少量ずつかけ、最後に海苔で香りを足す"
+          },
+          "furikake": {
+            "primary_recommendation": "カリフラワーライス",
+            "alternatives": ["こんにゃくライス", "大根ライス"],
+            "special_preparation": "仕上げに白ごま＆亜麻仁油を一滴でコク増し"
+          }
+        }
+      },
+      "nutritional_benefits": {
+        "low_carb_advantages": [
+          "血糖値の急上昇を防ぐ",
+          "体重管理に効果的",
+          "糖質制限ダイエットに最適"
+        ],
+        "vegan_advantages": [
+          "植物性食品100%",
+          "コレステロールゼロ",
+          "環境負荷の軽減"
+        ],
+        "high_protein_options": [
+          "豆腐そぼろライス（6.6g/100g）",
+          "キヌア（4.4g/100g）",
+          "ヘンプシードブレンド（4.1g/100g）"
+        ]
+      }
+    }
+  ]
+}

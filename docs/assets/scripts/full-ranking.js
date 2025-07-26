@@ -119,6 +119,14 @@ class FullRankingApp {
         else if (dish.score >= 0) scoreClass = 'score-fair';
         else scoreClass = 'score-low';
         
+        // ヴィーガン代替案があるかチェック
+        const hasVeganAlternative = this.hasVeganAlternative(dish.name);
+        const veganButton = hasVeganAlternative ? `
+            <a href="../rice-alternatives.html" class="vegan-alternative-btn" title="ヴィーガン・糖質制限代替案">
+                <i class="fas fa-seedling"></i> 代替案
+            </a>
+        ` : '';
+        
         return `
             <div class="rank-item ${rankClass}">
                 <div class="rank-header">
@@ -129,6 +137,7 @@ class FullRankingApp {
                 </div>
                 
                 <div class="dish-name">${dish.name}</div>
+                ${veganButton}
                 
                 <div class="score-info">
                     <div class="score-item">
@@ -219,6 +228,20 @@ class FullRankingApp {
                 </div>
             `;
         }
+    }
+
+    hasVeganAlternative(dishName) {
+        // 現在は白ご飯のみ対応
+        const veganAlternativesDishes = [
+            '白ご飯',
+            '白米',
+            'ご飯',
+            'ライス'
+        ];
+        
+        return veganAlternativesDishes.some(targetDish => 
+            dishName.includes(targetDish) || targetDish.includes(dishName)
+        );
     }
 }
 

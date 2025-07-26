@@ -1,0 +1,2504 @@
+{
+  "metadata": {
+    "project": "日本料理AI比較システム",
+    "purpose": "各AI（Gemini, ChatGPT, Claude, Qwen3）による日本料理トップ100リストの比較",
+    "created": "2025-07-25",
+    "lastUpdated": "2025-07-25"
+  },
+  "aiResults": {
+    "gemini": {
+      "source": "Gemini",
+      "date": "2025-07-25",
+      "title": "日本の食卓メジャー料理トップ100",
+      "dishes": [
+        {
+          "rank": 1,
+          "name": "白ご飯",
+          "description": "日本の主食、炊いた米。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 2,
+          "name": "味噌汁",
+          "description": "出汁に豆腐や野菜などの具を入れ、味噌で調味した汁物。",
+          "category": "汁物",
+          "type": "和食"
+        },
+        {
+          "rank": 3,
+          "name": "カレーライス",
+          "description": "ご飯にカレーソースをかけた、国民的に人気の料理。",
+          "category": "主食",
+          "type": "洋食"
+        },
+        {
+          "rank": 4,
+          "name": "鶏の唐揚げ",
+          "description": "醤油や生姜などで下味をつけた鶏肉を揚げた料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 5,
+          "name": "ハンバーグ",
+          "description": "挽肉をパン粉や玉ねぎと混ぜて焼いた肉料理。",
+          "category": "主菜",
+          "type": "洋食"
+        },
+        {
+          "rank": 6,
+          "name": "餃子",
+          "description": "豚挽肉や野菜を皮で包んで焼いた料理。焼き餃子が一般的。",
+          "category": "主菜",
+          "type": "中華"
+        },
+        {
+          "rank": 7,
+          "name": "豚カツ",
+          "description": "豚ロース肉に衣をつけて揚げた料理。",
+          "category": "主菜",
+          "type": "洋食"
+        },
+        {
+          "rank": 8,
+          "name": "ラーメン",
+          "description": "中華麺とスープ、様々な具材からなる麺料理。",
+          "category": "主食",
+          "type": "中華"
+        },
+        {
+          "rank": 9,
+          "name": "豚の生姜焼き",
+          "description": "薄切りの豚肉を醤油、みりん、生姜で炒めた料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 10,
+          "name": "刺身",
+          "description": "新鮮な魚介類を薄く切り、醤油で食べる料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 11,
+          "name": "焼き魚",
+          "description": "鮭、鯖、秋刀魚などを塩焼きや照り焼きにしたもの。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 12,
+          "name": "肉じゃが",
+          "description": "肉、じゃがいも、人参などを醤油と砂糖で煮込んだ家庭料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 13,
+          "name": "うどん",
+          "description": "小麦粉から作られた太い麺。温かい出汁や冷たいつけ汁で食べる。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 14,
+          "name": "チャーハン（焼き飯）",
+          "description": "ご飯を卵や具材と共に炒めた料理。",
+          "category": "主食",
+          "type": "中華"
+        },
+        {
+          "rank": 15,
+          "name": "寿司",
+          "description": "酢飯と主に魚介類を組み合わせた料理。握り寿司が代表的。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 16,
+          "name": "親子丼",
+          "description": "鶏肉を玉ねぎと卵でとじ、ご飯にのせた丼物。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 17,
+          "name": "天ぷら",
+          "description": "魚介類や野菜などに衣をつけて揚げた料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 18,
+          "name": "卵焼き・だし巻き卵",
+          "description": "溶き卵を焼いて巻いたもの。甘い味付けや出汁を効かせたものがある。",
+          "category": "副菜",
+          "type": "和食"
+        },
+        {
+          "rank": 19,
+          "name": "ポテトサラダ",
+          "description": "茹でたじゃがいもをマヨネーズで和えたサラダ。",
+          "category": "副菜",
+          "type": "洋食"
+        },
+        {
+          "rank": 20,
+          "name": "麻婆豆腐",
+          "description": "豆腐を唐辛子や豆板醤で煮込んだ、辛い中華料理。",
+          "category": "主菜",
+          "type": "中華"
+        },
+        {
+          "rank": 21,
+          "name": "野菜炒め",
+          "description": "様々な野菜と肉を炒めた、手軽な家庭料理。",
+          "category": "主菜",
+          "type": "中華"
+        },
+        {
+          "rank": 22,
+          "name": "おにぎり",
+          "description": "ご飯を握り固め、梅干しや鮭などの具を入れた携帯食。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 23,
+          "name": "コロッケ",
+          "description": "じゃがいもや挽肉を混ぜ、衣をつけて揚げた料理。",
+          "category": "主菜",
+          "type": "洋食"
+        },
+        {
+          "rank": 24,
+          "name": "焼きそば",
+          "description": "中華麺を肉や野菜とソースで炒めた料理。",
+          "category": "主食",
+          "type": "中華"
+        },
+        {
+          "rank": 25,
+          "name": "そば",
+          "description": "そば粉から作られた麺。冷たい「ざるそば」や温かい「かけそば」がある。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 26,
+          "name": "シチュー",
+          "description": "肉や野菜を煮込んだスープ料理。クリームシチューやビーフシチュー。",
+          "category": "主菜",
+          "type": "洋食"
+        },
+        {
+          "rank": 27,
+          "name": "すき焼き",
+          "description": "薄切り牛肉と野菜を甘辛い割り下で煮ながら食べる鍋料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 28,
+          "name": "オムライス",
+          "description": "ケチャップライスを卵で包んだ料理。",
+          "category": "主食",
+          "type": "洋食"
+        },
+        {
+          "rank": 29,
+          "name": "筑前煮",
+          "description": "鶏肉と根菜を醤油ベースで煮込んだ、福岡の郷土料理。",
+          "category": "副菜",
+          "type": "和食"
+        },
+        {
+          "rank": 30,
+          "name": "お好み焼き",
+          "description": "小麦粉の生地にキャベツや肉などを混ぜて焼く鉄板料理。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 31,
+          "name": "鯖の味噌煮",
+          "description": "鯖を味噌、砂糖、生姜で煮付けた料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 32,
+          "name": "豚汁",
+          "description": "豚肉と野菜がたっぷり入った具沢山の味噌汁。",
+          "category": "汁物",
+          "type": "和食"
+        },
+        {
+          "rank": 33,
+          "name": "牛丼",
+          "description": "薄切り牛肉と玉ねぎを甘辛く煮てご飯にのせた丼物。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 34,
+          "name": "グラタン",
+          "description": "マカロニや具材をベシャメルソースとチーズで焼いた料理。",
+          "category": "主菜",
+          "type": "洋食"
+        },
+        {
+          "rank": 35,
+          "name": "エビフライ",
+          "description": "エビに衣をつけて揚げた料理。",
+          "category": "主菜",
+          "type": "洋食"
+        },
+        {
+          "rank": 36,
+          "name": "きんぴらごぼう",
+          "description": "ごぼうと人参を細切りにし、醤油と砂糖で炒り煮にした常備菜。",
+          "category": "副菜",
+          "type": "和食"
+        },
+        {
+          "rank": 37,
+          "name": "鍋料理",
+          "description": "寄せ鍋、キムチ鍋、もつ鍋など、卓上で煮ながら食べる料理の総称。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 38,
+          "name": "パスタ",
+          "description": "ミートソースやナポリタンなど、日本で定着したスパゲッティ料理。",
+          "category": "主食",
+          "type": "洋食"
+        },
+        {
+          "rank": 39,
+          "name": "回鍋肉（ホイコーロー）",
+          "description": "豚肉とキャベツを甜麺醤で炒めた中華料理。",
+          "category": "主菜",
+          "type": "中華"
+        },
+        {
+          "rank": 40,
+          "name": "冷やし中華",
+          "description": "冷たい中華麺に様々な具をのせ、タレをかけて食べる夏の麺料理。",
+          "category": "主食",
+          "type": "中華"
+        },
+        {
+          "rank": 41,
+          "name": "鶏の照り焼き",
+          "description": "鶏肉を醤油とみりんの甘辛いタレで焼いた料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 42,
+          "name": "茶碗蒸し",
+          "description": "卵と出汁を混ぜ、具材と共に蒸した料理。",
+          "category": "副菜",
+          "type": "和食"
+        },
+        {
+          "rank": 43,
+          "name": "おでん",
+          "description": "大根、卵、練り物などを出汁で長時間煮込んだ料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 44,
+          "name": "たこ焼き",
+          "description": "小麦粉の生地にタコを入れて球状に焼いた大阪名物。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 45,
+          "name": "酢の物",
+          "description": "きゅうりやわかめなどを酢で和えたさっぱりした副菜。",
+          "category": "副菜",
+          "type": "和食"
+        },
+        {
+          "rank": 46,
+          "name": "ひじきの煮物",
+          "description": "乾燥ひじきを人参や油揚げと煮た常備菜。",
+          "category": "副菜",
+          "type": "和食"
+        },
+        {
+          "rank": 47,
+          "name": "青椒肉絲（チンジャオロース）",
+          "description": "細切りにしたピーマンと肉を炒めた中華料理。",
+          "category": "主菜",
+          "type": "中華"
+        },
+        {
+          "rank": 48,
+          "name": "とろろご飯",
+          "description": "すりおろした山芋をご飯にかけて食べる料理。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 49,
+          "name": "カツ丼",
+          "description": "豚カツを甘辛い出汁で煮て卵でとじ、ご飯にのせた丼物。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 50,
+          "name": "ピーマンの肉詰め",
+          "description": "ピーマンに挽肉を詰めて焼いた料理。",
+          "category": "主菜",
+          "type": "洋食"
+        },
+        {
+          "rank": 51,
+          "name": "春巻き",
+          "description": "具材を皮で巻いて揚げた中華料理。",
+          "category": "主菜",
+          "type": "中華"
+        },
+        {
+          "rank": 52,
+          "name": "ほうれん草のおひたし",
+          "description": "茹でたほうれん草に醤油や出汁をかけたシンプルな副菜。",
+          "category": "副菜",
+          "type": "和食"
+        },
+        {
+          "rank": 53,
+          "name": "南蛮漬け",
+          "description": "揚げたアジなどの小魚を、唐辛子入りの甘酢に漬けた料理。",
+          "category": "副菜",
+          "type": "和食"
+        },
+        {
+          "rank": 54,
+          "name": "メンチカツ",
+          "description": "挽肉と玉ねぎを混ぜて衣をつけ、揚げたカツ。",
+          "category": "主菜",
+          "type": "洋食"
+        },
+        {
+          "rank": 55,
+          "name": "炊き込みご飯",
+          "description": "米に具材と調味料を加えて一緒に炊き込んだご飯。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 56,
+          "name": "カニクリームコロッケ",
+          "description": "カニとベシャメルソースで作るクリームコロッケ。",
+          "category": "主菜",
+          "type": "洋食"
+        },
+        {
+          "rank": 57,
+          "name": "ちらし寿司",
+          "description": "酢飯の上に様々な具材を彩りよく散らした寿司。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 58,
+          "name": "そうめん",
+          "description": "小麦粉から作られる非常に細い麺。夏に冷やして食べることが多い。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 59,
+          "name": "天丼",
+          "description": "ご飯の上に天ぷらをのせ、タレをかけた丼物。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 60,
+          "name": "エビチリ",
+          "description": "エビをチリソースで炒めた、日本で人気の中華料理。",
+          "category": "主菜",
+          "type": "中華"
+        },
+        {
+          "rank": 61,
+          "name": "カレイの煮付け",
+          "description": "カレイを醤油、みりん、生姜で甘辛く煮た魚料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 62,
+          "name": "お茶漬け",
+          "description": "ご飯に具をのせ、お茶や出汁をかけて食べる手軽な食事。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 63,
+          "name": "肉巻き",
+          "description": "薄切り肉でアスパラやインゲンなどの野菜を巻いて焼いた料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 64,
+          "name": "親子煮",
+          "description": "親子丼の具をご飯にのせず、おかずとして食べるもの。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 65,
+          "name": "豚の角煮",
+          "description": "豚バラ肉を時間をかけて柔らかく煮込んだ料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 66,
+          "name": "揚げ出し豆腐",
+          "description": "豆腐に片栗粉をまぶして揚げ、出汁に浸した料理。",
+          "category": "副菜",
+          "type": "和食"
+        },
+        {
+          "rank": 67,
+          "name": "チキン南蛮",
+          "description": "揚げた鶏肉を甘酢に浸し、タルタルソースをかけた宮崎発祥の料理。",
+          "category": "主菜",
+          "type": "洋食"
+        },
+        {
+          "rank": 68,
+          "name": "かぼちゃの煮物",
+          "description": "かぼちゃを醤油と砂糖で甘く煮た家庭的な副菜。",
+          "category": "副菜",
+          "type": "和食"
+        },
+        {
+          "rank": 69,
+          "name": "マカロニサラダ",
+          "description": "茹でたマカロニをハムやきゅうりとマヨネーズで和えたサラダ。",
+          "category": "副菜",
+          "type": "洋食"
+        },
+        {
+          "rank": 70,
+          "name": "ピザ",
+          "description": "生地にトマトソース、チーズ、具材をのせて焼いたイタリア料理。",
+          "category": "主食",
+          "type": "洋食"
+        },
+        {
+          "rank": 71,
+          "name": "ガパオライス",
+          "description": "鶏挽肉をバジルと炒めてご飯にのせ、目玉焼きを添えたタイ料理。",
+          "category": "主食",
+          "type": "エスニック"
+        },
+        {
+          "rank": 72,
+          "name": "白和え",
+          "description": "豆腐を潰して作った和え衣で、野菜などを和えた料理。",
+          "category": "副菜",
+          "type": "和食"
+        },
+        {
+          "rank": 73,
+          "name": "ロールキャベツ",
+          "description": "挽肉をキャベツの葉で巻いて煮込んだ料理。",
+          "category": "主菜",
+          "type": "洋食"
+        },
+        {
+          "rank": 74,
+          "name": "しゃぶしゃぶ",
+          "description": "薄切り肉を熱い出汁にくぐらせて、タレにつけて食べる鍋料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 75,
+          "name": "海鮮丼",
+          "description": "酢飯の上に様々な種類の刺身をのせた丼物。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 76,
+          "name": "おこわ",
+          "description": "もち米を蒸したご飯。山菜おこわや栗おこわなどがある。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 77,
+          "name": "切り干し大根の煮物",
+          "description": "乾燥させた大根を人参や油揚げと煮た常備菜。",
+          "category": "副菜",
+          "type": "和食"
+        },
+        {
+          "rank": 78,
+          "name": "酢豚",
+          "description": "揚げた豚肉と野菜を甘酢あんで絡めた中華料理。",
+          "category": "主菜",
+          "type": "中華"
+        },
+        {
+          "rank": 79,
+          "name": "焼き鳥",
+          "description": "鶏肉を串に刺して焼いた料理。居酒屋の定番メニュー。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 80,
+          "name": "冷奴",
+          "description": "冷たい豆腐に薬味と醤油をかけたシンプルな料理。",
+          "category": "副菜",
+          "type": "和食"
+        },
+        {
+          "rank": 81,
+          "name": "ドリア",
+          "description": "バターライスの上にベシャメルソースとチーズをかけて焼いた料理。",
+          "category": "主食",
+          "type": "洋食"
+        },
+        {
+          "rank": 82,
+          "name": "ちゃんぽん",
+          "description": "豚肉、魚介、野菜を炒め、スープと太い麺で煮込んだ長崎名物。",
+          "category": "主食",
+          "type": "中華"
+        },
+        {
+          "rank": 83,
+          "name": "春雨サラダ",
+          "description": "春雨ときゅうり、ハムなどを酢醤油やごま油で和えた中華風サラダ。",
+          "category": "副菜",
+          "type": "中華"
+        },
+        {
+          "rank": 84,
+          "name": "ビーフン",
+          "description": "米粉で作った麺を野菜などと炒めた料理。",
+          "category": "主食",
+          "type": "中華"
+        },
+        {
+          "rank": 85,
+          "name": "だし",
+          "description": "夏野菜を細かく刻み、醤油などで和えた山形の郷土料理。",
+          "category": "副菜",
+          "type": "和食"
+        },
+        {
+          "rank": 86,
+          "name": "かき揚げ",
+          "description": "小エビや野菜などをまとめて揚げた天ぷらの一種。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 87,
+          "name": "ゴーヤチャンプルー",
+          "description": "ゴーヤ、豆腐、卵、豚肉を炒めた沖縄料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 88,
+          "name": "高野豆腐の煮物",
+          "description": "凍らせて乾燥させた豆腐を、出汁で煮含めた料理。",
+          "category": "副菜",
+          "type": "和食"
+        },
+        {
+          "rank": 89,
+          "name": "大学芋",
+          "description": "揚げたさつまいもに甘い蜜を絡めたおやつ兼おかず。",
+          "category": "副菜",
+          "type": "和食"
+        },
+        {
+          "rank": 90,
+          "name": "すまし汁",
+          "description": "昆布や鰹節の出汁を醤油や塩で味付けした透明な汁物。",
+          "category": "汁物",
+          "type": "和食"
+        },
+        {
+          "rank": 91,
+          "name": "あんかけ焼きそば",
+          "description": "揚げたり焼いたりした麺の上に、具沢山のあんをかけた料理。",
+          "category": "主食",
+          "type": "中華"
+        },
+        {
+          "rank": 92,
+          "name": "棒棒鶏（バンバンジー）",
+          "description": "蒸し鶏に胡麻のソースをかけた冷たい中華料理。",
+          "category": "主菜",
+          "type": "中華"
+        },
+        {
+          "rank": 93,
+          "name": "けんちん汁",
+          "description": "根菜を油で炒め、出汁で煮込んだ醤油味の汁物。",
+          "category": "汁物",
+          "type": "和食"
+        },
+        {
+          "rank": 94,
+          "name": "たたき",
+          "description": "カツオや牛肉の表面を炙り、冷やして切った料理。",
+          "category": "主菜",
+          "type": "和食"
+        },
+        {
+          "rank": 95,
+          "name": "アジフライ",
+          "description": "アジを開いて衣をつけて揚げた、定番の魚フライ。",
+          "category": "主菜",
+          "type": "洋食"
+        },
+        {
+          "rank": 96,
+          "name": "ハヤシライス",
+          "description": "薄切り牛肉と玉ねぎをデミグラスソースで煮込み、ご飯にかけた料理。",
+          "category": "主食",
+          "type": "洋食"
+        },
+        {
+          "rank": 97,
+          "name": "お雑煮",
+          "description": "正月に食べる、餅が入った汁物。地域によって味付けや具が異なる。",
+          "category": "汁物",
+          "type": "和食"
+        },
+        {
+          "rank": 98,
+          "name": "チヂミ",
+          "description": "小麦粉の生地にニラなどの具材を混ぜて薄く焼いた韓国料理。",
+          "category": "主菜",
+          "type": "エスニック"
+        },
+        {
+          "rank": 99,
+          "name": "いなり寿司",
+          "description": "甘辛く煮た油揚げの中に酢飯を詰めた寿司。",
+          "category": "主食",
+          "type": "和食"
+        },
+        {
+          "rank": 100,
+          "name": "漬物",
+          "description": "野菜を塩、糠、酢などで漬けた保存食。きゅうり、大根、白菜など。",
+          "category": "副菜",
+          "type": "和食"
+        }
+      ]
+    },
+    "chatgpt": {
+  "source": "ChatGPT",
+  "date": "2025-01-25",
+  "title": "日本の食卓メジャー料理トップ100",
+  "dishes": [
+    {
+      "rank": 1,
+      "name": "白ご飯",
+      "description": "日本の主食、炊いた米",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 2,
+      "name": "味噌汁",
+      "description": "大豆から作った味噌を使った汁物",
+      "category": "汁物",
+      "type": "和食"
+    },
+    {
+      "rank": 3,
+      "name": "鶏の唐揚げ",
+      "description": "下味をつけた鶏肉を揚げた定番おかず",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 4,
+      "name": "カレーライス",
+      "description": "カレールウで煮込んだ具材をご飯にかけた料理",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 5,
+      "name": "豚の生姜焼き",
+      "description": "豚肉を生姜ダレで焼いたおかず",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 6,
+      "name": "ハンバーグ",
+      "description": "合挽肉を焼いたパティにソースをかけた料理",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 7,
+      "name": "とんかつ",
+      "description": "豚ロースを衣で揚げた料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 8,
+      "name": "餃子",
+      "description": "ひき肉と野菜の餡を包んで焼いた中華点心",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 9,
+      "name": "麻婆豆腐",
+      "description": "豆腐と挽肉を辛味噌で煮た中華おかず",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 10,
+      "name": "肉じゃが",
+      "description": "牛肉とじゃがいもの甘辛煮",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 11,
+      "name": "焼き鮭",
+      "description": "塩をふって焼いた鮭の切り身",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 12,
+      "name": "さばの味噌煮",
+      "description": "サバを味噌だれで煮込んだ料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 13,
+      "name": "卵焼き",
+      "description": "甘口または出汁入りで焼いた卵料理",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 14,
+      "name": "納豆",
+      "description": "発酵大豆を混ぜて食べる伝統食品",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 15,
+      "name": "ふりかけ",
+      "description": "ご飯にかける乾燥調味料",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 16,
+      "name": "チャーハン",
+      "description": "炒めご飯の中華定番",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 17,
+      "name": "焼きそば",
+      "description": "ソース味で炒めた中華麺",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 18,
+      "name": "オムライス",
+      "description": "ケチャップライスを卵で包んだ洋食",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 19,
+      "name": "親子丼",
+      "description": "鶏肉と卵を煮てご飯に乗せた丼",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 20,
+      "name": "天ぷら",
+      "description": "魚介や野菜を衣で揚げた料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 21,
+      "name": "すき焼き",
+      "description": "牛肉を甘辛だれで煮て卵に絡める鍋料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 22,
+      "name": "豚汁",
+      "description": "味噌ベースで豚肉と野菜を煮た汁物",
+      "category": "汁物",
+      "type": "和食"
+    },
+    {
+      "rank": 23,
+      "name": "コロッケ",
+      "description": "マッシュポテトとひき肉を衣で揚げた料理",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 24,
+      "name": "クリームシチュー",
+      "description": "鶏肉と野菜をホワイトソースで煮たシチュー",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 25,
+      "name": "ポテトサラダ",
+      "description": "じゃがいもと野菜をマヨネーズで和えたサラダ",
+      "category": "副菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 26,
+      "name": "だし巻き卵",
+      "description": "出汁を効かせたふわふわ卵焼き",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 27,
+      "name": "キンピラごぼう",
+      "description": "ごぼうと人参の甘辛炒め",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 28,
+      "name": "ひじきの煮物",
+      "description": "ひじきを大豆と煮た常備菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 29,
+      "name": "ブロッコリーの胡麻和え",
+      "description": "茹でブロッコリーを胡麻だれで和えた副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 30,
+      "name": "カツ丼",
+      "description": "とんかつを卵でとじてご飯に乗せた丼",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 31,
+      "name": "牛丼",
+      "description": "甘辛煮の牛肉を盛った丼",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 32,
+      "name": "焼肉（家焼き）",
+      "description": "ホットプレートで焼く各種肉",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 33,
+      "name": "焼き鳥",
+      "description": "鶏串をグリルした定番",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 34,
+      "name": "ぶり照り焼き",
+      "description": "ぶりを醤油みりんで照り焼きにした魚料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 35,
+      "name": "ほうれん草のおひたし",
+      "description": "おひたしにした青菜副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 36,
+      "name": "かぼちゃの煮物",
+      "description": "かぼちゃを甘辛く煮た副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 37,
+      "name": "筑前煮",
+      "description": "鶏肉と根菜を煮込んだ行事料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 38,
+      "name": "豚バラ白菜ミルフィーユ鍋",
+      "description": "白菜と豚バラを重ねた鍋",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 39,
+      "name": "ナポリタン",
+      "description": "ケチャップ味の日本式パスタ",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 40,
+      "name": "味噌ラーメン（袋麺）",
+      "description": "家庭で作る味噌味ラーメン",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 41,
+      "name": "チキン南蛮",
+      "description": "揚げ鶏に甘酢とタルタルをかけた料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 42,
+      "name": "エビフライ",
+      "description": "衣をつけたエビの揚げ物",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 43,
+      "name": "おでん",
+      "description": "大根や卵を出汁で煮込む冬料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 44,
+      "name": "カツカレー",
+      "description": "とんかつを乗せたカレーライス",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 45,
+      "name": "野菜炒め",
+      "description": "肉と野菜のシンプル炒め",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 46,
+      "name": "たらのホイル焼き",
+      "description": "タラと野菜を包み蒸し焼きに",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 47,
+      "name": "冷やし中華",
+      "description": "夏の冷たい中華麺サラダ",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 48,
+      "name": "八宝菜",
+      "description": "海鮮と野菜のとろみ炒め",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 49,
+      "name": "炊き込みご飯",
+      "description": "具材と一緒に炊いた味付きご飯",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 50,
+      "name": "たこ焼き",
+      "description": "タコ入り粉生地ボールを焼く粉物",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 51,
+      "name": "ロールキャベツ",
+      "description": "キャベツで挽肉を包んで煮込む洋風煮込み",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 52,
+      "name": "ミートソーススパゲティ",
+      "description": "ひき肉トマトソースのパスタ",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 53,
+      "name": "アジフライ",
+      "description": "アジに衣をつけて揚げた魚フライ",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 54,
+      "name": "豚キムチ炒め",
+      "description": "豚肉とキムチの炒め物",
+      "category": "主菜",
+      "type": "エスニック"
+    },
+    {
+      "rank": 55,
+      "name": "ししゃも焼き",
+      "description": "小魚ししゃもを焼いたおかず",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 56,
+      "name": "きんぴらレンコン",
+      "description": "レンコンの甘辛炒め",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 57,
+      "name": "冷や奴",
+      "description": "冷たい豆腐に薬味をのせた副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 58,
+      "name": "里芋の煮ころがし",
+      "description": "里芋を甘辛煮にした副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 59,
+      "name": "ぶり大根",
+      "description": "ぶりと大根を煮込んだ冬料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 60,
+      "name": "きゅうりの浅漬け",
+      "description": "塩と昆布で漬けた即席漬け",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 61,
+      "name": "いなり寿司",
+      "description": "甘い油揚げに酢飯を詰めた寿司",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 62,
+      "name": "手巻き寿司",
+      "description": "具材を海苔で巻く家庭寿司",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 63,
+      "name": "ホイコーロー",
+      "description": "豚肉とキャベツの味噌炒め",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 64,
+      "name": "グラタン",
+      "description": "ホワイトソースとチーズを焼いたオーブン料理",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 65,
+      "name": "ペペロンチーノ",
+      "description": "ニンニクと唐辛子のシンプルパスタ",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 66,
+      "name": "たらこスパゲティ",
+      "description": "たらこソースを和えた和風パスタ",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 67,
+      "name": "ゴーヤーチャンプルー",
+      "description": "ゴーヤと豆腐の炒め物",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 68,
+      "name": "きのこ炊き込みご飯",
+      "description": "きのこを米と炊いたご飯",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 69,
+      "name": "じゃがバター",
+      "description": "蒸したじゃがいもにバターを乗せた副菜",
+      "category": "副菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 70,
+      "name": "さつまいも甘煮",
+      "description": "さつまいもを甘く煮た副菜・おやつ",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 71,
+      "name": "ガパオライス",
+      "description": "バジル炒めのタイ風ご飯",
+      "category": "主食",
+      "type": "エスニック"
+    },
+    {
+      "rank": 72,
+      "name": "ビビンバ丼",
+      "description": "ナムルと肉をご飯に乗せた韓国丼",
+      "category": "主食",
+      "type": "エスニック"
+    },
+    {
+      "rank": 73,
+      "name": "サムギョプサル",
+      "description": "豚バラ焼きを野菜で包む韓国料理",
+      "category": "主菜",
+      "type": "エスニック"
+    },
+    {
+      "rank": 74,
+      "name": "ジャーマンポテト",
+      "description": "ベーコンとじゃがいもの炒め物",
+      "category": "副菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 75,
+      "name": "牛すじ煮込み",
+      "description": "牛すじを味噌や醤油でじっくり煮た料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 76,
+      "name": "しらすおろし",
+      "description": "大根おろしにしらすをのせた副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 77,
+      "name": "もやしナムル",
+      "description": "もやしを胡麻油で和えた韓国副菜",
+      "category": "副菜",
+      "type": "エスニック"
+    },
+    {
+      "rank": 78,
+      "name": "酢豚",
+      "description": "豚肉と野菜を甘酢で炒めた中華料理",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 79,
+      "name": "お雑煮",
+      "description": "正月に食べる餅入り汁物",
+      "category": "汁物",
+      "type": "和食"
+    },
+    {
+      "rank": 80,
+      "name": "いちごショートケーキ",
+      "description": "スポンジに生クリームと苺を挟んだケーキ",
+      "category": "デザート",
+      "type": "洋食"
+    },
+    {
+      "rank": 81,
+      "name": "プリン",
+      "description": "卵とミルクで作るカスタードデザート",
+      "category": "デザート",
+      "type": "洋食"
+    },
+    {
+      "rank": 82,
+      "name": "みたらし団子",
+      "description": "甘辛醤油だれを絡めた団子",
+      "category": "デザート",
+      "type": "和食"
+    },
+    {
+      "rank": 83,
+      "name": "アイスコーヒー",
+      "description": "冷やした淹れたてコーヒー",
+      "category": "飲み物",
+      "type": "洋食"
+    },
+    {
+      "rank": 84,
+      "name": "緑茶",
+      "description": "茶葉を湯で抽出した日本茶",
+      "category": "飲み物",
+      "type": "和食"
+    },
+    {
+      "rank": 85,
+      "name": "牛乳",
+      "description": "乳牛から搾った飲料",
+      "category": "飲み物",
+      "type": "洋食"
+    },
+    {
+      "rank": 86,
+      "name": "味噌煮込みうどん",
+      "description": "味噌だしで煮込む名古屋うどん",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 87,
+      "name": "ざるそば",
+      "description": "冷たいそばをつゆで食べる夏料理",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 88,
+      "name": "トマトサラダ",
+      "description": "スライストマトのシンプルサラダ",
+      "category": "副菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 89,
+      "name": "コーンスープ",
+      "description": "とうもろこしのポタージュ",
+      "category": "汁物",
+      "type": "洋食"
+    },
+    {
+      "rank": 90,
+      "name": "枝豆",
+      "description": "塩茹で大豆のつまみ",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 91,
+      "name": "焼き芋",
+      "description": "さつまいもを焼いた甘味",
+      "category": "デザート",
+      "type": "和食"
+    },
+    {
+      "rank": 92,
+      "name": "フルーツヨーグルト",
+      "description": "ヨーグルトと果物のデザート",
+      "category": "デザート",
+      "type": "洋食"
+    },
+    {
+      "rank": 93,
+      "name": "カプレーゼ",
+      "description": "トマト・モッツァレラ・バジルのサラダ",
+      "category": "副菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 94,
+      "name": "生春巻き",
+      "description": "野菜とエビをライスペーパーで巻いた料理",
+      "category": "副菜",
+      "type": "エスニック"
+    },
+    {
+      "rank": 95,
+      "name": "トムヤムクン",
+      "description": "タイの辛酸っぱい海老スープ",
+      "category": "汁物",
+      "type": "エスニック"
+    },
+    {
+      "rank": 96,
+      "name": "グリーンカレー",
+      "description": "ココナッツベースのタイカレー",
+      "category": "主菜",
+      "type": "エスニック"
+    },
+    {
+      "rank": 97,
+      "name": "フォー",
+      "description": "ベトナムの米粉麺スープ",
+      "category": "主食",
+      "type": "エスニック"
+    },
+    {
+      "rank": 98,
+      "name": "スンドゥブチゲ",
+      "description": "韓国の辛い豆腐スープ",
+      "category": "汁物",
+      "type": "エスニック"
+    },
+    {
+      "rank": 99,
+      "name": "タコライス",
+      "description": "沖縄発タコミートのせご飯",
+      "category": "主食",
+      "type": "エスニック"
+    },
+    {
+      "rank": 100,
+      "name": "キーマカレー",
+      "description": "挽肉をスパイスで煮たドライカレー",
+      "category": "主菜",
+      "type": "エスニック"
+    }
+  ]
+},
+    "claude": {
+  "source": "Claude",
+  "date": "2025-01-25",
+  "title": "日本の食卓メジャー料理トップ100",
+  "dishes": [
+    {
+      "rank": 1,
+      "name": "白ご飯",
+      "description": "日本の主食、炊いた米",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 2,
+      "name": "味噌汁",
+      "description": "大豆から作った味噌を使った汁物",
+      "category": "汁物",
+      "type": "和食"
+    },
+    {
+      "rank": 3,
+      "name": "カレーライス",
+      "description": "スパイスで煮込んだルーをご飯にかけた料理",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 4,
+      "name": "鶏の唐揚げ",
+      "description": "鶏肉に衣をつけて揚げた料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 5,
+      "name": "肉じゃが",
+      "description": "牛肉と野菜を甘辛く煮込んだ料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 6,
+      "name": "豚の生姜焼き",
+      "description": "豚肉を生姜で味付けして焼いた料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 7,
+      "name": "ハンバーグ",
+      "description": "挽肉をこねて焼いた洋風料理",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 8,
+      "name": "野菜炒め",
+      "description": "野菜を炒めた手軽な料理",
+      "category": "副菜",
+      "type": "中華"
+    },
+    {
+      "rank": 9,
+      "name": "チャーハン",
+      "description": "ご飯と具材を炒めた中華料理",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 10,
+      "name": "親子丼",
+      "description": "鶏肉と卵をご飯にのせた丼料理",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 11,
+      "name": "餃子",
+      "description": "肉と野菜を皮で包んで焼いた中華料理",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 12,
+      "name": "焼き魚",
+      "description": "魚を焼いた和食の基本料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 13,
+      "name": "オムライス",
+      "description": "チキンライスを卵で包んだ洋食",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 14,
+      "name": "豚汁",
+      "description": "豚肉と野菜の味噌汁",
+      "category": "汁物",
+      "type": "和食"
+    },
+    {
+      "rank": 15,
+      "name": "焼きそば",
+      "description": "中華麺を野菜と炒めた料理",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 16,
+      "name": "天ぷら",
+      "description": "魚介や野菜を衣で揚げた和食",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 17,
+      "name": "すき焼き",
+      "description": "牛肉と野菜を甘辛く煮た鍋料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 18,
+      "name": "寿司",
+      "description": "酢飯に魚介をのせた和食の代表",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 19,
+      "name": "ナポリタン",
+      "description": "ケチャップ味のスパゲッティ",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 20,
+      "name": "とんかつ",
+      "description": "豚肉に衣をつけて揚げた洋食",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 21,
+      "name": "だし巻き卵",
+      "description": "だし汁を入れて巻いた卵料理",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 22,
+      "name": "麻婆豆腐",
+      "description": "豆腐を辛く煮込んだ中華料理",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 23,
+      "name": "回鍋肉",
+      "description": "豚肉とキャベツを炒めた中華料理",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 24,
+      "name": "筑前煮",
+      "description": "鶏肉と根菜を煮込んだ和食",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 25,
+      "name": "煮魚",
+      "description": "魚を甘辛く煮込んだ和食",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 26,
+      "name": "おでん",
+      "description": "様々な具材をだしで煮込んだ鍋料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 27,
+      "name": "照り焼きチキン",
+      "description": "鶏肉を甘辛いタレで焼いた料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 28,
+      "name": "ラーメン",
+      "description": "中華麺をスープで食べる料理",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 29,
+      "name": "うどん",
+      "description": "小麦粉の太い麺を使った和食",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 30,
+      "name": "そば",
+      "description": "蕎麦粉の麺を使った和食",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 31,
+      "name": "カツ丼",
+      "description": "とんかつをご飯にのせた丼料理",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 32,
+      "name": "刺身",
+      "description": "生の魚介を切った和食",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 33,
+      "name": "茶碗蒸し",
+      "description": "卵を蒸した和風料理",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 34,
+      "name": "煮物",
+      "description": "野菜をだしで煮込んだ和食",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 35,
+      "name": "酢豚",
+      "description": "豚肉を甘酢で炒めた中華料理",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 36,
+      "name": "エビフライ",
+      "description": "エビに衣をつけて揚げた洋食",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 37,
+      "name": "コロッケ",
+      "description": "じゃがいもを揚げた洋食",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 38,
+      "name": "八宝菜",
+      "description": "野菜と肉を炒めた中華料理",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 39,
+      "name": "ピラフ",
+      "description": "米を炒めて炊いた洋風料理",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 40,
+      "name": "グラタン",
+      "description": "ホワイトソースをかけて焼いた洋食",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 41,
+      "name": "ドリア",
+      "description": "ご飯にホワイトソースをかけて焼いた洋食",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 42,
+      "name": "スパゲッティ",
+      "description": "イタリア発祥のパスタ料理",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 43,
+      "name": "青椒肉絲",
+      "description": "牛肉とピーマンを炒めた中華料理",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 44,
+      "name": "春巻き",
+      "description": "具材を皮で包んで揚げた中華料理",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 45,
+      "name": "焼き鳥",
+      "description": "鶏肉を串に刺して焼いた和食",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 46,
+      "name": "ステーキ",
+      "description": "牛肉を焼いた洋食",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 47,
+      "name": "ロールキャベツ",
+      "description": "キャベツで肉を包んで煮込んだ洋食",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 48,
+      "name": "シチュー",
+      "description": "肉と野菜を煮込んだ洋食",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 49,
+      "name": "サラダ",
+      "description": "生野菜を使った副菜",
+      "category": "副菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 50,
+      "name": "中華丼",
+      "description": "中華風あんかけをご飯にかけた料理",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 51,
+      "name": "天津飯",
+      "description": "かに玉をご飯にのせた中華料理",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 52,
+      "name": "かき揚げ",
+      "description": "野菜をまとめて揚げた天ぷらの一種",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 53,
+      "name": "手羽先唐揚げ",
+      "description": "鶏の手羽先を揚げた料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 54,
+      "name": "肉豆腐",
+      "description": "牛肉と豆腐を煮込んだ和食",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 55,
+      "name": "切り干し大根",
+      "description": "干した大根を煮込んだ和食",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 56,
+      "name": "ひじきの煮物",
+      "description": "ひじきと野菜を煮込んだ和食",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 57,
+      "name": "きんぴらごぼう",
+      "description": "ごぼうを炒め煮した和食",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 58,
+      "name": "冷奴",
+      "description": "冷たい豆腐にトッピングをのせた料理",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 59,
+      "name": "納豆ご飯",
+      "description": "納豆をご飯にかけた和食",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 60,
+      "name": "鍋料理",
+      "description": "様々な具材を鍋で煮込む料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 61,
+      "name": "焼きうどん",
+      "description": "うどんを炒めた料理",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 62,
+      "name": "お好み焼き",
+      "description": "小麦粉とキャベツで作る関西の名物",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 63,
+      "name": "たこ焼き",
+      "description": "タコを入れた大阪名物の丸い料理",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 64,
+      "name": "おにぎり",
+      "description": "ご飯を握った和食の基本",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 65,
+      "name": "漬物",
+      "description": "野菜を発酵・塩漬けした和食",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 66,
+      "name": "冷しゃぶ",
+      "description": "茹でた豚肉を冷やして食べる料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 67,
+      "name": "棒棒鶏",
+      "description": "鶏肉にゴマダレをかけた中華料理",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 68,
+      "name": "鶏そぼろ",
+      "description": "鶏ひき肉を炒めた和食",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 69,
+      "name": "豚キムチ",
+      "description": "豚肉とキムチを炒めた料理",
+      "category": "主菜",
+      "type": "エスニック"
+    },
+    {
+      "rank": 70,
+      "name": "レバニラ炒め",
+      "description": "レバーとニラを炒めた中華料理",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 71,
+      "name": "もやし炒め",
+      "description": "もやしを炒めた手軽な料理",
+      "category": "副菜",
+      "type": "中華"
+    },
+    {
+      "rank": 72,
+      "name": "ほうれん草のお浸し",
+      "description": "茹でたほうれん草の和え物",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 73,
+      "name": "小松菜の炒め物",
+      "description": "小松菜を炒めた和食",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 74,
+      "name": "なすの味噌炒め",
+      "description": "なすを味噌で炒めた和食",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 75,
+      "name": "ゴーヤチャンプルー",
+      "description": "ゴーヤと豆腐を炒めた沖縄料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 76,
+      "name": "豆腐ハンバーグ",
+      "description": "豆腐を使ったヘルシーなハンバーグ",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 77,
+      "name": "つくね",
+      "description": "鶏ひき肉を丸めて焼いた和食",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 78,
+      "name": "肉団子",
+      "description": "ひき肉を丸めて煮込んだ料理",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 79,
+      "name": "春雨サラダ",
+      "description": "春雨を使った中華風サラダ",
+      "category": "副菜",
+      "type": "中華"
+    },
+    {
+      "rank": 80,
+      "name": "わかめスープ",
+      "description": "わかめを使った韓国風スープ",
+      "category": "汁物",
+      "type": "エスニック"
+    },
+    {
+      "rank": 81,
+      "name": "玉子スープ",
+      "description": "卵を使った中華スープ",
+      "category": "汁物",
+      "type": "中華"
+    },
+    {
+      "rank": 82,
+      "name": "里芋の煮っころがし",
+      "description": "里芋を甘辛く煮た和食",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 83,
+      "name": "かぼちゃの煮物",
+      "description": "かぼちゃを甘く煮た和食",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 84,
+      "name": "大学芋",
+      "description": "さつまいもを甘いタレで絡めた料理",
+      "category": "デザート",
+      "type": "和食"
+    },
+    {
+      "rank": 85,
+      "name": "肉うどん",
+      "description": "肉をのせたうどん",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 86,
+      "name": "ざるそば",
+      "description": "冷たいそばにつゆをつけて食べる料理",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 87,
+      "name": "冷やし中華",
+      "description": "冷たい中華麺の夏料理",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 88,
+      "name": "そうめん",
+      "description": "細い麺の夏の定番料理",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 89,
+      "name": "牛丼",
+      "description": "牛肉をご飯にのせた丼料理",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 90,
+      "name": "豚丼",
+      "description": "豚肉をご飯にのせた丼料理",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 91,
+      "name": "海鮮丼",
+      "description": "刺身をご飯にのせた丼料理",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 92,
+      "name": "サンドイッチ",
+      "description": "パンに具材を挟んだ洋食",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 93,
+      "name": "フレンチトースト",
+      "description": "卵液に浸したパンを焼いた洋食",
+      "category": "デザート",
+      "type": "洋食"
+    },
+    {
+      "rank": 94,
+      "name": "ホットケーキ",
+      "description": "小麦粉で作る甘いパンケーキ",
+      "category": "デザート",
+      "type": "洋食"
+    },
+    {
+      "rank": 95,
+      "name": "おかゆ",
+      "description": "米を柔らかく煮た和食",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 96,
+      "name": "雑炊",
+      "description": "ご飯を具材と煮込んだ和食",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 97,
+      "name": "緑茶",
+      "description": "日本の代表的なお茶",
+      "category": "飲み物",
+      "type": "和食"
+    },
+    {
+      "rank": 98,
+      "name": "コーヒー",
+      "description": "世界的に親しまれる飲み物",
+      "category": "飲み物",
+      "type": "洋食"
+    },
+    {
+      "rank": 99,
+      "name": "紅茶",
+      "description": "茶葉を発酵させた西洋のお茶",
+      "category": "飲み物",
+      "type": "洋食"
+    },
+    {
+      "rank": 100,
+      "name": "ビール",
+      "description": "麦芽とホップで作られたアルコール飲料",
+      "category": "飲み物",
+      "type": "洋食"
+    }
+  ]
+},
+    "qwen3": {
+  "source": "Qwen3",
+  "date": "2025-01-25",
+  "title": "日本の食卓メジャー料理トップ100",
+  "dishes": [
+    {
+      "rank": 1,
+      "name": "白ご飯",
+      "description": "日本の主食、炊いた米",
+      "category": "主食",
+      "type": "和食"
+    },
+    {
+      "rank": 2,
+      "name": "味噌汁",
+      "description": "大豆から作った味噌を使った汁物",
+      "category": "汁物",
+      "type": "和食"
+    },
+    {
+      "rank": 3,
+      "name": "カレーライス",
+      "description": "ルーと具材を炒めて煮込んだカレーをriceにかける",
+      "category": "主菜",
+      "type": "和風洋食"
+    },
+    {
+      "rank": 4,
+      "name": "親子丼",
+      "description": "鶏肉と卵を甘辛いタレで炒めてご飯にかける丼物",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 5,
+      "name": "麻婆豆腐",
+      "description": "豆腐とひき肉を辛い味噌で炒めた四川風の中華料理",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 6,
+      "name": "卵焼き",
+      "description": "卵を薄く焼いて巻いた日本の家庭料理",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 7,
+      "name": "ハンバーグ",
+      "description": "ひき肉を練って焼いた洋風の肉料理",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 8,
+      "name": "生姜焼き",
+      "description": "薄切りの豚肉をしょうがとタレで炒めた料理",
+      "category": "主菜",
+      "type": "和風洋食"
+    },
+    {
+      "rank": 9,
+      "name": "チャーハン",
+      "description": "卵と野菜・具材を炒めた中華風の炒飯",
+      "category": "主食",
+      "type": "中華"
+    },
+    {
+      "rank": 10,
+      "name": "青椒肉絲",
+      "description": "ピーマンと豚肉を甘辛いタレで炒めた中華料理",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 11,
+      "name": "牛丼",
+      "description": "薄切り牛肉と玉ねぎを甘辛いタレで炒めてご飯にかける丼物",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 12,
+      "name": "天丼",
+      "description": "天ぷらを盛った丼物",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 13,
+      "name": "肉じゃが",
+      "description": "牛肉とじゃがいも、玉ねぎを甘辛く煮込んだ家庭料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 14,
+      "name": "オムライス",
+      "description": "オムレツで炒飯を包んだ洋風の料理",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 15,
+      "name": "筑前煮",
+      "description": "鶏肉と野菜をだしで煮込んだ福岡発祥の煮物",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 16,
+      "name": "ナスの味噌田楽",
+      "description": "ナスを味噌で焼き上げた和風の副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 17,
+      "name": "鶏の照り焼き",
+      "description": "鶏肉を甘辛いタレで焼き上げた料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 18,
+      "name": "とんかつ",
+      "description": "豚肉をパン粉で揚げた洋風の肉料理",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 19,
+      "name": "茶碗蒸し",
+      "description": "卵と出汁を蒸した和風のスープ料理",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 20,
+      "name": "きんぴらごぼう",
+      "description": "ごぼうと胡萝卜を細切りにして炒め煮した副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 21,
+      "name": "冷やし中華",
+      "description": "中華風の具材を冷やして盛り付けた夏の定番料理",
+      "category": "主菜",
+      "type": "中華"
+    },
+    {
+      "rank": 22,
+      "name": "トマトスパゲティ",
+      "description": "ナポリタンとも呼ばれるトマトベースのスパゲティ",
+      "category": "主菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 23,
+      "name": "ほうれん草としめじのおひたし",
+      "description": "ほうれん草としめじを出汁で和えた副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 24,
+      "name": "鶏の照り焼き丼",
+      "description": "鶏の照り焼きを切ってご飯にかけた丼物",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 25,
+      "name": "ピラフ",
+      "description": "具材と一緒に炒めて炊いた香りのよいご飯料理",
+      "category": "主食",
+      "type": "洋食"
+    },
+    {
+      "rank": 26,
+      "name": "コロッケ",
+      "description": "じゃがいもとひき肉をパン粉で揚げた洋風の副菜",
+      "category": "副菜",
+      "type": "洋食"
+    },
+    {
+      "rank": 27,
+      "name": "冷や汁",
+      "description": "冷たい味噌汁、夏の定番",
+      "category": "汁物",
+      "type": "和食"
+    },
+    {
+      "rank": 28,
+      "name": "ちりめんじゃこ炒め",
+      "description": "ちりめんじゃこと野菜を炒めた副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 29,
+      "name": "ナスの揚げびたし",
+      "description": "ナスを揚げてだしで和えた副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 30,
+      "name": "厚揚げの肉味噌炒め",
+      "description": "厚揚げとひき肉を味噌で炒めた中華風副菜",
+      "category": "副菜",
+      "type": "中華"
+    },
+    {
+      "rank": 31,
+      "name": "白菜としめじの炒め物",
+      "description": "白菜としめじを炒めた副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 32,
+      "name": "鮭の塩焼き",
+      "description": "鮭を塩で下ごしらえして焼いた和風の魚料理",
+      "category": "主菜",
+      "type": "和食"
+    },
+    {
+      "rank": 33,
+      "name": "卵とじ",
+      "description": "卵を半熟で野菜などにとじた和風副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 34,
+      "name": "明太もやし炒め",
+      "description": "明太子ともやしを炒めた副菜",
+      "category": "副菜",
+      "type": "和風洋食"
+    },
+    {
+      "rank": 35,
+      "name": "じゃがいものみそ汁",
+      "description": "じゃがいもを使った味噌汁",
+      "category": "汁物",
+      "type": "和食"
+    },
+    {
+      "rank": 36,
+      "name": "春雨の和え物",
+      "description": "春雨を茹でて和えた副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 37,
+      "name": "豚汁",
+      "description": "味噌と野菜・肉を煮込んだ汁物",
+      "category": "汁物",
+      "type": "和食"
+    },
+    {
+      "rank": 38,
+      "name": "豆腐とわかめの味噌汁",
+      "description": "豆腐とわかめを使った定番の味噌汁",
+      "category": "汁物",
+      "type": "和食"
+    },
+    {
+      "rank": 39,
+      "name": "小松菜と豆腐の味噌汁",
+      "description": "小松菜と豆腐を使った定番の味噌汁",
+      "category": "汁物",
+      "type": "和食"
+    },
+    {
+      "rank": 40,
+      "name": "豆腐の甘辛煮",
+      "description": "豆腐を甘辛いタレで煮た副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 41,
+      "name": "かに玉",
+      "description": "卵と蟹風味の具材を炒めた卵料理",
+      "category": "副菜",
+      "type": "和風洋食"
+    },
+    {
+      "rank": 42,
+      "name": "焼きおにぎり",
+      "description": "三角の握り飯を焼いた副菜・軽食",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 43,
+      "name": "だし巻き卵",
+      "description": "出汁を加えた卵を薄く焼いて巻いた副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 44,
+      "name": "酢の物",
+      "description": "酢と出汁で和えた野菜料理",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 45,
+      "name": "白菜と椎茸の和え物",
+      "description": "白菜と椎茸を和えた副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 46,
+      "name": "厚揚げとひき肉の中華炒め",
+      "description": "厚揚げとひき肉を炒めた中華風副菜",
+      "category": "副菜",
+      "type": "中華"
+    },
+    {
+      "rank": 47,
+      "name": "かぼちゃの煮物",
+      "description": "かぼちゃを甘辛く煮た和風副菜",
+      "category": "副菜",
+      "type": "和食"
+    },
+    {
+      "rank": 48,
+      "name": "豆腐と卵の味噌汁",
+      "description": "豆腐と卵を使った定番の味噌汁",
+      "category": "汁物",
+      "type": "和食"
+    },
+    {
+      "rank": 49,
+      "name": "白菜としめじの味噌汁",
+      "description": "白菜としめじを使った定番の味噌汁",
+      "category": "汁物",
+      "type": "和食"
+    },
+    {
+      "rank": 50,
+      "name": "豆腐とわかめの煮つけ",
+      "description": "豆腐とわかめを煮て味を染み込ませた副菜",
+      "category": "副菜",
+      "type": "和食"
+    }
+  ]
+}
+  },
+  "statistics": {
+    "totalDishes": 100,
+    "completedAI": 1,
+    "categories": {
+      "主食": 0,
+      "主菜": 0,
+      "副菜": 0,
+      "汁物": 0
+    },
+    "types": {
+      "和食": 0,
+      "洋食": 0,
+      "中華": 0,
+      "エスニック": 0
+    }
+  }
+}

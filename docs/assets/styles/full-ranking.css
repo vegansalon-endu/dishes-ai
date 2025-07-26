@@ -237,6 +237,35 @@ body {
     border-color: var(--primary-gold);
 }
 
+/* ヴィーガン代替案ボタン */
+.vegan-alternative-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: linear-gradient(135deg, #4CAF50, #66BB6A);
+    color: white;
+    text-decoration: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(76, 175, 80, 0.3);
+}
+
+.vegan-alternative-btn:hover {
+    background: linear-gradient(135deg, #45a049, #5cb860);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(76, 175, 80, 0.4);
+    color: white;
+    text-decoration: none;
+}
+
+.vegan-alternative-btn i {
+    font-size: 0.9rem;
+}
+
 .rank-item.top-3 {
     border: 2px solid var(--primary-gold);
     background: linear-gradient(135deg, #fff, #fffbf0);

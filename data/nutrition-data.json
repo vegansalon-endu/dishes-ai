@@ -1,0 +1,206 @@
+{
+  "veganProteinFoods": [
+    {
+      "id": 1,
+      "name": "テンペ",
+      "nameEn": "Tempeh",
+      "protein": 19.0,
+      "carbs": 9.0,
+      "fat": 11.0,
+      "fiber": 9.0,
+      "calories": 190,
+      "category": "大豆製品",
+      "lowCarb": true,
+      "highProtein": true,
+      "aminoAcids": {
+        "lysine": "優秀",
+        "methionine": "良好",
+        "complete": true
+      },
+      "benefits": ["発酵食品", "プロバイオティクス", "消化しやすい"],
+      "cookingMethods": ["炒め物", "蒸し料理", "マリネ"]
+    },
+    {
+      "id": 2,
+      "name": "豆腐（木綿）",
+      "nameEn": "Firm Tofu",
+      "protein": 6.6,
+      "carbs": 1.6,
+      "fat": 4.2,
+      "fiber": 0.4,
+      "calories": 72,
+      "category": "大豆製品",
+      "lowCarb": true,
+      "highProtein": false,
+      "aminoAcids": {
+        "lysine": "優秀",
+        "methionine": "やや不足",
+        "complete": false
+      },
+      "benefits": ["低カロリー", "カルシウム豊富", "汎用性高"],
+      "cookingMethods": ["焼き物", "揚げ物", "煮物", "スムージー"]
+    },
+    {
+      "id": 3,
+      "name": "セイタン",
+      "nameEn": "Seitan",
+      "protein": 25.0,
+      "carbs": 14.0,
+      "fat": 1.9,
+      "fiber": 0.6,
+      "calories": 171,
+      "category": "小麦グルテン",
+      "lowCarb": false,
+      "highProtein": true,
+      "aminoAcids": {
+        "lysine": "不足",
+        "methionine": "優秀",
+        "complete": false
+      },
+      "benefits": ["高たんぱく質", "低脂肪", "肉様食感"],
+      "cookingMethods": ["炒め物", "煮込み", "グリル"]
+    },
+    {
+      "id": 4,
+      "name": "アーモンド",
+      "nameEn": "Almonds",
+      "protein": 21.2,
+      "carbs": 9.3,
+      "fat": 51.8,
+      "fiber": 12.5,
+      "calories": 598,
+      "category": "ナッツ",
+      "lowCarb": true,
+      "highProtein": true,
+      "aminoAcids": {
+        "lysine": "不足",
+        "methionine": "良好",
+        "complete": false
+      },
+      "benefits": ["ビタミンE", "マグネシウム", "健康的脂質"],
+      "cookingMethods": ["そのまま", "アーモンドミルク", "粉末化"]
+    },
+    {
+      "id": 5,
+      "name": "ヘンプシード",
+      "nameEn": "Hemp Seeds",
+      "protein": 31.0,
+      "carbs": 4.7,
+      "fat": 49.0,
+      "fiber": 4.0,
+      "calories": 553,
+      "category": "シード",
+      "lowCarb": true,
+      "highProtein": true,
+      "aminoAcids": {
+        "lysine": "優秀",
+        "methionine": "優秀",
+        "complete": true
+      },
+      "benefits": ["完全タンパク質", "オメガ3", "ミネラル豊富"],
+      "cookingMethods": ["トッピング", "スムージー", "そのまま"]
+    },
+    {
+      "id": 6,
+      "name": "栄養酵母",
+      "nameEn": "Nutritional Yeast",
+      "protein": 45.0,
+      "carbs": 35.0,
+      "fat": 5.0,
+      "fiber": 27.0,
+      "calories": 325,
+      "category": "酵母",
+      "lowCarb": false,
+      "highProtein": true,
+      "aminoAcids": {
+        "lysine": "優秀",
+        "methionine": "良好",
+        "complete": true
+      },
+      "benefits": ["ビタミンB12", "葉酸", "チーズ様風味"],
+      "cookingMethods": ["調味料", "ソース", "トッピング"]
+    },
+    {
+      "id": 7,
+      "name": "スピルリナ",
+      "nameEn": "Spirulina",
+      "protein": 57.0,
+      "carbs": 23.0,
+      "fat": 7.7,
+      "fiber": 3.6,
+      "calories": 290,
+      "category": "藻類",
+      "lowCarb": false,
+      "highProtein": true,
+      "aminoAcids": {
+        "lysine": "優秀",
+        "methionine": "やや不足",
+        "complete": false
+      },
+      "benefits": ["鉄分", "ビタミンB群", "抗酸化物質"],
+      "cookingMethods": ["スムージー", "サプリメント", "パウダー"]
+    },
+    {
+      "id": 8,
+      "name": "キヌア",
+      "nameEn": "Quinoa",
+      "protein": 14.1,
+      "carbs": 64.2,
+      "fat": 6.1,
+      "fiber": 7.0,
+      "calories": 368,
+      "category": "疑似穀物",
+      "lowCarb": false,
+      "highProtein": false,
+      "aminoAcids": {
+        "lysine": "優秀",
+        "methionine": "良好",
+        "complete": true
+      },
+      "benefits": ["完全タンパク質", "グルテンフリー", "ミネラル"],
+      "cookingMethods": ["炊飯", "サラダ", "スープ"]
+    }
+  ],
+  "mealPlanTemplates": {
+    "lowCarbHighProtein": {
+      "name": "低糖質・高たんぱく質プラン",
+      "targetMacros": {
+        "protein": "30%",
+        "carbs": "10%",
+        "fat": "60%"
+      },
+      "dailyLimits": {
+        "carbs": 50,
+        "protein": 120
+      }
+    },
+    "moderateCarbHighProtein": {
+      "name": "中糖質・高たんぱく質プラン",
+      "targetMacros": {
+        "protein": "25%",
+        "carbs": "25%",
+        "fat": "50%"
+      },
+      "dailyLimits": {
+        "carbs": 100,
+        "protein": 100
+      }
+    }
+  },
+  "recipeSuggestions": [
+    {
+      "name": "テンペの照り焼き",
+      "protein": 25,
+      "carbs": 12,
+      "difficulty": "簡単",
+      "cookTime": 15
+    },
+    {
+      "name": "ヘンプシードスムージー",
+      "protein": 20,
+      "carbs": 8,
+      "difficulty": "簡単",
+      "cookTime": 5
+    }
+  ]
+}
