@@ -132,8 +132,9 @@ function renderDetailedRanking() {
     }
     
     console.log('🔍 詳細ランキング表示開始');
-    console.log('Full analysis array length:', integratedData.full_analysis?.length);
-    console.log('Full analysis data sample:', integratedData.full_analysis?.slice(0, 3));
+    console.log('integratedData structure:', Object.keys(integratedData));
+    console.log('full_analysis structure:', Object.keys(integratedData.full_analysis || {}));
+    console.log('top100_ranking length:', integratedData.full_analysis?.top100_ranking?.length);
     
     // TOP10の詳細表示
     const top10Data = integratedData.full_analysis.top100_ranking.slice(0, 10);
