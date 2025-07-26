@@ -122,7 +122,7 @@ class FullRankingApp {
         // ヴィーガン代替案があるかチェック
         const hasVeganAlternative = this.hasVeganAlternative(dish.name);
         const veganButton = hasVeganAlternative ? `
-            <a href="../rice-alternatives.html" class="vegan-alternative-btn" title="ヴィーガン・糖質制限代替案">
+            <a href="rice-alternatives.html" class="vegan-alternative-btn" title="ヴィーガン・糖質制限代替案">
                 <i class="fas fa-seedling"></i> 代替案
             </a>
         ` : '';
