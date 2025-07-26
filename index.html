@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本料理AI比較システム | ヴィーガン糖質制限対応</title>
+    <meta name="description" content="4つのAIによる日本料理ランキング比較とヴィーガン・糖質制限代替案">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', sans-serif;
+            background: linear-gradient(135deg, #4CAF50, #66BB6A);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            text-align: center;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        h1 { font-size: 3rem; margin-bottom: 1rem; }
+        .subtitle { font-size: 1.3rem; margin-bottom: 3rem; opacity: 0.9; }
+        .links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .link-card {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 2rem;
+            border-radius: 15px;
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .link-card:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-5px);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+        .link-card h3 { font-size: 1.5rem; margin-bottom: 1rem; }
+        .link-card p { opacity: 0.9; }
+        .icon { font-size: 3rem; margin-bottom: 1rem; }
+        .feature { background: rgba(255, 255, 255, 0.1); padding: 1rem; border-radius: 10px; margin-top: 2rem; }
+    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-utensils"></i> 日本料理AI比較システム</h1>
+        <p class="subtitle">4AI統合ランキング × ヴィーガン糖質制限対応</p>
+        
+        <div class="links">
+            <a href="docs/full-ranking.html" class="link-card">
+                <div class="icon"><i class="fas fa-trophy"></i></div>
+                <h3>TOP100ランキング</h3>
+                <p>4つのAIによる日本料理の完全ランキング</p>
+            </a>
+            
+            <a href="docs/rice-alternatives.html" class="link-card">
+                <div class="icon"><i class="fas fa-seedling"></i></div>
+                <h3>白ご飯代替案</h3>
+                <p>ヴィーガン・糖質制限・高たんぱく質対応</p>
+            </a>
+            
+            <a href="docs/top10-summary.html" class="link-card">
+                <div class="icon"><i class="fas fa-star"></i></div>
+                <h3>TOP10詳細</h3>
+                <p>最高人気料理の詳細分析</p>
+            </a>
+            
+            <a href="docs/index.html" class="link-card">
+                <div class="icon"><i class="fas fa-chart-bar"></i></div>
+                <h3>4AI比較</h3>
+                <p>AI別の料理評価比較</p>
+            </a>
+        </div>
+
+        <div class="feature">
+            <h3>🌟 特徴</h3>
+            <p>Gemini、ChatGPT、Claude、Qwen3の4つのAIによる科学的分析 | 最大99.7%の糖質削減効果 | ヴィーガン対応レシピ</p>
+        </div>
+    </div>
+</body>
+</html>
