@@ -1,0 +1,505 @@
+{
+  "metadata": {
+    "title": "3AI個別レシピデータベース",
+    "description": "Gemini、ChatGPT、Claudeによる個別のヴィーガン代替レシピ",
+    "version": "1.0",
+    "last_updated": "2025-07-26"
+  },
+  "recipes": [
+    {
+      "rank": 1,
+      "original_dish": "白ご飯",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "発芽玄米カリフラワーライス",
+          "approach": "栄養価を最大化するアプローチ",
+          "difficulty": "medium",
+          "prep_time": "15分",
+          "cooking_time": "8分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "6g",
+            "carbs": "12g",
+            "fat": "4g",
+            "calories": "98kcal",
+            "carb_reduction": "89.3%"
+          },
+          "ingredients": [
+            {"item": "カリフラワー", "amount": "350g", "role": "メインベース"},
+            {"item": "発芽玄米（少量）", "amount": "30g", "role": "食感・栄養"},
+            {"item": "ココナッツオイル", "amount": "小さじ2", "role": "香り・栄養"},
+            {"item": "海塩", "amount": "少々", "role": "調味"},
+            {"item": "栄養酵母", "amount": "小さじ1", "role": "旨味・ビタミンB12"}
+          ],
+          "instructions": [
+            "発芽玄米を柔らかく炊いておく",
+            "カリフラワーをフードプロセッサーで米粒大に砕く",
+            "ココナッツオイルで炒め、発芽玄米を混ぜる",
+            "栄養酵母と海塩で調味"
+          ],
+          "special_notes": "発芽玄米の栄養価とカリフラワーの低糖質を両立"
+        },
+        "chatgpt": {
+          "alternative_name": "シンプルカリフラワーライス",
+          "approach": "簡単で失敗しないアプローチ",
+          "difficulty": "easy",
+          "prep_time": "8分",
+          "cooking_time": "5分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "3g",
+            "carbs": "6g",
+            "fat": "2g",
+            "calories": "50kcal",
+            "carb_reduction": "94.6%"
+          },
+          "ingredients": [
+            {"item": "カリフラワー", "amount": "400g", "role": "メインベース"},
+            {"item": "オリーブオイル", "amount": "小さじ1", "role": "調理油"},
+            {"item": "塩", "amount": "少々", "role": "調味"},
+            {"item": "胡椒", "amount": "少々", "role": "調味"}
+          ],
+          "instructions": [
+            "カリフラワーをフードプロセッサーで米粒大に砕く",
+            "フライパンで3分炒める",
+            "塩胡椒で味を調える"
+          ],
+          "special_notes": "最もシンプルで初心者向けのレシピ"
+        },
+        "claude": {
+          "alternative_name": "和風だしカリフラワーライス",
+          "approach": "和食の旨味を活かすアプローチ",
+          "difficulty": "easy",
+          "prep_time": "12分",
+          "cooking_time": "6分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "4g",
+            "carbs": "7g",
+            "fat": "3g",
+            "calories": "65kcal",
+            "carb_reduction": "93.8%"
+          },
+          "ingredients": [
+            {"item": "カリフラワー", "amount": "400g", "role": "メインベース"},
+            {"item": "昆布だし", "amount": "大さじ2", "role": "和風の旨味"},
+            {"item": "白ごま油", "amount": "小さじ1", "role": "香り"},
+            {"item": "薄口醤油", "amount": "小さじ1/2", "role": "調味"},
+            {"item": "細ネギ", "amount": "適量", "role": "彩り・香り"}
+          ],
+          "instructions": [
+            "カリフラワーをフードプロセッサーで米粒大に砕く",
+            "昆布だしを加えて蒸し炒めする",
+            "薄口醤油と白ごま油で調味",
+            "細ネギを散らす"
+          ],
+          "special_notes": "日本人に馴染みやすい和風の味付け"
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "original_dish": "カレーライス",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "スーパーフード・プラントカレー",
+          "approach": "スーパーフードを活用した栄養最大化",
+          "difficulty": "hard",
+          "prep_time": "30分",
+          "cooking_time": "45分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "28g",
+            "carbs": "18g",
+            "fat": "16g",
+            "calories": "310kcal",
+            "carb_reduction": "65%"
+          },
+          "ingredients": [
+            {"item": "キヌア", "amount": "60g", "role": "プロテイン・食感"},
+            {"item": "チアシード", "amount": "大さじ1", "role": "オメガ3・とろみ"},
+            {"item": "ヘンプシード", "amount": "大さじ1", "role": "完全タンパク質"},
+            {"item": "テンペ", "amount": "120g", "role": "発酵プロテイン"},
+            {"item": "ターメリック根", "amount": "15g", "role": "抗炎症"},
+            {"item": "ココナッツミルク", "amount": "200ml", "role": "ベース"},
+            {"item": "玉ねぎ", "amount": "1個", "role": "甘み"},
+            {"item": "トマト", "amount": "2個", "role": "酸味・旨味"},
+            {"item": "カリフラワーライス", "amount": "300g", "role": "ベース"}
+          ],
+          "instructions": [
+            "キヌアを15分茹でて冷ます",
+            "テンペを1cm角に切り、スパイスで下味",
+            "ターメリック根をすりおろし、玉ねぎと炒める",
+            "トマト、ココナッツミルクで30分煮込み",
+            "チアシード、ヘンプシードで仕上げ"
+          ],
+          "special_notes": "スーパーフードで栄養価を極限まで高めたレシピ"
+        },
+        "chatgpt": {
+          "alternative_name": "クラシック・ベジタブルカレー",
+          "approach": "家庭で作りやすい定番アプローチ",
+          "difficulty": "medium",
+          "prep_time": "20分",
+          "cooking_time": "25分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "18g",
+            "carbs": "15g",
+            "fat": "12g",
+            "calories": "230kcal",
+            "carb_reduction": "70%"
+          },
+          "ingredients": [
+            {"item": "ひよこ豆（水煮）", "amount": "200g", "role": "メインプロテイン"},
+            {"item": "玉ねぎ", "amount": "1個", "role": "ベース"},
+            {"item": "人参", "amount": "1本", "role": "甘み・栄養"},
+            {"item": "じゃがいも", "amount": "中1個", "role": "とろみ"},
+            {"item": "カレー粉", "amount": "大さじ2", "role": "スパイス"},
+            {"item": "トマト缶", "amount": "200g", "role": "ベース"},
+            {"item": "ココナッツミルク", "amount": "100ml", "role": "コク"},
+            {"item": "カリフラワーライス", "amount": "300g", "role": "ベース"}
+          ],
+          "instructions": [
+            "野菜を一口大に切る",
+            "玉ねぎを炒め、カレー粉を加える",
+            "トマト缶とひよこ豆を加え20分煮込み",
+            "ココナッツミルクで仕上げ"
+          ],
+          "special_notes": "誰でも失敗しない定番の作り方"
+        },
+        "claude": {
+          "alternative_name": "和風だしカレー",
+          "approach": "日本の出汁文化と融合",
+          "difficulty": "medium",
+          "prep_time": "25分",
+          "cooking_time": "30分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "24g",
+            "carbs": "14g",
+            "fat": "15g",
+            "calories": "275kcal",
+            "carb_reduction": "70%"
+          },
+          "ingredients": [
+            {"item": "厚揚げ", "amount": "200g", "role": "和風プロテイン"},
+            {"item": "昆布椎茸だし", "amount": "400ml", "role": "和風ベース"},
+            {"item": "玉ねぎ", "amount": "1個", "role": "甘み"},
+            {"item": "かぼちゃ", "amount": "100g", "role": "自然な甘み"},
+            {"item": "和風カレー粉", "amount": "大さじ1.5", "role": "スパイス"},
+            {"item": "白味噌", "amount": "小さじ1", "role": "コク・和風"},
+            {"item": "甘酒", "amount": "大さじ2", "role": "自然な甘み"},
+            {"item": "カリフラワーライス", "amount": "300g", "role": "ベース"}
+          ],
+          "instructions": [
+            "厚揚げを一口大に切り、軽く焼く",
+            "玉ねぎを飴色まで炒める",
+            "だしとかぼちゃで20分煮込み",
+            "白味噌と甘酒で和風に仕上げ"
+          ],
+          "special_notes": "和食の技法を取り入れた日本人好みのカレー"
+        }
+      }
+    },
+    {
+      "rank": 4,
+      "original_dish": "豚の生姜焼き",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "マリネテンペの生姜焼き",
+          "approach": "発酵食品で腸活を意識",
+          "difficulty": "medium",
+          "prep_time": "25分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "26g",
+            "carbs": "8g",
+            "fat": "14g",
+            "calories": "250kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "テンペ", "amount": "200g", "role": "発酵プロテイン・薄切り"},
+            {"item": "生姜（生）", "amount": "20g", "role": "すりおろし"},
+            {"item": "醤油（生）", "amount": "大さじ2", "role": "発酵調味料"},
+            {"item": "味噌", "amount": "小さじ1", "role": "発酵・コク"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "発酵・甘み"},
+            {"item": "玉ねぎ酵素液", "amount": "小さじ1", "role": "酵素・旨味"},
+            {"item": "ごま油", "amount": "小さじ1", "role": "香り"}
+          ],
+          "instructions": [
+            "テンペを薄切りにする",
+            "生姜、醤油、味噌、甘酒でマリネ液作成",
+            "テンペを20分マリネ",
+            "強火で両面焼き、残りソースで照り焼き"
+          ],
+          "special_notes": "発酵食品の組み合わせで腸内環境を改善"
+        },
+        "chatgpt": {
+          "alternative_name": "厚揚げ生姜焼き",
+          "approach": "手軽で経済的なアプローチ",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "10分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "22g",
+            "carbs": "10g",
+            "fat": "12g",
+            "calories": "225kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "厚揚げ", "amount": "200g", "role": "メインプロテイン・7mmスライス"},
+            {"item": "醤油", "amount": "大さじ2", "role": "基本調味料"},
+            {"item": "生姜", "amount": "大さじ1", "role": "すりおろし"},
+            {"item": "砂糖", "amount": "小さじ2", "role": "甘み（代替可）"},
+            {"item": "酒", "amount": "大さじ1", "role": "風味"},
+            {"item": "油", "amount": "小さじ1", "role": "調理用"}
+          ],
+          "instructions": [
+            "厚揚げを7mmにスライス",
+            "調味料を混ぜ合わせる",
+            "厚揚げを両面焼く",
+            "調味料を絡めて照り焼きに"
+          ],
+          "special_notes": "最も手軽で失敗しないレシピ"
+        },
+        "claude": {
+          "alternative_name": "エリンギ・マイタケ生姜焼き",
+          "approach": "きのこの旨味を最大活用",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "8g",
+            "carbs": "12g",
+            "fat": "6g",
+            "calories": "125kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "エリンギ", "amount": "200g", "role": "メイン食材・厚切り"},
+            {"item": "マイタケ", "amount": "100g", "role": "食感・くし切り"},
+            {"item": "醤油", "amount": "大さじ2", "role": "漬けだれ"},
+            {"item": "生姜すりおろし", "amount": "大さじ1", "role": "漬けだれ"},
+            {"item": "玉ねぎピュレ", "amount": "大さじ1", "role": "自然な甘み"},
+            {"item": "りんごピュレ", "amount": "小さじ2", "role": "自然な甘み"},
+            {"item": "ごま油", "amount": "小さじ1", "role": "風味"}
+          ],
+          "instructions": [
+            "エリンギを厚切り、マイタケをくし切りに",
+            "漬けだれを作る",
+            "きのこを漬けだれに10分漬け込む",
+            "強火で焼き色→残りだれで照り焼き"
+          ],
+          "special_notes": "きのこの旨味成分を活かした低カロリーレシピ"
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "original_dish": "鶏の唐揚げ",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "プロテインパウダー唐揚げ",
+          "approach": "タンパク質含有量を最大化",
+          "difficulty": "hard",
+          "prep_time": "30分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "35g",
+            "carbs": "5g",
+            "fat": "18g",
+            "calories": "295kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "高野豆腐", "amount": "8枚", "role": "ベースプロテイン"},
+            {"item": "植物性プロテインパウダー", "amount": "30g", "role": "追加プロテイン"},
+            {"item": "アーモンド粉", "amount": "50g", "role": "衣・低糖質"},
+            {"item": "チアシード", "amount": "大さじ1", "role": "結着・栄養"},
+            {"item": "栄養酵母", "amount": "大さじ1", "role": "旨味・B12"},
+            {"item": "ターメリック", "amount": "小さじ1", "role": "色・抗炎症"},
+            {"item": "ガーリックパウダー", "amount": "小さじ1", "role": "風味"},
+            {"item": "アボカドオイル", "amount": "適量", "role": "揚げ油"}
+          ],
+          "instructions": [
+            "高野豆腐を戻し、しっかり絞る",
+            "プロテインパウダーと水で濃いめの衣液作成",
+            "チアシードを水で戻してゲル状に",
+            "高野豆腐→衣液→アーモンド粉の順でコーティング",
+            "170℃で3分揚げる"
+          ],
+          "special_notes": "筋トレ愛好者向けの超高タンパクレシピ"
+        },
+        "chatgpt": {
+          "alternative_name": "木綿豆腐唐揚げ",
+          "approach": "定番で安心できるアプローチ",
+          "difficulty": "medium",
+          "prep_time": "35分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "23g",
+            "carbs": "7g",
+            "fat": "12g",
+            "calories": "220kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "木綿豆腐", "amount": "300g", "role": "メインプロテイン"},
+            {"item": "醤油", "amount": "大さじ2", "role": "下味"},
+            {"item": "生姜", "amount": "小さじ1", "role": "下味"},
+            {"item": "にんにく", "amount": "小さじ1", "role": "下味"},
+            {"item": "片栗粉", "amount": "適量", "role": "衣"},
+            {"item": "油", "amount": "適量", "role": "揚げ用"}
+          ],
+          "instructions": [
+            "豆腐をしっかり水切り（30分）",
+            "一口大に切り、下味に15分漬ける",
+            "片栗粉をまぶす",
+            "170℃で両面きつね色になるまで揚げる"
+          ],
+          "special_notes": "豆腐唐揚げの基本形・失敗しにくい"
+        },
+        "claude": {
+          "alternative_name": "カリフラワー・キノコ唐揚げ",
+          "approach": "野菜の自然な味を活かす",
+          "difficulty": "medium",
+          "prep_time": "25分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "12g",
+            "carbs": "9g",
+            "fat": "14g",
+            "calories": "195kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "カリフラワー", "amount": "300g", "role": "メイン食材・一口大"},
+            {"item": "エリンギ", "amount": "100g", "role": "食感・短冊切り"},
+            {"item": "醤油", "amount": "大さじ1½", "role": "下味"},
+            {"item": "生姜・にんにく", "amount": "各小さじ1", "role": "下味"},
+            {"item": "玉ねぎ汁", "amount": "小さじ1", "role": "自然な甘み"},
+            {"item": "おから粉", "amount": "適量", "role": "衣・低糖質"},
+            {"item": "アーモンド粉", "amount": "適量", "role": "衣・風味"},
+            {"item": "米油", "amount": "適量", "role": "揚げ用"}
+          ],
+          "instructions": [
+            "カリフラワーを一口大、エリンギを短冊切り",
+            "野菜を下味に15分漬け込む",
+            "おから粉とアーモンド粉を混ぜた衣をまぶす",
+            "170℃で片面3分ずつ→最後強火20秒でカリッ"
+          ],
+          "special_notes": "野菜の甘みと食感を楽しむヘルシーレシピ"
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "original_dish": "肉じゃが",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "ルーツベジタブル・シチュー",
+          "approach": "根菜の栄養価を最大活用",
+          "difficulty": "medium",
+          "prep_time": "25分",
+          "cooking_time": "35分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "18g",
+            "carbs": "20g",
+            "fat": "8g",
+            "calories": "210kcal",
+            "carb_reduction": "60%"
+          },
+          "ingredients": [
+            {"item": "根菜ミックス", "amount": "400g", "role": "大根・人参・ごぼう"},
+            {"item": "レンズ豆", "amount": "80g", "role": "プロテイン"},
+            {"item": "こんにゃく", "amount": "200g", "role": "食感・低カロリー"},
+            {"item": "昆布だし", "amount": "400ml", "role": "ベース"},
+            {"item": "醤油", "amount": "大さじ2", "role": "調味"},
+            {"item": "みりん風調味料", "amount": "大さじ1", "role": "甘み"},
+            {"item": "生姜", "amount": "10g", "role": "風味"}
+          ],
+          "instructions": [
+            "レンズ豆を柔らかく茹でる",
+            "根菜を大きめに切り、こんにゃくと共に下茹で",
+            "昆布だしで野菜を20分煮込み",
+            "レンズ豆と調味料で15分仕上げ煮"
+          ],
+          "special_notes": "根菜の食物繊維と栄養を重視したレシピ"
+        },
+        "chatgpt": {
+          "alternative_name": "大豆ミート肉じゃが",
+          "approach": "従来の肉じゃがに最も近い味",
+          "difficulty": "easy",
+          "prep_time": "20分",
+          "cooking_time": "30分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "20g",
+            "carbs": "15g",
+            "fat": "8g",
+            "calories": "200kcal",
+            "carb_reduction": "70%"
+          },
+          "ingredients": [
+            {"item": "大豆ミートそぼろ", "amount": "60g", "role": "肉の代替"},
+            {"item": "じゃがいも", "amount": "中2個", "role": "主役野菜"},
+            {"item": "玉ねぎ", "amount": "1個", "role": "甘み"},
+            {"item": "人参", "amount": "1本", "role": "彩り"},
+            {"item": "だし汁", "amount": "300ml", "role": "ベース"},
+            {"item": "醤油", "amount": "大さじ2", "role": "調味"},
+            {"item": "砂糖", "amount": "大さじ1", "role": "甘み"},
+            {"item": "みりん", "amount": "大さじ1", "role": "照り"}
+          ],
+          "instructions": [
+            "大豆ミートを戻す",
+            "野菜を一口大に切る",
+            "だし汁で野菜を煮る",
+            "大豆ミートと調味料で味付け"
+          ],
+          "special_notes": "最も肉じゃがらしい味に仕上がるレシピ"
+        },
+        "claude": {
+          "alternative_name": "大根＆しらたきのコク旨煮（テンペ版）",
+          "approach": "発酵食品で深い旨味を演出",
+          "difficulty": "medium",
+          "prep_time": "20分",
+          "cooking_time": "25分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "21g",
+            "carbs": "12g",
+            "fat": "9g",
+            "calories": "200kcal",
+            "carb_reduction": "75%"
+          },
+          "ingredients": [
+            {"item": "テンペ", "amount": "150g", "role": "発酵プロテイン・1.5cm角"},
+            {"item": "大根", "amount": "300g", "role": "ベース野菜・乱切り"},
+            {"item": "しらたき", "amount": "200g", "role": "食感・下ゆで"},
+            {"item": "玉ねぎ", "amount": "80g", "role": "甘み・くし切り"},
+            {"item": "かぼちゃ", "amount": "40g", "role": "自然な甘み"},
+            {"item": "昆布椎茸だし", "amount": "300ml", "role": "旨味ベース"},
+            {"item": "醬油", "amount": "大さじ2", "role": "調味"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "自然な甘み"}
+          ],
+          "instructions": [
+            "テンペを1.5cm角に切り、表面を焦がし目に焼く",
+            "厚手鍋にだし・玉ねぎ・かぼちゃ・大根を入れ5分煮る",
+            "テンペとしらたきを加え、醬油＋甘酒を入れ弱火で15分",
+            "汁が⅔になれば火を止め、10分ふたをして味を含ませる"
+          ],
+          "special_notes": "テンペの発酵旨味と和風だしの組み合わせ"
+        }
+      }
+    }
+  ]
+}

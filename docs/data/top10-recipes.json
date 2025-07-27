@@ -135,6 +135,39 @@
           ]
         },
         {
+          "name": "きのこレンズ豆カレー",
+          "difficulty": "medium",
+          "prep_time": "25分",
+          "cooking_time": "30分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "20g",
+            "carbs": "16g",
+            "fat": "14g",
+            "calories": "260kcal",
+            "carb_reduction": "70%"
+          },
+          "ingredients": [
+            {"item": "レンズ豆（乾燥）", "amount": "80g", "role": "メインプロテイン・一晩浸水"},
+            {"item": "しいたけ", "amount": "100g", "role": "メインプロテイン・みじん切り"},
+            {"item": "エリンギ", "amount": "80g", "role": "食感・みじん切り"},
+            {"item": "飴色玉ねぎ", "amount": "120g", "role": "甘み・コク"},
+            {"item": "かぼちゃ", "amount": "40g", "role": "甘み・とろみ"},
+            {"item": "自家製カレーパウダー", "amount": "大さじ1½", "role": "スパイス"},
+            {"item": "トマトピュレ", "amount": "100g", "role": "酸味・旨み"},
+            {"item": "椎茸戻し汁＋水", "amount": "計350ml", "role": "ベース"},
+            {"item": "ココナッツクリーム", "amount": "80g", "role": "コク"},
+            {"item": "カリフラライス", "amount": "400g", "role": "ベース"}
+          ],
+          "instructions": [
+            "レンズ豆を柔らかく茹でる（20分）",
+            "きのこ類をみじん切りにして炒める",
+            "玉ねぎを弱火15分炒め、かぼちゃとパウダー半量を絡める",
+            "レンズ豆ときのこを加え残りスパイス→トマト→出汁。15分煮",
+            "ココナッツクリームでコク調整。カリフラライスに盛る"
+          ]
+        },
+        {
           "name": "厚揚げ・キーマカレー",
           "difficulty": "medium",
           "prep_time": "20分",
@@ -197,6 +230,36 @@
             "大豆ミートを熱湯戻し・絞る",
             "漬けだれに10分漬け込む",
             "フライパン強め中火で両面焼き色→残りだれを絡め照り焼き"
+          ]
+        },
+        {
+          "name": "エリンギ・マイタケ生姜焼き",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "8g",
+            "carbs": "12g",
+            "fat": "6g",
+            "calories": "125kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "エリンギ", "amount": "200g", "role": "メイン食材・厚切り"},
+            {"item": "マイタケ", "amount": "100g", "role": "食感・くし切り"},
+            {"item": "醎油", "amount": "大さじ2", "role": "漬けだれ"},
+            {"item": "生姜すりおろし", "amount": "大さじ1", "role": "漬けだれ"},
+            {"item": "玉ねぎピュレ", "amount": "大さじ1", "role": "漬けだれ"},
+            {"item": "りんごピュレ", "amount": "小さじ2", "role": "漬けだれ"},
+            {"item": "ごま油", "amount": "小さじ1", "role": "漬けだれ"},
+            {"item": "無糖甘酒", "amount": "小さじ1", "role": "甘み"}
+          ],
+          "instructions": [
+            "エリンギを厚切り、マイタケをくし切りにする",
+            "漬けだれを混ぜ合わせる",
+            "きのこを漬けだれに10分漬け込む",
+            "フライパン強め中火で焦き目を付け→残りだれを絡め照り焼き"
           ]
         },
         {
@@ -264,6 +327,37 @@
           ]
         },
         {
+          "name": "カリフラワー・キノコ唐揚げ",
+          "difficulty": "medium",
+          "prep_time": "25分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "12g",
+            "carbs": "9g",
+            "fat": "14g",
+            "calories": "195kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "カリフラワー", "amount": "300g", "role": "メイン食材・一口大"},
+            {"item": "エリンギ", "amount": "100g", "role": "食感・短冊切り"},
+            {"item": "醎油", "amount": "大さじ1½", "role": "下味"},
+            {"item": "生姜・にんにく", "amount": "各小さじ1", "role": "下味"},
+            {"item": "玉ねぎ汁", "amount": "小さじ1", "role": "下味"},
+            {"item": "無糖甘酒", "amount": "小さじ1", "role": "下味"},
+            {"item": "おから粉", "amount": "適量", "role": "衣"},
+            {"item": "アーモンド粉", "amount": "適量", "role": "衣"},
+            {"item": "米油", "amount": "適量", "role": "揚げ用"}
+          ],
+          "instructions": [
+            "カリフラワーを一口大、エリンギを短冊切りにする",
+            "野菜を下味に15分漬け込む",
+            "水気を拭きおから粉とアーモンド粉を薄くまぶす",
+            "米油170°C、揚げ焼き片面3分ずつ→最後強火20秒でカリッ"
+          ]
+        },
+        {
           "name": "木綿豆腐唐揚げ",
           "difficulty": "medium",
           "prep_time": "35分",
@@ -327,6 +421,36 @@
             "大豆ミートを熱湯戻し・絞る",
             "厚手鍋にだし・玉ねぎ・かぼちゃ・大根を入れ5分煮る",
             "大豆ミートとしらたきを加え、醬油＋甘酒を入れ弱火で15分",
+            "汁が⅔になれば火を止め、10分ふたをして味を含ませる"
+          ]
+        },
+        {
+          "name": "大根＆しらたきのコク旨煮（テンペ版）",
+          "difficulty": "medium",
+          "prep_time": "20分",
+          "cooking_time": "25分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "21g",
+            "carbs": "12g",
+            "fat": "9g",
+            "calories": "200kcal",
+            "carb_reduction": "75%"
+          },
+          "ingredients": [
+            {"item": "テンペ", "amount": "150g", "role": "メインプロテイン・1.5cm角"},
+            {"item": "大根（乱切り）", "amount": "300g", "role": "ベース野菜"},
+            {"item": "しらたき", "amount": "200g", "role": "食感・下ゆで"},
+            {"item": "玉ねぎ", "amount": "80g", "role": "くし切り・甘み"},
+            {"item": "かぼちゃ", "amount": "40g", "role": "1cm角・甘み要員"},
+            {"item": "昆布椎茸だし", "amount": "300ml", "role": "ベース"},
+            {"item": "醎油", "amount": "大さじ2", "role": "調味"},
+            {"item": "無糖甘酒", "amount": "大さじ1", "role": "甘み"}
+          ],
+          "instructions": [
+            "テンペを1.5cm角に切り、フライパンで表面を焦がし目に焦く",
+            "厚手鍋にだし・玉ねぎ・かぼちゃ・大根を入れ5分煮る",
+            "テンペとしらたきを加え、醎油＋甘酒を入れ弱火で15分",
             "汁が⅔になれば火を止め、10分ふたをして味を含ませる"
           ]
         },

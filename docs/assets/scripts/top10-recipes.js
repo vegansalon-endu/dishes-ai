@@ -3,6 +3,7 @@
 class Top10RecipesApp {
     constructor() {
         this.data = null;
+        this.individualData = null;
         this.filteredRecipes = [];
         this.currentFilters = {
             difficulty: 'all',
@@ -22,10 +23,15 @@ class Top10RecipesApp {
 
     async loadData() {
         try {
-            const response = await fetch('./data/top10-recipes.json');
-            this.data = await response.json();
+            const [recipesResponse, individualResponse] = await Promise.all([
+                fetch('./data/top10-recipes.json'),
+                fetch('./data/individual-ai-recipes.json')
+            ]);
+            this.data = await recipesResponse.json();
+            this.individualData = await individualResponse.json();
             this.filteredRecipes = [...this.data.recipes];
             console.log('レシピデータ読み込み完了:', this.data);
+            console.log('個別AIレシピデータ読み込み完了:', this.individualData);
         } catch (error) {
             console.error('データの読み込みに失敗しました:', error);
         }
@@ -211,6 +217,9 @@ class Top10RecipesApp {
                         <button class="recipe-details-btn" onclick="window.top10RecipesApp.showRecipeModal(${recipe.rank}, 0)">
                             <i class="fas fa-utensils"></i> 詳細レシピ
                         </button>
+                        <button class="ai-recipes-btn" onclick="window.top10RecipesApp.showAIRecipesModal(${recipe.rank})">
+                            <i class="fas fa-robot"></i> 3AI比較
+                        </button>
                     </div>
                 </div>
             </div>
@@ -300,6 +309,204 @@ class Top10RecipesApp {
         `;
 
         modal.style.display = 'block';
+    }
+
+    showAIRecipesModal(rank) {
+        const individualRecipe = this.individualData.recipes.find(r => r.rank === rank);
+        
+        if (!individualRecipe) {
+            console.error('個別AIレシピが見つかりません:', rank);
+            return;
+        }
+        
+        const modal = document.getElementById('recipe-modal');
+        const modalBody = document.getElementById('modal-body');
+
+        modalBody.innerHTML = `
+            <h2 class="modal-recipe-title">
+                <i class="fas fa-robot"></i> ${individualRecipe.original_dish} の3AI代替レシピ比較
+            </h2>
+            
+            <div class="ai-recipes-grid">
+                ${Object.entries(individualRecipe.ai_recipes).map(([aiName, recipe]) => `
+                    <div class="ai-recipe-card">
+                        <div class="ai-recipe-header">
+                            <h3 class="ai-name">
+                                <i class="fas fa-${this.getAIIcon(aiName)}"></i>
+                                ${this.getAIDisplayName(aiName)}
+                            </h3>
+                            <div class="approach-tag">${recipe.approach}</div>
+                        </div>
+                        
+                        <div class="ai-recipe-content">
+                            <h4 class="alternative-name">${recipe.alternative_name}</h4>
+                            
+                            <div class="recipe-meta-info">
+                                <div class="meta-item">
+                                    <span class="meta-label">難易度:</span>
+                                    <span class="meta-value difficulty-${recipe.difficulty}">${this.getDifficultyLabel(recipe.difficulty)}</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">時間:</span>
+                                    <span class="meta-value">${recipe.prep_time} + ${recipe.cooking_time}</span>
+                                </div>
+                            </div>
+                            
+                            <div class="nutrition-summary">
+                                <div class="nutrition-item">
+                                    <div class="nutrition-value">${recipe.nutrition.protein}</div>
+                                    <div class="nutrition-label">たんぱく質</div>
+                                </div>
+                                <div class="nutrition-item">
+                                    <div class="nutrition-value">${recipe.nutrition.carbs}</div>
+                                    <div class="nutrition-label">糖質</div>
+                                </div>
+                                <div class="nutrition-item">
+                                    <div class="nutrition-value">${recipe.nutrition.calories}</div>
+                                    <div class="nutrition-label">カロリー</div>
+                                </div>
+                                <div class="nutrition-item">
+                                    <div class="nutrition-value">${recipe.nutrition.carb_reduction}</div>
+                                    <div class="nutrition-label">糖質削減</div>
+                                </div>
+                            </div>
+                            
+                            <div class="special-notes">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>${recipe.special_notes}</span>
+                            </div>
+                            
+                            <button class="view-details-btn" onclick="window.top10RecipesApp.showIndividualRecipeDetails('${aiName}', ${rank})">
+                                <i class="fas fa-eye"></i> 詳細を見る
+                            </button>
+                        </div>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+
+        modal.style.display = 'block';
+    }
+    
+    showIndividualRecipeDetails(aiName, rank) {
+        const individualRecipe = this.individualData.recipes.find(r => r.rank === rank);
+        const recipe = individualRecipe.ai_recipes[aiName];
+        
+        const modal = document.getElementById('recipe-modal');
+        const modalBody = document.getElementById('modal-body');
+
+        modalBody.innerHTML = `
+            <h2 class="modal-recipe-title">
+                <i class="fas fa-${this.getAIIcon(aiName)}"></i> ${recipe.alternative_name}
+                <div class="ai-credit">${this.getAIDisplayName(aiName)} by Recipe</div>
+            </h2>
+            
+            <div class="modal-nutrition">
+                <h3>栄養情報（${recipe.servings}人分）</h3>
+                <div class="nutrition-grid">
+                    <div class="nutrition-item">
+                        <div class="nutrition-value">${recipe.nutrition.protein}</div>
+                        <div class="nutrition-label">たんぱく質</div>
+                    </div>
+                    <div class="nutrition-item">
+                        <div class="nutrition-value">${recipe.nutrition.carbs}</div>
+                        <div class="nutrition-label">糖質</div>
+                    </div>
+                    <div class="nutrition-item">
+                        <div class="nutrition-value">${recipe.nutrition.fat}</div>
+                        <div class="nutrition-label">脂質</div>
+                    </div>
+                    <div class="nutrition-item">
+                        <div class="nutrition-value">${recipe.nutrition.calories}</div>
+                        <div class="nutrition-label">カロリー</div>
+                    </div>
+                    <div class="nutrition-item">
+                        <div class="nutrition-value">${recipe.nutrition.carb_reduction}</div>
+                        <div class="nutrition-label">糖質削減率</div>
+                    </div>
+                    <div class="nutrition-item">
+                        <div class="nutrition-value">${recipe.prep_time}</div>
+                        <div class="nutrition-label">準備時間</div>
+                    </div>
+                    <div class="nutrition-item">
+                        <div class="nutrition-value">${recipe.cooking_time}</div>
+                        <div class="nutrition-label">調理時間</div>
+                    </div>
+                    <div class="nutrition-item">
+                        <div class="nutrition-value">${recipe.servings}人分</div>
+                        <div class="nutrition-label">分量</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-section">
+                <h3><i class="fas fa-shopping-cart"></i> 材料</h3>
+                <div class="ingredients-list">
+                    ${recipe.ingredients.map(ingredient => `
+                        <div class="ingredient-item">
+                            <div>
+                                <div class="ingredient-name">${ingredient.item}</div>
+                                <div class="ingredient-role">${ingredient.role}</div>
+                            </div>
+                            <div class="ingredient-amount">${ingredient.amount}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+
+            <div class="modal-section">
+                <h3><i class="fas fa-list-ol"></i> 作り方</h3>
+                <div class="instructions-list">
+                    ${recipe.instructions.map((instruction, index) => `
+                        <div class="instruction-item">
+                            <span class="step-number">${index + 1}</span>
+                            ${instruction}
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+            
+            <div class="ai-approach-section">
+                <h3><i class="fas fa-lightbulb"></i> ${this.getAIDisplayName(aiName)}のアプローチ</h3>
+                <p class="approach-description">${recipe.approach}</p>
+                <p class="special-notes"><strong>ポイント:</strong> ${recipe.special_notes}</p>
+            </div>
+            
+            <div class="back-to-comparison">
+                <button onclick="window.top10RecipesApp.showAIRecipesModal(${rank})" class="back-btn">
+                    <i class="fas fa-arrow-left"></i> 3AI比較に戻る
+                </button>
+            </div>
+        `;
+
+        modal.style.display = 'block';
+    }
+    
+    getAIIcon(aiName) {
+        const icons = {
+            'gemini': 'star',
+            'chatgpt': 'comments',
+            'claude': 'theater-masks'
+        };
+        return icons[aiName] || 'robot';
+    }
+    
+    getAIDisplayName(aiName) {
+        const names = {
+            'gemini': 'Gemini',
+            'chatgpt': 'ChatGPT',
+            'claude': 'Claude'
+        };
+        return names[aiName] || aiName;
+    }
+    
+    getDifficultyLabel(difficulty) {
+        const labels = {
+            'easy': '簡単',
+            'medium': '普通',
+            'hard': '上級'
+        };
+        return labels[difficulty] || difficulty;
     }
 
     renderTips() {

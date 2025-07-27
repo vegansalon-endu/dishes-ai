@@ -306,6 +306,8 @@ body {
     margin-top: 1rem;
     padding-top: 1rem;
     border-top: 1px solid var(--border-color);
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
 
 .difficulty-badge {
@@ -333,6 +335,23 @@ body {
 
 .recipe-details-btn:hover {
     background: var(--accent-green);
+}
+
+.ai-recipes-btn {
+    background: #2196F3;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.ai-recipes-btn:hover {
+    background: #1976D2;
 }
 
 /* お役立ち情報セクション */
@@ -555,6 +574,186 @@ body {
     margin-right: 0.8rem;
 }
 
+/* AI比較表示用スタイル */
+.ai-recipes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.ai-recipe-card {
+    background: var(--light-green);
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 2px solid var(--primary-green);
+    transition: var(--transition-smooth);
+}
+
+.ai-recipe-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-medium);
+}
+
+.ai-recipe-header {
+    margin-bottom: 1rem;
+}
+
+.ai-name {
+    color: var(--accent-green);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.approach-tag {
+    background: var(--primary-green);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    display: inline-block;
+}
+
+.ai-recipe-content {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.alternative-name {
+    color: var(--accent-green);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.recipe-meta-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    background: var(--primary-light);
+    border-radius: 6px;
+}
+
+.meta-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meta-label {
+    font-weight: 600;
+    color: var(--secondary-gray);
+}
+
+.meta-value {
+    font-weight: 600;
+    color: var(--primary-dark);
+}
+
+.nutrition-summary {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: var(--primary-light);
+    border-radius: 8px;
+}
+
+.nutrition-summary .nutrition-item {
+    text-align: center;
+}
+
+.nutrition-summary .nutrition-value {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-green);
+}
+
+.nutrition-summary .nutrition-label {
+    font-size: 0.7rem;
+    color: var(--secondary-gray);
+}
+
+.special-notes {
+    background: #fff3cd;
+    color: #856404;
+    padding: 0.8rem;
+    border-radius: 6px;
+    border-left: 4px solid #ffc107;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.view-details-btn {
+    background: var(--secondary-green);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.view-details-btn:hover {
+    background: var(--accent-green);
+}
+
+.ai-credit {
+    font-size: 0.9rem;
+    color: var(--secondary-gray);
+    font-weight: normal;
+    margin-top: 0.3rem;
+}
+
+.ai-approach-section {
+    background: var(--light-green);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    border-left: 4px solid var(--primary-green);
+}
+
+.ai-approach-section h3 {
+    color: var(--accent-green);
+    margin-bottom: 1rem;
+}
+
+.approach-description {
+    color: var(--secondary-gray);
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.back-to-comparison {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.back-btn {
+    background: var(--secondary-gray);
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 0.9rem;
+}
+
+.back-btn:hover {
+    background: var(--primary-dark);
+}
+
 /* フッター */
 .main-footer {
     background: var(--primary-dark);
@@ -631,6 +830,18 @@ body {
     
     .nutrition-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .ai-recipes-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .nutrition-summary {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .recipe-meta-info {
+        grid-template-columns: 1fr;
     }
 }
 
