@@ -1,0 +1,596 @@
+{
+  "metadata": {
+    "title": "TOP10 ヴィーガン・糖質制限・高たんぱく質代替レシピ",
+    "version": "1.0",
+    "last_updated": "2025-07-26",
+    "description": "日本料理TOP10の完全ヴィーガン代替レシピ集"
+  },
+  "recipes": [
+    {
+      "rank": 1,
+      "original_dish": "白ご飯",
+      "alternative_name": "カリフラワーライス",
+      "category": "主食",
+      "variations": [
+        {
+          "name": "基本のカリフラワーライス",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "5分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "4g",
+            "carbs": "7g",
+            "fat": "3g",
+            "calories": "65kcal",
+            "carb_reduction": "93.8%"
+          },
+          "ingredients": [
+            {"item": "カリフラワー", "amount": "400g", "role": "米粒代・低糖質"},
+            {"item": "オリーブオイル", "amount": "大さじ1", "role": "香り・コク"},
+            {"item": "塩", "amount": "少々", "role": "調味"}
+          ],
+          "instructions": [
+            "カリフラワーをフードプロセッサーで米粒大に砕く",
+            "フライパンで3-4分炒める", 
+            "塩で味を調える"
+          ]
+        },
+        {
+          "name": "プロテイン強化版",
+          "difficulty": "easy",
+          "prep_time": "12分",
+          "cooking_time": "5分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "13g",
+            "carbs": "7g", 
+            "fat": "8g",
+            "calories": "145kcal",
+            "carb_reduction": "93.8%"
+          },
+          "ingredients": [
+            {"item": "カリフラワー", "amount": "400g", "role": "米粒代・低糖質"},
+            {"item": "おからパウダー", "amount": "30g", "role": "粒感＋タンパク質"},
+            {"item": "塩こうじ", "amount": "小さじ1", "role": "旨み・まろやか甘み"},
+            {"item": "白ごま油", "amount": "小さじ2", "role": "香り・コク"}
+          ],
+          "instructions": [
+            "カリフラワーを粗めみじん切り",
+            "フライパン中火、油→おからを乾煎り1分",
+            "カリフラ投入し水分を飛ばしながら4-5分炒め、塩こうじで調味"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "original_dish": "味噌汁",
+      "alternative_name": "昆布だし味噌汁",
+      "category": "汁物",
+      "variations": [
+        {
+          "name": "高たんぱく昆布だし味噌汁",
+          "difficulty": "easy",
+          "prep_time": "5分",
+          "cooking_time": "10分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "18g",
+            "carbs": "6g",
+            "fat": "5g",
+            "calories": "135kcal",
+            "carb_reduction": "60%"
+          },
+          "ingredients": [
+            {"item": "昆布＋干し椎茸だし", "amount": "400ml", "role": "ベース"},
+            {"item": "木綿豆腐", "amount": "160g", "role": "たんぱく質・1.5cm角"},
+            {"item": "乾燥湯葉", "amount": "4g", "role": "手割り・たんぱく質"},
+            {"item": "豆味噌", "amount": "大さじ1½", "role": "風味"},
+            {"item": "炒め玉ねぎペースト", "amount": "小さじ1", "role": "天然甘み"},
+            {"item": "小ねぎ", "amount": "適量", "role": "香り"}
+          ],
+          "instructions": [
+            "だしを温め豆腐を入れる",
+            "火を止め味噌＋玉ねぎペーストを溶く",
+            "湯葉を割り入れ1分、器へ"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "original_dish": "カレーライス", 
+      "alternative_name": "ココナッツカリフラワーカレー",
+      "category": "主食",
+      "variations": [
+        {
+          "name": "大豆ミート・キーマカレー",
+          "difficulty": "medium",
+          "prep_time": "20分",
+          "cooking_time": "25分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "24g",
+            "carbs": "14g", 
+            "fat": "15g",
+            "calories": "275kcal",
+            "carb_reduction": "70%"
+          },
+          "ingredients": [
+            {"item": "大豆ミート（乾燥ミンチ）", "amount": "60g", "role": "メインプロテイン"},
+            {"item": "飴色玉ねぎ", "amount": "120g", "role": "甘み・コク"},
+            {"item": "かぼちゃ", "amount": "40g", "role": "甘み・とろみ"},
+            {"item": "自家製カレーパウダー", "amount": "大さじ1½", "role": "スパイス"},
+            {"item": "トマトピュレ", "amount": "100g", "role": "酸味・旨み"},
+            {"item": "椎茸戻し汁＋水", "amount": "計300ml", "role": "ベース"},
+            {"item": "ココナッツクリーム", "amount": "80g", "role": "コク"},
+            {"item": "カリフラライス", "amount": "400g", "role": "ベース"}
+          ],
+          "instructions": [
+            "大豆ミートを熱湯で戻し、絞る",
+            "玉ねぎを弱火15分炒め、かぼちゃとパウダー半量を絡める",
+            "大豆ミートを加え残りスパイス→トマト→出汁。10分煮",
+            "ココナッツクリームでコク調整。カリフラライスに盛る"
+          ]
+        },
+        {
+          "name": "厚揚げ・キーマカレー",
+          "difficulty": "medium",
+          "prep_time": "20分",
+          "cooking_time": "25分", 
+          "servings": 2,
+          "nutrition": {
+            "protein": "22g",
+            "carbs": "12g",
+            "fat": "17g", 
+            "calories": "285kcal",
+            "carb_reduction": "70%"
+          },
+          "ingredients": [
+            {"item": "厚揚げ", "amount": "200g", "role": "メインプロテイン・1cm角"},
+            {"item": "飴色玉ねぎ", "amount": "120g", "role": "甘み・コク"},
+            {"item": "かぼちゃ", "amount": "40g", "role": "甘み・とろみ"},
+            {"item": "自家製カレーパウダー", "amount": "大さじ1½", "role": "スパイス"},
+            {"item": "トマトピュレ", "amount": "100g", "role": "酸味・旨み"},
+            {"item": "椎茸戻し汁＋水", "amount": "計300ml", "role": "ベース"},
+            {"item": "ココナッツクリーム", "amount": "80g", "role": "コク"},
+            {"item": "カリフラライス", "amount": "400g", "role": "ベース"}
+          ],
+          "instructions": [
+            "厚揚げを1cm角に切る",
+            "玉ねぎを弱火15分炒め、かぼちゃとパウダー半量を絡める",
+            "厚揚げを加え残りスパイス→トマト→出汁。10分煮",
+            "ココナッツクリームでコク調整。カリフラライスに盛る"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "original_dish": "生姜焼き",
+      "alternative_name": "厚揚げの生姜焼き",
+      "category": "主菜",
+      "variations": [
+        {
+          "name": "大豆ミート生姜焼き",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "10分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "22g",
+            "carbs": "10g",
+            "fat": "8g",
+            "calories": "190kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "大豆ミート薄切りタイプ", "amount": "120g戻し", "role": "メインプロテイン"},
+            {"item": "醤油", "amount": "大さじ2", "role": "漬けだれ"},
+            {"item": "生姜すりおろし", "amount": "大さじ1", "role": "漬けだれ"},
+            {"item": "玉ねぎピュレ", "amount": "大さじ1", "role": "漬けだれ"},
+            {"item": "りんごピュレ", "amount": "小さじ2", "role": "漬けだれ"},
+            {"item": "ごま油", "amount": "小さじ1", "role": "漬けだれ"}
+          ],
+          "instructions": [
+            "大豆ミートを熱湯戻し・絞る",
+            "漬けだれに10分漬け込む",
+            "フライパン強め中火で両面焼き色→残りだれを絡め照り焼き"
+          ]
+        },
+        {
+          "name": "厚揚げ生姜焼き",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "10分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "22g",
+            "carbs": "10g",
+            "fat": "12g",
+            "calories": "225kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "厚揚げ", "amount": "200g", "role": "メインプロテイン・7mmスライス"},
+            {"item": "醤油", "amount": "大さじ2", "role": "漬けだれ"},
+            {"item": "生姜すりおろし", "amount": "大さじ1", "role": "漬けだれ"},
+            {"item": "玉ねぎピュレ", "amount": "大さじ1", "role": "漬けだれ"},
+            {"item": "りんごピュレ", "amount": "小さじ2", "role": "漬けだれ"},
+            {"item": "ごま油", "amount": "小さじ1", "role": "漬けだれ"}
+          ],
+          "instructions": [
+            "厚揚げを7mmスライス",
+            "漬けだれに10分漬け込む",
+            "フライパン強め中火で両面焼き色→残りだれを絡め照り焼き"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "original_dish": "鶏の唐揚げ",
+      "alternative_name": "豆腐とカリフラワーの唐揚げ",
+      "category": "主菜",
+      "variations": [
+        {
+          "name": "大豆ミート唐揚げ",
+          "difficulty": "medium",
+          "prep_time": "20分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "25g",
+            "carbs": "9g",
+            "fat": "15g",
+            "calories": "255kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "大豆ミートブロック", "amount": "100g乾燥", "role": "メインプロテイン"},
+            {"item": "醤油", "amount": "大さじ1½", "role": "下味"},
+            {"item": "生姜・にんにく", "amount": "各小さじ1", "role": "下味"},
+            {"item": "玉ねぎ汁", "amount": "小さじ1", "role": "下味"},
+            {"item": "無糖甘酒", "amount": "小さじ1", "role": "下味"},
+            {"item": "おから粉", "amount": "適量", "role": "衣"},
+            {"item": "アーモンド粉", "amount": "適量", "role": "衣"}
+          ],
+          "instructions": [
+            "大豆ミートを戻し、絞って味を吸わせる",
+            "下味に15分漬け込む",
+            "水気を拭き衣を薄くまぶす",
+            "米油170°C、揚げ焼き片面2分ずつ→最後強火20秒でカリッ"
+          ]
+        },
+        {
+          "name": "木綿豆腐唐揚げ",
+          "difficulty": "medium",
+          "prep_time": "35分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "23g",
+            "carbs": "7g",
+            "fat": "12g",
+            "calories": "220kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "木綿豆腐", "amount": "1丁（300g）", "role": "メインプロテイン"},
+            {"item": "醤油", "amount": "大さじ1½", "role": "下味"},
+            {"item": "生姜・にんにく", "amount": "各小さじ1", "role": "下味"},
+            {"item": "玉ねぎ汁", "amount": "小さじ1", "role": "下味"},
+            {"item": "無糖甘酒", "amount": "小さじ1", "role": "下味"},
+            {"item": "おから粉", "amount": "適量", "role": "衣"},
+            {"item": "アーモンド粉", "amount": "適量", "role": "衣"}
+          ],
+          "instructions": [
+            "600g重しで30分水切り",
+            "下味に15分漬け込む",
+            "水気を拭き衣を薄くまぶす",
+            "米油170°C、揚げ焼き片面2分ずつ→最後強火20秒でカリッ"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "original_dish": "肉じゃが",
+      "alternative_name": "大根と厚揚げの煮物",
+      "category": "主菜",
+      "variations": [
+        {
+          "name": "大根＆しらたきのコク旨煮（大豆ミート版）",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "25分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "21g",
+            "carbs": "11g",
+            "fat": "7g",
+            "calories": "185kcal",
+            "carb_reduction": "75%"
+          },
+          "ingredients": [
+            {"item": "乾燥大豆ミートそぼろ", "amount": "60g", "role": "メインプロテイン"},
+            {"item": "大根（乱切り）", "amount": "300g", "role": "ベース野菜"},
+            {"item": "しらたき", "amount": "200g", "role": "食感・下ゆで"},
+            {"item": "玉ねぎ", "amount": "80g", "role": "くし切り・甘み"},
+            {"item": "かぼちゃ", "amount": "40g", "role": "1cm角・甘み要員"},
+            {"item": "昆布椎茸だし", "amount": "300ml", "role": "ベース"},
+            {"item": "醬油", "amount": "大さじ2", "role": "調味"},
+            {"item": "無糖甘酒", "amount": "大さじ1", "role": "甘み"}
+          ],
+          "instructions": [
+            "大豆ミートを熱湯戻し・絞る",
+            "厚手鍋にだし・玉ねぎ・かぼちゃ・大根を入れ5分煮る",
+            "大豆ミートとしらたきを加え、醬油＋甘酒を入れ弱火で15分",
+            "汁が⅔になれば火を止め、10分ふたをして味を含ませる"
+          ]
+        },
+        {
+          "name": "大根＆しらたきのコク旨煮（厚揚げ版）",
+          "difficulty": "easy",
+          "prep_time": "15分", 
+          "cooking_time": "25分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "19g",
+            "carbs": "10g",
+            "fat": "11g",
+            "calories": "205kcal",
+            "carb_reduction": "75%"
+          },
+          "ingredients": [
+            {"item": "厚揚げ", "amount": "200g", "role": "メインプロテイン・1.5cm角"},
+            {"item": "大根（乱切り）", "amount": "300g", "role": "ベース野菜"},
+            {"item": "しらたき", "amount": "200g", "role": "食感・下ゆで"},
+            {"item": "玉ねぎ", "amount": "80g", "role": "くし切り・甘み"},
+            {"item": "かぼちゃ", "amount": "40g", "role": "1cm角・甘み要員"},
+            {"item": "昆布椎茸だし", "amount": "300ml", "role": "ベース"},
+            {"item": "醬油", "amount": "大さじ2", "role": "調味"},
+            {"item": "無糖甘酒", "amount": "大さじ1", "role": "甘み"}
+          ],
+          "instructions": [
+            "厚揚げを1.5cm角に切る",
+            "厚手鍋にだし・玉ねぎ・かぼちゃ・大根を入れ5分煮る",
+            "厚揚げとしらたきを加え、醬油＋甘酒を入れ弱火で15分",
+            "汁が⅔になれば火を止め、10分ふたをして味を含ませる"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "original_dish": "チャーハン",
+      "alternative_name": "カリフラワーと豆腐スクランブル炒飯",
+      "category": "主食",
+      "variations": [
+        {
+          "name": "高野豆腐\"卵\"スクランブル炒飯",
+          "difficulty": "medium",
+          "prep_time": "15分",
+          "cooking_time": "10分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "23g",
+            "carbs": "8g",
+            "fat": "9g",
+            "calories": "195kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "カリフラワーライス", "amount": "360g", "role": "ベース"},
+            {"item": "高野豆腐", "amount": "1枚（おろし金で粉状＝60g）", "role": "卵代替"},
+            {"item": "大豆ミートそぼろ", "amount": "40g", "role": "戻し水切り"},
+            {"item": "豆乳", "amount": "60ml", "role": "卵液"},
+            {"item": "白味噌", "amount": "小さじ1", "role": "コク"},
+            {"item": "ターメリック", "amount": "小さじ¼", "role": "色付け"},
+            {"item": "ごま油", "amount": "小さじ2", "role": "香り"},
+            {"item": "青ねぎ", "amount": "2本", "role": "小口・香り"},
+            {"item": "塩・こしょう", "amount": "適量", "role": "調味"}
+          ],
+          "instructions": [
+            "高野粉＋豆乳＋白味噌＋ターメリックを混ぜ\"卵液\"に",
+            "フライパンにごま油。カリフラライスを中火で3分炒め水分を飛ばす",
+            "卵液を流し入れ、ふんわり固まるまで炒り合わせる",
+            "大豆ミートそぼろ・青ねぎ・塩こしょうで仕上げ"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "original_dish": "親子丼",
+      "alternative_name": "厚揚げとフワとろ豆腐の他人丼",
+      "category": "主食",
+      "variations": [
+        {
+          "name": "厚揚げとフワとろ豆腐の\"他人丼\"",
+          "difficulty": "medium",
+          "prep_time": "15分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "23g",
+            "carbs": "13g",
+            "fat": "11g",
+            "calories": "235kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "カリフラワーライス", "amount": "400g", "role": "ベース"},
+            {"item": "厚揚げ", "amount": "200g", "role": "7mmスライス"},
+            {"item": "玉ねぎ", "amount": "½個", "role": "薄切り"},
+            {"item": "だし（昆布椎茸）", "amount": "200ml", "role": "ベース"},
+            {"item": "醤油", "amount": "大さじ3", "role": "調味"},
+            {"item": "無糖甘酒", "amount": "大さじ1", "role": "甘み"},
+            {"item": "絹ごし豆腐", "amount": "200g", "role": "とろとろソース"},
+            {"item": "ニュートリショナルイースト", "amount": "大さじ2", "role": "とろとろソース"},
+            {"item": "片栗粉", "amount": "小さじ1", "role": "とろとろソース"}
+          ],
+          "instructions": [
+            "ソース材料をブレンダーで滑らかに",
+            "鍋にだし・醤油・甘酒・玉ねぎを入れ火にかけ、玉ねぎが透き通ったら厚揚げ投入",
+            "弱火にしソースを回し入れ、ゆっくり混ぜながらとろみ＆ふわとろ感が出たら火を止める",
+            "カリフラライスに盛り、お好みで七味"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "original_dish": "とんかつ",
+      "alternative_name": "厚揚げカツ",
+      "category": "主菜",
+      "variations": [
+        {
+          "name": "セイタンカツ",
+          "difficulty": "hard",
+          "prep_time": "25分",
+          "cooking_time": "20分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "28g",
+            "carbs": "10g",
+            "fat": "17g",
+            "calories": "285kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "グルテン粉", "amount": "80g", "role": "セイタンベース"},
+            {"item": "水", "amount": "50ml", "role": "練り用"},
+            {"item": "おから粉", "amount": "大さじ4", "role": "衣"},
+            {"item": "アーモンド粉", "amount": "大さじ2", "role": "衣"},
+            {"item": "豆乳", "amount": "適量", "role": "衣付け"},
+            {"item": "米油", "amount": "適量", "role": "揚げ用"}
+          ],
+          "instructions": [
+            "グルテン粉＋水50ml練り→15分茹で→冷まし1cm厚切り",
+            "塩こしょう＋ガーリックパウダー少々で下味",
+            "おから粉→豆乳→おから＋アーモンド粉の順で衣付け",
+            "米油180°C 片面3分ずつ、最後強火30秒"
+          ]
+        },
+        {
+          "name": "厚揚げカツ",
+          "difficulty": "medium",
+          "prep_time": "15分",
+          "cooking_time": "10分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "22g",
+            "carbs": "9g",
+            "fat": "15g",
+            "calories": "245kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "厚揚げ", "amount": "300g", "role": "1cm厚スライス"},
+            {"item": "おから粉", "amount": "大さじ4", "role": "衣"},
+            {"item": "アーモンド粉", "amount": "大さじ2", "role": "衣"},
+            {"item": "豆乳", "amount": "適量", "role": "衣付け"},
+            {"item": "米油", "amount": "適量", "role": "揚げ用"}
+          ],
+          "instructions": [
+            "厚揚げを1cm厚にスライス",
+            "塩こしょう＋ガーリックパウダー少々で下味",
+            "おから粉→豆乳→おから＋アーモンド粉の順で衣付け",
+            "米油180°C 片面3分ずつ、最後強火30秒"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "original_dish": "餃子",
+      "alternative_name": "ヘルシー豆腐餃子",
+      "category": "主菜",
+      "variations": [
+        {
+          "name": "湯葉包み大豆ミート餃子",
+          "difficulty": "hard",
+          "prep_time": "30分",
+          "cooking_time": "15分",
+          "servings": "12個",
+          "nutrition": {
+            "protein": "24g",
+            "carbs": "7g",
+            "fat": "8g",
+            "calories": "185kcal",
+            "carb_reduction": "95%"
+          },
+          "ingredients": [
+            {"item": "乾燥湯葉", "amount": "12枚", "role": "皮代替"},
+            {"item": "大豆ミートみじん", "amount": "100g", "role": "メイン具材"},
+            {"item": "キャベツ", "amount": "100g", "role": "塩もみ・水絞り"},
+            {"item": "椎茸", "amount": "2枚", "role": "みじん切り"},
+            {"item": "にんにく／生姜", "amount": "各小さじ½", "role": "香り"},
+            {"item": "醤油", "amount": "小さじ2", "role": "調味"},
+            {"item": "ごま油", "amount": "小さじ1", "role": "香り"}
+          ],
+          "instructions": [
+            "乾燥湯葉を湯に15秒→6cm角に切る",
+            "具をよく混ぜ、各皮に小さじ山盛りのせ包む",
+            "フライパンに油小1→餃子→水大3→ふた→中火5分蒸し焼き",
+            "ふたを外し水気を飛ばし、側面に香ばしい焼き目を"
+          ]
+        },
+        {
+          "name": "大根包み厚揚げ餃子",
+          "difficulty": "medium",
+          "prep_time": "25分",
+          "cooking_time": "15分",
+          "servings": "12個",
+          "nutrition": {
+            "protein": "20g",
+            "carbs": "6g",
+            "fat": "10g",
+            "calories": "185kcal",
+            "carb_reduction": "95%"
+          },
+          "ingredients": [
+            {"item": "大根", "amount": "12スライス", "role": "1.5mm・皮代替"},
+            {"item": "厚揚げみじん", "amount": "200g", "role": "メイン具材"},
+            {"item": "キャベツ", "amount": "100g", "role": "塩もみ・水絞り"},
+            {"item": "椎茸", "amount": "2枚", "role": "みじん切り"},
+            {"item": "にんにく／生姜", "amount": "各小さじ½", "role": "香り"},
+            {"item": "醤油", "amount": "小さじ2", "role": "調味"},
+            {"item": "ごま油", "amount": "小さじ1", "role": "香り"}
+          ],
+          "instructions": [
+            "大根を1.5mmスライス→軽く塩→水気拭き",
+            "具をよく混ぜ、各皮に小さじ山盛りのせ包む",
+            "フライパンに油小1→餃子→水大3→ふた→中火5分蒸し焼き",
+            "ふたを外し水気を飛ばし、側面に香ばしい焼き目を"
+          ]
+        }
+      ]
+    }
+  ],
+  "tips": {
+    "natural_sweeteners": [
+      {"name": "デーツペースト", "usage": "デーツ5個＋水大さじ1をブレンダーで", "best_for": "煮物・照り焼き"},
+      {"name": "甘酒", "usage": "米麹の甘酒（砂糖無添加）", "best_for": "みりんの代替"},
+      {"name": "玉ねぎの甘み", "usage": "じっくり炒めて引き出す", "best_for": "カレー・煮物"},
+      {"name": "炒め玉ねぎペースト", "usage": "大さじ1/人", "best_for": "カレー・煮物"},
+      {"name": "無糖甘酒", "usage": "小さじ2/人", "best_for": "みりん代"},
+      {"name": "りんご／かぼちゃピュレ", "usage": "小さじ1〜大さじ2", "best_for": "照り焼き・シチュー"}
+    ],
+    "protein_boosters": [
+      {"name": "ヘンプシード", "usage": "あらゆる料理にトッピング", "protein": "3g/大さじ1"},
+      {"name": "アーモンド粉", "usage": "小麦粉の代替として", "protein": "6g/大さじ2"},
+      {"name": "チアシード", "usage": "スープやソースに混ぜる", "protein": "2g/大さじ1"},
+      {"name": "栄養酵母", "usage": "チーズ風味付けに", "protein": "8g/大さじ2"},
+      {"name": "おからパウダー", "usage": "粒感＋タンパク質", "protein": "23g/100g"}
+    ],
+    "carb_alternatives": [
+      {"name": "カリフラワーライス", "usage": "ご飯の完全代替", "carb_reduction": "93%"},
+      {"name": "しらたき", "usage": "米の食感を補完", "carb_reduction": "99%"},
+      {"name": "大根・カブ", "usage": "じゃがいもの代替", "carb_reduction": "90%"},
+      {"name": "ズッキーニ", "usage": "麺類の代替", "carb_reduction": "95%"}
+    ]
+  }
+}

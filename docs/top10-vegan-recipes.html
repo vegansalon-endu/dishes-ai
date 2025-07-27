@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP10 ヴィーガン・糖質制限・高たんぱく質レシピ | 日本料理代替案</title>
+    <meta name="description" content="日本料理TOP10の完全ヴィーガン代替レシピ。糖質制限対応、高たんぱく質で栄養満点。3AI統合による最高の代替レシピ集">
+    <link rel="stylesheet" href="./assets/styles/top10-recipes.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1><i class="fas fa-seedling"></i> TOP10 ヴィーガン代替レシピ</h1>
+            <p class="subtitle">糖質制限・高たんぱく質・完全植物性</p>
+            <nav class="breadcrumb">
+                <a href="index.html">ホーム</a> 
+                <span>></span> 
+                <a href="full-ranking.html">TOP100ランキング</a>
+                <span>></span>
+                <span>TOP10代替レシピ</span>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- 概要セクション -->
+            <section class="overview-section">
+                <h2><i class="fas fa-chart-line"></i> レシピ概要</h2>
+                <div class="overview-grid">
+                    <div class="overview-card">
+                        <div class="icon"><i class="fas fa-seedling"></i></div>
+                        <h3>100% ヴィーガン</h3>
+                        <p>動物性食品を一切使わない<br>完全植物性レシピ</p>
+                    </div>
+                    <div class="overview-card">
+                        <div class="icon"><i class="fas fa-chart-bar"></i></div>
+                        <h3>糖質制限対応</h3>
+                        <p>最大99.7%の糖質削減<br>7-15g/食を目安</p>
+                    </div>
+                    <div class="overview-card">
+                        <div class="icon"><i class="fas fa-dumbbell"></i></div>
+                        <h3>高たんぱく質</h3>
+                        <p>18g超のたんぱく質<br>筋肉維持・美容効果</p>
+                    </div>
+                    <div class="overview-card">
+                        <div class="icon"><i class="fas fa-brain"></i></div>
+                        <h3>3AI統合</h3>
+                        <p>Gemini・ChatGPT・Claude<br>最高品質のレシピ集</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- フィルター -->
+            <section class="filter-section">
+                <h2>レシピフィルター</h2>
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="difficulty-filter">難易度</label>
+                        <select id="difficulty-filter">
+                            <option value="all">すべて</option>
+                            <option value="easy">簡単</option>
+                            <option value="medium">普通</option>
+                            <option value="hard">上級</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="protein-filter">たんぱく質量</label>
+                        <select id="protein-filter">
+                            <option value="all">すべて</option>
+                            <option value="high">20g以上</option>
+                            <option value="medium">15-20g</option>
+                            <option value="low">15g未満</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="category-filter">カテゴリー</label>
+                        <select id="category-filter">
+                            <option value="all">すべて</option>
+                            <option value="主食">主食</option>
+                            <option value="主菜">主菜</option>
+                            <option value="汁物">汁物</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="time-filter">調理時間</label>
+                        <select id="time-filter">
+                            <option value="all">すべて</option>
+                            <option value="quick">15分以内</option>
+                            <option value="medium">30分以内</option>
+                            <option value="long">30分以上</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <!-- レシピ一覧 -->
+            <section class="recipes-section">
+                <h2>代替レシピ一覧</h2>
+                <div class="recipes-grid" id="recipes-container">
+                    <!-- JavaScriptで動的に生成 -->
+                </div>
+            </section>
+
+            <!-- お役立ち情報 -->
+            <section class="tips-section">
+                <h2><i class="fas fa-lightbulb"></i> お役立ち情報</h2>
+                <div class="tips-grid">
+                    <div class="tip-category">
+                        <h3><i class="fas fa-candy-cane"></i> 天然甘味料</h3>
+                        <div class="tip-list" id="sweeteners-list">
+                            <!-- JavaScriptで動的に生成 -->
+                        </div>
+                    </div>
+                    <div class="tip-category">
+                        <h3><i class="fas fa-dumbbell"></i> たんぱく質強化</h3>
+                        <div class="tip-list" id="protein-boosters-list">
+                            <!-- JavaScriptで動的に生成 -->
+                        </div>
+                    </div>
+                    <div class="tip-category">
+                        <h3><i class="fas fa-leaf"></i> 糖質制限のコツ</h3>
+                        <div class="tip-list" id="carb-alternatives-list">
+                            <!-- JavaScriptで動的に生成 -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- レシピ詳細モーダル -->
+    <div id="recipe-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body">
+                <!-- JavaScriptで動的に生成 -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 ヴィーガン糖質制限レシピ by 日本料理AI比較システム</p>
+            <div class="footer-links">
+                <a href="index.html">ホーム</a>
+                <a href="full-ranking.html">TOP100ランキング</a>
+                <a href="rice-alternatives.html">白ご飯代替案</a>
+                <a href="top10-summary.html">TOP10詳細</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/scripts/top10-recipes.js"></script>
+</body>
+</html>
