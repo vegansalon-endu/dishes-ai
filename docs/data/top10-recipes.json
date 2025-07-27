@@ -37,6 +37,57 @@
           ]
         },
         {
+          "name": "しらたきライス",
+          "difficulty": "easy",
+          "prep_time": "8分",
+          "cooking_time": "3分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "0.2g",
+            "carbs": "5.9g",
+            "fat": "0g",
+            "calories": "25kcal",
+            "carb_reduction": "94.8%"
+          },
+          "ingredients": [
+            {"item": "しらたき", "amount": "400g", "role": "メインベース・水切り"},
+            {"item": "昆布だし", "amount": "小さじ1", "role": "旨味"},
+            {"item": "白ごま油", "amount": "小さじ1", "role": "香り"},
+            {"item": "塩", "amount": "少々", "role": "調味"}
+          ],
+          "instructions": [
+            "しらたきを熟湯でさっと茹でる",
+            "フードプロセッサーで米粒大に砕く",
+            "フライパンで水分を飛ばしながら3分炒める",
+            "昆布だし、白ごま油、塩で調味"
+          ]
+        },
+        {
+          "name": "コンニャクライス",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "5分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "0.1g",
+            "carbs": "4.2g",
+            "fat": "0g",
+            "calories": "17kcal",
+            "carb_reduction": "96.3%"
+          },
+          "ingredients": [
+            {"item": "コンニャク", "amount": "300g", "role": "メインベース・アク抜き済み"},
+            {"item": "白ごま", "amount": "小さじ1", "role": "食感・香り"},
+            {"item": "昆布だし", "amount": "小さじ1", "role": "旨味"},
+            {"item": "白ごま油", "amount": "小さじ1", "role": "香り"}
+          ],
+          "instructions": [
+            "コンニャクをフードプロセッサーで米粒大に砕く",
+            "フライパンで中火3分炒める",
+            "白ごま、昆布だし、白ごま油で調味"
+          ]
+        },
+        {
           "name": "プロテイン強化版",
           "difficulty": "easy",
           "prep_time": "12分",

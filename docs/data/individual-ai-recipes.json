@@ -11,33 +11,33 @@
       "original_dish": "白ご飯",
       "ai_recipes": {
         "gemini": {
-          "alternative_name": "発芽玄米カリフラワーライス",
+          "alternative_name": "キヌア入りカリフラワーライス",
           "approach": "栄養価を最大化するアプローチ",
           "difficulty": "medium",
           "prep_time": "15分",
           "cooking_time": "8分",
           "servings": 2,
           "nutrition": {
-            "protein": "6g",
-            "carbs": "12g",
+            "protein": "7g",
+            "carbs": "10g",
             "fat": "4g",
-            "calories": "98kcal",
-            "carb_reduction": "89.3%"
+            "calories": "95kcal",
+            "carb_reduction": "91.1%"
           },
           "ingredients": [
             {"item": "カリフラワー", "amount": "350g", "role": "メインベース"},
-            {"item": "発芽玄米（少量）", "amount": "30g", "role": "食感・栄養"},
+            {"item": "キヌア（茹で）", "amount": "20g", "role": "完全タンパク質・食感"},
             {"item": "ココナッツオイル", "amount": "小さじ2", "role": "香り・栄養"},
             {"item": "海塩", "amount": "少々", "role": "調味"},
             {"item": "栄養酵母", "amount": "小さじ1", "role": "旨味・ビタミンB12"}
           ],
           "instructions": [
-            "発芽玄米を柔らかく炊いておく",
+            "キヌアを茹でて冷ましておく",
             "カリフラワーをフードプロセッサーで米粒大に砕く",
-            "ココナッツオイルで炒め、発芽玄米を混ぜる",
+            "ココナッツオイルで炒め、茹でキヌアを混ぜる",
             "栄養酵母と海塩で調味"
           ],
-          "special_notes": "発芽玄米の栄養価とカリフラワーの低糖質を両立"
+          "special_notes": "キヌアの完全タンパク質とカリフラワーの低糖質を組み合わせた栄養最適化レシピ"
         },
         "chatgpt": {
           "alternative_name": "シンプルカリフラワーライス",
@@ -64,7 +64,7 @@
             "フライパンで3分炒める",
             "塩胡椒で味を調える"
           ],
-          "special_notes": "最もシンプルで初心者向けのレシピ"
+          "special_notes": "最もシンプルで初心者向けのレシピ。面倒な下処理不要で手軽に作れる"
         },
         "claude": {
           "alternative_name": "和風だしカリフラワーライス",
@@ -94,6 +94,95 @@
             "細ネギを散らす"
           ],
           "special_notes": "日本人に馴染みやすい和風の味付け"
+        }
+      }
+    },
+    {
+      "rank": 1.5,
+      "original_dish": "白ご飯（代替米バリエーション）",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "スーパーシードライス",
+          "approach": "スーパーシードで最大栄養",
+          "difficulty": "hard",
+          "prep_time": "25分",
+          "cooking_time": "10分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "12g",
+            "carbs": "8g",
+            "fat": "6g",
+            "calories": "125kcal",
+            "carb_reduction": "92.9%"
+          },
+          "ingredients": [
+            {"item": "カリフラワー", "amount": "300g", "role": "ベース"},
+            {"item": "チアシード", "amount": "大さじ1", "role": "オメガ3・粘性"},
+            {"item": "ヘンプシード", "amount": "大さじ1", "role": "完全タンパク質"},
+            {"item": "フラックスシード", "amount": "小さじ1", "role": "食物繊維"},
+            {"item": "ココナッツオイル", "amount": "小さじ2", "role": "MCTオイル"},
+            {"item": "栄養酵母", "amount": "小さじ1", "role": "B群ビタミン"}
+          ],
+          "instructions": [
+            "チアシードを水に浸しゲル状に",
+            "カリフラワーを米粒大に砕く",
+            "ココナッツオイルで炒め、全シードを混ぜる",
+            "最後に栄養酵母で仕上げ"
+          ],
+          "special_notes": "スーパーシードの組み合わせで最高の栄養密度を実現"
+        },
+        "chatgpt": {
+          "alternative_name": "しらたきライス",
+          "approach": "最も低カロリーで簡単",
+          "difficulty": "easy",
+          "prep_time": "8分",
+          "cooking_time": "3分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "0.2g",
+            "carbs": "5.9g",
+            "fat": "0g",
+            "calories": "25kcal",
+            "carb_reduction": "94.8%"
+          },
+          "ingredients": [
+            {"item": "しらたき", "amount": "400g", "role": "メイン"},
+            {"item": "昆布だし", "amount": "小さじ1", "role": "旨味"},
+            {"item": "塩", "amount": "少々", "role": "調味"}
+          ],
+          "instructions": [
+            "しらたきをサッと茹でる",
+            "フードプロセッサーで米粒大に",
+            "フライパンで水分を飛ばして調味"
+          ],
+          "special_notes": "最も低カロリーで糖質制限に最適。面倒な下処理も不要"
+        },
+        "claude": {
+          "alternative_name": "コンニャクライス",
+          "approach": "日本の伝統食材を活用",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "5分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "0.1g",
+            "carbs": "4.2g",
+            "fat": "0g",
+            "calories": "17kcal",
+            "carb_reduction": "96.3%"
+          },
+          "ingredients": [
+            {"item": "コンニャク", "amount": "300g", "role": "メイン・アク抜き済"},
+            {"item": "白ごま", "amount": "小さじ1", "role": "食感・香り"},
+            {"item": "昆布だし", "amount": "小さじ1", "role": "旨味"},
+            {"item": "白ごま油", "amount": "小さじ1", "role": "香り"}
+          ],
+          "instructions": [
+            "コンニャクを米粒大に砕く",
+            "フライパンで中火3分炒める",
+            "白ごま、昆布だし、白ごま油で調味"
+          ],
+          "special_notes": "日本の伝統食材コンニャクを活用した極低カロリーライス"
         }
       }
     },
