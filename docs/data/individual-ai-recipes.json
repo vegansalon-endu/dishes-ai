@@ -704,99 +704,106 @@
       "original_dish": "親子丼",
       "ai_recipes": {
         "gemini": {
-          "alternative_name": "プロテインパワーハンバーグ",
-          "approach": "植物性プロテインを極限まで強化",
+          "alternative_name": "スーパーフード親子丼",
+          "approach": "植物性スーパーフードで最大栄養",
           "difficulty": "hard",
           "prep_time": "25分",
           "cooking_time": "15分",
           "servings": 2,
           "nutrition": {
-            "protein": "32g",
-            "carbs": "8g",
-            "fat": "15g",
-            "calories": "275kcal",
-            "carb_reduction": "92%"
+            "protein": "26g",
+            "carbs": "14g",
+            "fat": "12g",
+            "calories": "250kcal",
+            "carb_reduction": "85%"
           },
           "ingredients": [
-            {"item": "ブラックビーンズ", "amount": "100g", "role": "メインプロテイン"},
-            {"item": "レンズ豆", "amount": "60g", "role": "プロテイン強化"},
-            {"item": "キノア", "amount": "30g", "role": "完全タンパク質"},
-            {"item": "チアシード", "amount": "大さじ1", "role": "結着・オメガ3"},
-            {"item": "クルミ", "amount": "30g", "role": "食感・ミネラル"},
-            {"item": "タマネギ", "amount": "1/4個", "role": "甘み・結着"},
-            {"item": "ガーリック", "amount": "1片", "role": "風味"},
-            {"item": "アボカドオイル", "amount": "大さじ1", "role": "良質な脂質"}
+            {"item": "カリフラワーライス", "amount": "300g", "role": "ご飯の代替"},
+            {"item": "チアシードエッグ", "amount": "大さじ3", "role": "卵の代替・結着"},
+            {"item": "キノア", "amount": "30g", "role": "鶏肉の代替・タンパク"},
+            {"item": "ヘンプシード", "amount": "大さじ1", "role": "完全タンパク質"},
+            {"item": "玉ねぎ", "amount": "1/2個", "role": "甘み・水分"},
+            {"item": "椎茸だし", "amount": "200ml", "role": "旨味ベース"},
+            {"item": "タマリ醤油", "amount": "大さじ2", "role": "グルテンフリー"},
+            {"item": "メープルシロップ", "amount": "小さじ1", "role": "甘み"},
+            {"item": "ココナッツオイル", "amount": "小さじ2", "role": "MCTオイル"}
           ],
           "instructions": [
-            "ブラックビーンズとレンズ豆を柔らかく茹でる",
-            "キノアを茹で、チアシードを水で戒してゲル状に",
-            "全材料をフードプロセッサーで混ぜ合わせる",
-            "ハンバーグ形に成形し、15分休ませる",
-            "アボカドオイルで両面を焦き上げる"
+            "チアシードを水で戒しゲル状に、キノアを茹でる",
+            "玉ねぎをスライス、カリフラワーライスを温める",
+            "ココナッツオイルで玉ねぎを炒め、キノアを加える",
+            "だし、タマリ醤油、メープルシロップで味付け",
+            "チアシードエッグを回し入れて半熟状に、ヘンプシードと共にカリフラワーライスに盛り付け"
           ],
-          "special_notes": "豆類の組み合わせで必需アミノ酸を完備した高タンパクハンバーグ"
+          "special_notes": "スーパーシードで最高の栄養密度を実現した親子丼"
         },
         "chatgpt": {
-          "alternative_name": "豆腐ハンバーグ",
-          "approach": "シンプルで経済的な基本レシピ",
+          "alternative_name": "豆腐親子丼",
+          "approach": "豆腐でシンプルに作る定番",
           "difficulty": "easy",
           "prep_time": "15分",
           "cooking_time": "10分",
           "servings": 2,
           "nutrition": {
-            "protein": "22g",
-            "carbs": "6g",
-            "fat": "12g",
-            "calories": "205kcal",
-            "carb_reduction": "94%"
+            "protein": "20g",
+            "carbs": "12g",
+            "fat": "8g",
+            "calories": "190kcal",
+            "carb_reduction": "87%"
           },
           "ingredients": [
-            {"item": "木綿豆腐", "amount": "300g", "role": "メインプロテイン"},
-            {"item": "玉ねぎ", "amount": "1/4個", "role": "甘み・食感"},
-            {"item": "パン粉", "amount": "大さじ2", "role": "結着"},
-            {"item": "醎油", "amount": "大さじ1", "role": "味付け"},
-            {"item": "塩こしょう", "amount": "少々", "role": "調味"},
-            {"item": "オリーブオイル", "amount": "大さじ1", "role": "調理用"}
+            {"item": "カリフラワーライス", "amount": "300g", "role": "ご飯の代替"},
+            {"item": "絹ごし豆腐", "amount": "200g", "role": "鶏肉の代替"},
+            {"item": "玉ねぎ", "amount": "1/2個", "role": "甘み・食感"},
+            {"item": "だしの素", "amount": "150ml", "role": "ベース"},
+            {"item": "醎油", "amount": "大さじ2", "role": "味付け"},
+            {"item": "砂糖", "amount": "小さじ1", "role": "甘み"},
+            {"item": "片栗粉", "amount": "小さじ1", "role": "とろみ"},
+            {"item": "ネギ", "amount": "適量", "role": "彩り"}
           ],
           "instructions": [
-            "豆腐をしっかり水切りしてつぶす",
-            "玉ねぎをみじん切りにする",
-            "全材料を混ぜ合わせて成形",
-            "フライパンで両面を焦く"
+            "豆腐を一口大に切り、玉ねぎをスライス",
+            "フライパンで玉ねぎを炒め、豆腐を加える",
+            "だし、醎油、砂糖で味付けして煮る",
+            "片栗粉でとろみを付け、カリフラワーライスに盛り付け",
+            "ネギを散らして完成"
           ],
-          "special_notes": "最もシンプルで失敗しない豆腐ハンバーグの基本レシピ"
+          "special_notes": "最もシンプルで親しみやすい豆腐親子丼"
         },
         "claude": {
-          "alternative_name": "きのこ・厚揚げハンバーグ",
-          "approach": "日本のきのこと豆腐を活用",
+          "alternative_name": "高野豆腐\"卵\"親子丼",
+          "approach": "日本の伝統食材で本格的な味",
           "difficulty": "medium",
           "prep_time": "20分",
           "cooking_time": "12分",
           "servings": 2,
           "nutrition": {
-            "protein": "25g",
-            "carbs": "7g",
-            "fat": "14g",
-            "calories": "235kcal",
-            "carb_reduction": "93%"
+            "protein": "22g",
+            "carbs": "10g",
+            "fat": "10g",
+            "calories": "205kcal",
+            "carb_reduction": "89%"
           },
           "ingredients": [
-            {"item": "椎茸", "amount": "150g", "role": "メイン食材・みじん切り"},
-            {"item": "エリンギ", "amount": "100g", "role": "食感・みじん切り"},
-            {"item": "厚揚げ", "amount": "150g", "role": "タンパク質・結着"},
-            {"item": "玉ねぎ", "amount": "1/4個", "role": "甘み・水分"},
-            {"item": "おから粉", "amount": "大さじ2", "role": "結着・低糖質"},
-            {"item": "醎油", "amount": "大さじ1", "role": "和風調味"},
-            {"item": "無糖甘酒", "amount": "小さじ1", "role": "甘み・コク"},
-            {"item": "白ごま油", "amount": "大さじ1", "role": "香り・調理"}
+            {"item": "カリフラワーライス", "amount": "300g", "role": "ご飯の代替"},
+            {"item": "高野豆腐", "amount": "2枚", "role": "鶏肉の代替・戸し済"},
+            {"item": "玉ねぎ", "amount": "1/2個", "role": "甘み・食感"},
+            {"item": "昆布椎茸だし", "amount": "200ml", "role": "本格旨味"},
+            {"item": "醎油", "amount": "大さじ2", "role": "和風調味"},
+            {"item": "無糖甘酒", "amount": "大さじ1", "role": "甘み・コク"},
+            {"item": "本ぐず", "amount": "小さじ1", "role": "とろみ・栄養"},
+            {"item": "細ネギ", "amount": "適量", "role": "彩り・香り"},
+            {"item": "白ごま油", "amount": "小さじ1", "role": "香り"}
           ],
           "instructions": [
-            "きのこをみじん切りにし、厚揚げを気持ち粗くつぶす",
-            "玉ねぎをみじん切りにする",
-            "全材料を混ぜ合わせ、ハンバーグ形に成形",
-            "白ごま油で両面を焦き、蓋をして蒸し焼き"
+            "高野豆腐を戸して一口大にちぎる",
+            "玉ねぎをスライス、カリフラワーライスを温める",
+            "白ごま油で玉ねぎを炒め、高野豆腐を加える",
+            "だし、醎油、甘酒で味付けして煮る",
+            "本ぐずでとろみを付け、カリフラワーライスに盛り付け",
+            "細ネギを散らして仕上げ"
           ],
-          "special_notes": "きのこの旨味と厚揚げのコクを活かした和風ハンバーグ"
+          "special_notes": "高野豆腐の結着性と本ぐずの栄養を活かした本格親子丼"
         }
       }
     },
@@ -900,109 +907,107 @@
     },
     {
       "rank": 10,
-      "original_dish": "餌子",
+      "original_dish": "餃子",
       "ai_recipes": {
         "gemini": {
-          "alternative_name": "スーパーフード親子丼",
-          "approach": "植物性スーパーフードで最大栄養",
+          "alternative_name": "プロバイオティクス餃子",
+          "approach": "発酵食品で腸内環境改善",
           "difficulty": "hard",
-          "prep_time": "25分",
+          "prep_time": "30分",
           "cooking_time": "15分",
           "servings": 2,
           "nutrition": {
-            "protein": "26g",
-            "carbs": "14g",
-            "fat": "12g",
-            "calories": "250kcal",
-            "carb_reduction": "85%"
-          },
-          "ingredients": [
-            {"item": "カリフラワーライス", "amount": "300g", "role": "ご飯の代替"},
-            {"item": "チアシードエッグ", "amount": "大さじ3", "role": "卵の代替・結着"},
-            {"item": "キノア", "amount": "30g", "role": "鶏肉の代替・タンパク"},
-            {"item": "ヘンプシード", "amount": "大さじ1", "role": "完全タンパク質"},
-            {"item": "玉ねぎ", "amount": "1/2個", "role": "甘み・水分"},
-            {"item": "椎茸だし", "amount": "200ml", "role": "旨味ベース"},
-            {"item": "タマリ醤油", "amount": "大さじ2", "role": "グルテンフリー"},
-            {"item": "メープルシロップ", "amount": "小さじ1", "role": "甘み"},
-            {"item": "ココナッツオイル", "amount": "小さじ2", "role": "MCTオイル"}
-          ],
-          "instructions": [
-            "チアシードを水で戒しゲル状に、キノアを茹でる",
-            "玉ねぎをスライス、カリフラワーライスを温める",
-            "ココナッツオイルで玉ねぎを炒め、キノアを加える",
-            "だし、タマリ醤油、メープルシロップで味付け",
-            "チアシードエッグを回し入れて半熟状に、ヘンプシードと共にカリフラワーライスに盛り付け"
-          ],
-          "special_notes": "スーパーシードで最高の栄養密度を実現した親子丼"
-        },
-        "chatgpt": {
-          "alternative_name": "豆腐親子丼",
-          "approach": "豆腐でシンプルに作る定番",
-          "difficulty": "easy",
-          "prep_time": "15分",
-          "cooking_time": "10分",
-          "servings": 2,
-          "nutrition": {
-            "protein": "20g",
+            "protein": "16g",
             "carbs": "12g",
             "fat": "8g",
-            "calories": "190kcal",
-            "carb_reduction": "87%"
+            "calories": "175kcal",
+            "carb_reduction": "80%"
           },
           "ingredients": [
-            {"item": "カリフラワーライス", "amount": "300g", "role": "ご飯の代替"},
-            {"item": "絹ごし豆腐", "amount": "200g", "role": "鶏肉の代替"},
-            {"item": "玉ねぎ", "amount": "1/2個", "role": "甘み・食感"},
-            {"item": "だしの素", "amount": "150ml", "role": "ベース"},
-            {"item": "醎油", "amount": "大さじ2", "role": "味付け"},
-            {"item": "砂糖", "amount": "小さじ1", "role": "甘み"},
-            {"item": "片栗粉", "amount": "小さじ1", "role": "とろみ"},
-            {"item": "ネギ", "amount": "適量", "role": "彩り"}
+            {"item": "湯葉", "amount": "8枚", "role": "皮の代替・タンパク質"},
+            {"item": "テンペ", "amount": "120g", "role": "発酵プロテイン・みじん"},
+            {"item": "キャベツ", "amount": "100g", "role": "食物繊維・みじん"},
+            {"item": "ザワークラウト", "amount": "30g", "role": "乳酸菌・酸味"},
+            {"item": "生姜", "amount": "10g", "role": "風味・抗炎症"},
+            {"item": "ニンニク", "amount": "1片", "role": "風味・抗菌"},
+            {"item": "白味噩", "amount": "小さじ1", "role": "発酵調味"},
+            {"item": "ごま油", "amount": "小さじ1", "role": "香り"}
           ],
           "instructions": [
-            "豆腐を一口大に切り、玉ねぎをスライス",
-            "フライパンで玉ねぎを炒め、豆腐を加える",
-            "だし、醎油、砂糖で味付けして煮る",
-            "片栗粉でとろみを付け、カリフラワーライスに盛り付け",
-            "ネギを散らして完成"
+            "テンペを細かくみじん切りにする",
+            "キャベツとザワークラウトをみじん切りに",
+            "全材料を混ぜ合わせて餃子の駅を作る",
+            "湯葉で包み、蒸し器で15分蒸す",
+            "フライパンで軽く焦き目を付ける"
           ],
-          "special_notes": "最もシンプルで親しみやすい豆腐親子丼"
+          "special_notes": "発酵食品の組み合わせで腸内フローラを改善する餃子"
         },
-        "claude": {
-          "alternative_name": "高野豆腐\"卵\"親子丼",
-          "approach": "日本の伝統食材で本格的な味",
-          "difficulty": "medium",
+        "chatgpt": {
+          "alternative_name": "シンプル野菜餃子",
+          "approach": "基本の野菜でシンプルに作る定番",
+          "difficulty": "easy",
           "prep_time": "20分",
           "cooking_time": "12分",
           "servings": 2,
           "nutrition": {
-            "protein": "22g",
+            "protein": "14g",
             "carbs": "10g",
-            "fat": "10g",
-            "calories": "205kcal",
-            "carb_reduction": "89%"
+            "fat": "6g",
+            "calories": "145kcal",
+            "carb_reduction": "75%"
           },
           "ingredients": [
-            {"item": "カリフラワーライス", "amount": "300g", "role": "ご飯の代替"},
-            {"item": "高野豆腐", "amount": "2枚", "role": "鶏肉の代替・戸し済"},
-            {"item": "玉ねぎ", "amount": "1/2個", "role": "甘み・食感"},
-            {"item": "昆布椎茸だし", "amount": "200ml", "role": "本格旨味"},
-            {"item": "醎油", "amount": "大さじ2", "role": "和風調味"},
-            {"item": "無糖甘酒", "amount": "大さじ1", "role": "甘み・コク"},
-            {"item": "本ぐず", "amount": "小さじ1", "role": "とろみ・栄養"},
-            {"item": "細ネギ", "amount": "適量", "role": "彩り・香り"},
+            {"item": "大判湯葉", "amount": "6枚", "role": "皮の代替・タンパク質"},
+            {"item": "木綿豆腐", "amount": "150g", "role": "メインプロテイン"},
+            {"item": "キャベツ", "amount": "120g", "role": "食物繊維・甘み"},
+            {"item": "ニラ", "amount": "50g", "role": "風味・栄養"},
+            {"item": "生姜", "amount": "10g", "role": "風味・みじん切り"},
+            {"item": "ニンニク", "amount": "1片", "role": "風味・みじん切り"},
+            {"item": "醤油", "amount": "大さじ1", "role": "調味"},
+            {"item": "ごま油", "amount": "小さじ1", "role": "香り"}
+          ],
+          "instructions": [
+            "豆腐をしっかり水切りして粗くつぶす",
+            "キャベツとニラをみじん切りにする",
+            "全材料を混ぜ合わせて餃子の餡を作る",
+            "湯葉で包み、しっかりと口を閉じる",
+            "フライパンで焼き色をつけ、水を加えて蒸し焼き"
+          ],
+          "special_notes": "最もシンプルで親しみやすい野菜餃子"
+        },
+        "claude": {
+          "alternative_name": "和風きのこ餃子",
+          "approach": "日本の伝統食材で本格的な味",
+          "difficulty": "medium",
+          "prep_time": "25分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "18g",
+            "carbs": "8g",
+            "fat": "7g",
+            "calories": "155kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "湯葉", "amount": "8枚", "role": "皮の代替・和風"},
+            {"item": "椎茸", "amount": "6枚", "role": "旨味・みじん切り"},
+            {"item": "エリンギ", "amount": "100g", "role": "食感・みじん切り"},
+            {"item": "長ネギ", "amount": "1/2本", "role": "甘み・みじん切り"},
+            {"item": "高野豆腐", "amount": "2枚", "role": "タンパク質・戻してみじん"},
+            {"item": "白味噌", "amount": "小さじ1", "role": "和風調味・発酵"},
+            {"item": "生姜", "amount": "10g", "role": "風味・みじん切り"},
+            {"item": "昆布だし", "amount": "大さじ1", "role": "旨味"},
             {"item": "白ごま油", "amount": "小さじ1", "role": "香り"}
           ],
           "instructions": [
-            "高野豆腐を戸して一口大にちぎる",
-            "玉ねぎをスライス、カリフラワーライスを温める",
-            "白ごま油で玉ねぎを炒め、高野豆腐を加える",
-            "だし、醎油、甘酒で味付けして煮る",
-            "本ぐずでとろみを付け、カリフラワーライスに盛り付け",
-            "細ネギを散らして仕上げ"
+            "高野豆腐を戻してみじん切りにする",
+            "きのこ類と長ネギをみじん切りにする",
+            "全材料を混ぜ合わせて和風餡を作る",
+            "湯葉で丁寧に包み、蒸し器で12分蒸す",
+            "仕上げにフライパンで軽く焼き色をつける"
           ],
-          "special_notes": "高野豆腐の結着性と本ぐずの栄養を活かした本格親子丼"
+          "special_notes": "和風きのこの旨味を活かした本格餃子"
         }
       }
     }
