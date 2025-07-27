@@ -98,91 +98,96 @@
       }
     },
     {
-      "rank": 1.5,
-      "original_dish": "白ご飯（代替米バリエーション）",
+      "rank": 2,
+      "original_dish": "味噩汁",
       "ai_recipes": {
         "gemini": {
-          "alternative_name": "スーパーシードライス",
-          "approach": "スーパーシードで最大栄養",
-          "difficulty": "hard",
-          "prep_time": "25分",
+          "alternative_name": "スーパーフード味噩汁",
+          "approach": "海藻と発酵食品で最大栄養",
+          "difficulty": "medium",
+          "prep_time": "15分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "22g",
+            "carbs": "8g",
+            "fat": "6g",
+            "calories": "165kcal",
+            "carb_reduction": "55%"
+          },
+          "ingredients": [
+            {"item": "昆布・椎茸・わかめダシ", "amount": "500ml", "role": "海のミネラルベース"},
+            {"item": "絹ごし豆腐", "amount": "150g", "role": "高タンパク質"},
+            {"item": "乳酸菌味噩", "amount": "大さじ1.5", "role": "腸内環境改善"},
+            {"item": "アオサ", "amount": "2g", "role": "ミネラル・鉄分"},
+            {"item": "ヘンプシード", "amount": "小さじ1", "role": "オメガ3・タンパク質"},
+            {"item": "ゴマペースト", "amount": "小さじ1", "role": "風味・栄養"}
+          ],
+          "instructions": [
+            "昆布・椎茸・わかめで濃いめのダシを取る",
+            "絹ごし豆腐を1.5cm角に切る",
+            "ダシを温め、豆腐を入れて5分煮る",
+            "乳酸菌味噩を溶かし、アオサ、ヘンプシード、ゴマペーストで仕上げ"
+          ],
+          "special_notes": "海藻と発酵食品の組み合わせで腸内環境とミネラルを最大化"
+        },
+        "chatgpt": {
+          "alternative_name": "シンプル豆腐味噩汁",
+          "approach": "基本の作り方で誰でも失敗しない",
+          "difficulty": "easy",
+          "prep_time": "5分",
+          "cooking_time": "8分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "16g",
+            "carbs": "6g",
+            "fat": "4g",
+            "calories": "120kcal",
+            "carb_reduction": "60%"
+          },
+          "ingredients": [
+            {"item": "だしの素", "amount": "400ml", "role": "ベース"},
+            {"item": "絹ごし豆腐", "amount": "150g", "role": "メイン食材"},
+            {"item": "味噩", "amount": "大さじ1.5", "role": "味付け"},
+            {"item": "ワカメ", "amount": "少々", "role": "風味・海藻"},
+            {"item": "ネギ", "amount": "適量", "role": "香り・彩り"}
+          ],
+          "instructions": [
+            "だしを作る（市販の素でOK）",
+            "豆腐を一口大に切る",
+            "だしを温め、豆腐を入れる",
+            "味噩を溶かし、ワカメとネギを散らす"
+          ],
+          "special_notes": "最もシンプルで結婚しない基本の味噩汁。初心者に最適"
+        },
+        "claude": {
+          "alternative_name": "高たんぱく昆布だし味噩汁",
+          "approach": "日本のだし文化を活かした本格派",
+          "difficulty": "easy",
+          "prep_time": "8分",
           "cooking_time": "10分",
           "servings": 2,
           "nutrition": {
-            "protein": "12g",
-            "carbs": "8g",
-            "fat": "6g",
-            "calories": "125kcal",
-            "carb_reduction": "92.9%"
+            "protein": "18g",
+            "carbs": "6g",
+            "fat": "5g",
+            "calories": "135kcal",
+            "carb_reduction": "60%"
           },
           "ingredients": [
-            {"item": "カリフラワー", "amount": "300g", "role": "ベース"},
-            {"item": "チアシード", "amount": "大さじ1", "role": "オメガ3・粘性"},
-            {"item": "ヘンプシード", "amount": "大さじ1", "role": "完全タンパク質"},
-            {"item": "フラックスシード", "amount": "小さじ1", "role": "食物繊維"},
-            {"item": "ココナッツオイル", "amount": "小さじ2", "role": "MCTオイル"},
-            {"item": "栄養酵母", "amount": "小さじ1", "role": "B群ビタミン"}
+            {"item": "昆布＋干し椎茸だし", "amount": "400ml", "role": "本格旨味ベース"},
+            {"item": "木綿豆腐", "amount": "160g", "role": "たんぱく質・1.5cm角"},
+            {"item": "乾燥湯葉", "amount": "4g", "role": "手割り・たんぱく質"},
+            {"item": "豆味噩", "amount": "大さじ1½", "role": "風味"},
+            {"item": "細ネギ", "amount": "適量", "role": "香り・彩り"}
           ],
           "instructions": [
-            "チアシードを水に浸しゲル状に",
-            "カリフラワーを米粒大に砕く",
-            "ココナッツオイルで炒め、全シードを混ぜる",
-            "最後に栄養酵母で仕上げ"
+            "昆布と干し椎茸で丁寧にだしを取る",
+            "木綿豆腐を一口大、乾燥湯葉を手で割る",
+            "だしを温め、豆腐と湯葉を入れ5分煮る",
+            "豆味噩を溶かし、細ネギを散らして仕上げ"
           ],
-          "special_notes": "スーパーシードの組み合わせで最高の栄養密度を実現"
-        },
-        "chatgpt": {
-          "alternative_name": "しらたきライス",
-          "approach": "最も低カロリーで簡単",
-          "difficulty": "easy",
-          "prep_time": "8分",
-          "cooking_time": "3分",
-          "servings": 2,
-          "nutrition": {
-            "protein": "0.2g",
-            "carbs": "5.9g",
-            "fat": "0g",
-            "calories": "25kcal",
-            "carb_reduction": "94.8%"
-          },
-          "ingredients": [
-            {"item": "しらたき", "amount": "400g", "role": "メイン"},
-            {"item": "昆布だし", "amount": "小さじ1", "role": "旨味"},
-            {"item": "塩", "amount": "少々", "role": "調味"}
-          ],
-          "instructions": [
-            "しらたきをサッと茹でる",
-            "フードプロセッサーで米粒大に",
-            "フライパンで水分を飛ばして調味"
-          ],
-          "special_notes": "最も低カロリーで糖質制限に最適。面倒な下処理も不要"
-        },
-        "claude": {
-          "alternative_name": "コンニャクライス",
-          "approach": "日本の伝統食材を活用",
-          "difficulty": "easy",
-          "prep_time": "10分",
-          "cooking_time": "5分",
-          "servings": 2,
-          "nutrition": {
-            "protein": "0.1g",
-            "carbs": "4.2g",
-            "fat": "0g",
-            "calories": "17kcal",
-            "carb_reduction": "96.3%"
-          },
-          "ingredients": [
-            {"item": "コンニャク", "amount": "300g", "role": "メイン・アク抜き済"},
-            {"item": "白ごま", "amount": "小さじ1", "role": "食感・香り"},
-            {"item": "昆布だし", "amount": "小さじ1", "role": "旨味"},
-            {"item": "白ごま油", "amount": "小さじ1", "role": "香り"}
-          ],
-          "instructions": [
-            "コンニャクを米粒大に砕く",
-            "フライパンで中火3分炒める",
-            "白ごま、昆布だし、白ごま油で調味"
-          ],
-          "special_notes": "日本の伝統食材コンニャクを活用した極低カロリーライス"
+          "special_notes": "本格的な昆布だしと豆味噩で作る日本人好みの味。湯葉でタンパク質強化"
         }
       }
     },
@@ -587,6 +592,424 @@
             "汁が⅔になれば火を止め、10分ふたをして味を含ませる"
           ],
           "special_notes": "テンペの発酵旨味と和風だしの組み合わせ"
+        }
+      }
+    },
+    {
+      "rank": 7,
+      "original_dish": "チャーハン",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "スーパーシードチャーハン",
+          "approach": "スーパーフードで最大栄養チャーハン",
+          "difficulty": "hard",
+          "prep_time": "20分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "24g",
+            "carbs": "12g",
+            "fat": "18g",
+            "calories": "290kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "カリフラワーライス", "amount": "300g", "role": "米の代替"},
+            {"item": "キヌア", "amount": "30g", "role": "完全タンパク質"},
+            {"item": "チアシードエッグ", "amount": "大さじ2", "role": "卵の代替・結着"},
+            {"item": "ヘンプシード", "amount": "大さじ1", "role": "タンパク質強化"},
+            {"item": "椎茸", "amount": "50g", "role": "旨味・食感"},
+            {"item": "ニラ", "amount": "30g", "role": "香り・ビタミン"},
+            {"item": "ココナッツオイル", "amount": "大さじ2", "role": "MCTオイル"},
+            {"item": "タマリ醤油", "amount": "大さじ1.5", "role": "グルテンフリー調味"}
+          ],
+          "instructions": [
+            "チアシードを水に浸しゲル状にし、キヌアを茹でる",
+            "椎茸をみじん切り、ニラをざく切りに",
+            "ココナッツオイルでチアシードエッグをスクランブル状に",
+            "カリフラワーライス、キヌア、椎茸を加え炒め合わせる",
+            "タマリ醤油、ヘンプシード、ニラで仕上げ"
+          ],
+          "special_notes": "スーパーシードで最高の栄養密度を実現したチャーハン"
+        },
+        "chatgpt": {
+          "alternative_name": "簡単豆腐スクランブルチャーハン",
+          "approach": "手軽で失敗しない定番レシピ",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "8分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "18g",
+            "carbs": "10g",
+            "fat": "12g",
+            "calories": "215kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "カリフラワーライス", "amount": "300g", "role": "米の代替"},
+            {"item": "木綿豆腐", "amount": "150g", "role": "卵の代替"},
+            {"item": "長ネギ", "amount": "1/2本", "role": "香り・食感"},
+            {"item": "ニンジン", "amount": "1/3本", "role": "彩り・栄養"},
+            {"item": "ゴマ油", "amount": "大さじ1.5", "role": "香り・調理油"},
+            {"item": "醎油", "amount": "大さじ1.5", "role": "調味"},
+            {"item": "鹽の素", "amount": "小さじ1", "role": "中華の味"}
+          ],
+          "instructions": [
+            "豆腐を水切りしてほぐす",
+            "野菜をみじん切りにする",
+            "ゴマ油で豆腐をスクランブル状に炒める",
+            "野菜、カリフラワーライスを加え炒め合わせる",
+            "醎油と鹽の素で味付け"
+          ],
+          "special_notes": "最もシンプルで家庭で作りやすいチャーハン。初心者向け"
+        },
+        "claude": {
+          "alternative_name": "高野豆腐\"卵\"スクランブル炒飯",
+          "approach": "日本の伝統食材で本格的な味",
+          "difficulty": "medium",
+          "prep_time": "15分",
+          "cooking_time": "10分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "20g",
+            "carbs": "9g",
+            "fat": "14g",
+            "calories": "235kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "カリフラワーライス", "amount": "300g", "role": "米の代替"},
+            {"item": "高野豆腐", "amount": "3枚", "role": "卵の代替・戸し済み"},
+            {"item": "長ネギ", "amount": "1/2本", "role": "香り・旨味"},
+            {"item": "細タケノコ", "amount": "50g", "role": "食感・旨味"},
+            {"item": "白ごま油", "amount": "大さじ1.5", "role": "香り・風味"},
+            {"item": "醎油", "amount": "大さじ1.5", "role": "和風調味"},
+            {"item": "無糖甘酒", "amount": "小さじ1", "role": "甘み・コク"},
+            {"item": "白ごま", "amount": "小さじ1", "role": "香り・食感"}
+          ],
+          "instructions": [
+            "高野豆腐を戸して細かくほぐす",
+            "長ネギを小口切り、タケノコをみじん切りに",
+            "白ごま油で高野豆腐をスクランブル状に炒める",
+            "長ネギ、タケノコ、カリフラワーライスを加え炒め合わせる",
+            "醎油、甘酒で味付けし、白ごまを散らして仕上げ"
+          ],
+          "special_notes": "高野豆腐の結着性を活かした日本人好みの味付け"
+        }
+      }
+    },
+    {
+      "rank": 8,
+      "original_dish": "ハンバーグ",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "プロテインパワーハンバーグ",
+          "approach": "植物性プロテインを極限まで強化",
+          "difficulty": "hard",
+          "prep_time": "25分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "32g",
+            "carbs": "8g",
+            "fat": "15g",
+            "calories": "275kcal",
+            "carb_reduction": "92%"
+          },
+          "ingredients": [
+            {"item": "ブラックビーンズ", "amount": "100g", "role": "メインプロテイン"},
+            {"item": "レンズ豆", "amount": "60g", "role": "プロテイン強化"},
+            {"item": "キノア", "amount": "30g", "role": "完全タンパク質"},
+            {"item": "チアシード", "amount": "大さじ1", "role": "結着・オメガ3"},
+            {"item": "クルミ", "amount": "30g", "role": "食感・ミネラル"},
+            {"item": "タマネギ", "amount": "1/4個", "role": "甘み・結着"},
+            {"item": "ガーリック", "amount": "1片", "role": "風味"},
+            {"item": "アボカドオイル", "amount": "大さじ1", "role": "良質な脂質"}
+          ],
+          "instructions": [
+            "ブラックビーンズとレンズ豆を柔らかく茹でる",
+            "キノアを茹で、チアシードを水で戒してゲル状に",
+            "全材料をフードプロセッサーで混ぜ合わせる",
+            "ハンバーグ形に成形し、15分休ませる",
+            "アボカドオイルで両面を焦き上げる"
+          ],
+          "special_notes": "豆類の組み合わせで必需アミノ酸を完備した高タンパクハンバーグ"
+        },
+        "chatgpt": {
+          "alternative_name": "豆腐ハンバーグ",
+          "approach": "シンプルで経済的な基本レシピ",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "10分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "22g",
+            "carbs": "6g",
+            "fat": "12g",
+            "calories": "205kcal",
+            "carb_reduction": "94%"
+          },
+          "ingredients": [
+            {"item": "木綿豆腐", "amount": "300g", "role": "メインプロテイン"},
+            {"item": "玉ねぎ", "amount": "1/4個", "role": "甘み・食感"},
+            {"item": "パン粉", "amount": "大さじ2", "role": "結着"},
+            {"item": "醎油", "amount": "大さじ1", "role": "味付け"},
+            {"item": "塩こしょう", "amount": "少々", "role": "調味"},
+            {"item": "オリーブオイル", "amount": "大さじ1", "role": "調理用"}
+          ],
+          "instructions": [
+            "豆腐をしっかり水切りしてつぶす",
+            "玉ねぎをみじん切りにする",
+            "全材料を混ぜ合わせて成形",
+            "フライパンで両面を焦く"
+          ],
+          "special_notes": "最もシンプルで失敗しない豆腐ハンバーグの基本レシピ"
+        },
+        "claude": {
+          "alternative_name": "きのこ・厚揚げハンバーグ",
+          "approach": "日本のきのこと豆腐を活用",
+          "difficulty": "medium",
+          "prep_time": "20分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "25g",
+            "carbs": "7g",
+            "fat": "14g",
+            "calories": "235kcal",
+            "carb_reduction": "93%"
+          },
+          "ingredients": [
+            {"item": "椎茸", "amount": "150g", "role": "メイン食材・みじん切り"},
+            {"item": "エリンギ", "amount": "100g", "role": "食感・みじん切り"},
+            {"item": "厚揚げ", "amount": "150g", "role": "タンパク質・結着"},
+            {"item": "玉ねぎ", "amount": "1/4個", "role": "甘み・水分"},
+            {"item": "おから粉", "amount": "大さじ2", "role": "結着・低糖質"},
+            {"item": "醎油", "amount": "大さじ1", "role": "和風調味"},
+            {"item": "無糖甘酒", "amount": "小さじ1", "role": "甘み・コク"},
+            {"item": "白ごま油", "amount": "大さじ1", "role": "香り・調理"}
+          ],
+          "instructions": [
+            "きのこをみじん切りにし、厚揚げを気持ち粗くつぶす",
+            "玉ねぎをみじん切りにする",
+            "全材料を混ぜ合わせ、ハンバーグ形に成形",
+            "白ごま油で両面を焦き、蓋をして蒸し焼き"
+          ],
+          "special_notes": "きのこの旨味と厚揚げのコクを活かした和風ハンバーグ"
+        }
+      }
+    },
+    {
+      "rank": 9,
+      "original_dish": "餌子",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "プロバイオティクス餌子",
+          "approach": "発酵食品で腸内環境改善",
+          "difficulty": "hard",
+          "prep_time": "30分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "16g",
+            "carbs": "12g",
+            "fat": "8g",
+            "calories": "175kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "湯葉", "amount": "8枚", "role": "皮の代替・タンパク質"},
+            {"item": "テンペ", "amount": "120g", "role": "発酵プロテイン・みじん"},
+            {"item": "キャベツ", "amount": "100g", "role": "食物繊維・みじん"},
+            {"item": "ザワークラウト", "amount": "30g", "role": "乳酸菌・酸味"},
+            {"item": "生姜", "amount": "10g", "role": "風味・抗炎症"},
+            {"item": "ニンニク", "amount": "1片", "role": "風味・抗菌"},
+            {"item": "白味噩", "amount": "小さじ1", "role": "発酵調味"},
+            {"item": "ごま油", "amount": "小さじ1", "role": "香り"}
+          ],
+          "instructions": [
+            "テンペを細かくみじん切りにする",
+            "キャベツとザワークラウトをみじん切りに",
+            "全材料を混ぜ合わせて餌子の駅を作る",
+            "湯葉で包み、蒸し器で15分蒸す",
+            "フライパンで軽く焦き目を付ける"
+          ],
+          "special_notes": "発酵食品の組み合わせで腸内フローラを改善する餌子"
+        },
+        "chatgpt": {
+          "alternative_name": "野菜餌子",
+          "approach": "シンプルで手軽な家庭料理",
+          "difficulty": "medium",
+          "prep_time": "20分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "12g",
+            "carbs": "15g",
+            "fat": "6g",
+            "calories": "155kcal",
+            "carb_reduction": "75%"
+          },
+          "ingredients": [
+            {"item": "餌子の皮", "amount": "20枚", "role": "市販の皮"},
+            {"item": "キャベツ", "amount": "150g", "role": "メイン食材"},
+            {"item": "ニラ", "amount": "50g", "role": "香り・栄養"},
+            {"item": "玉ねぎ", "amount": "1/4個", "role": "甘み"},
+            {"item": "生姜", "amount": "5g", "role": "風味"},
+            {"item": "醎油", "amount": "大さじ1", "role": "味付け"},
+            {"item": "ごま油", "amount": "小さじ1", "role": "香り"},
+            {"item": "片栗粉", "amount": "小さじ1", "role": "結着"}
+          ],
+          "instructions": [
+            "野菜を全てみじん切りにする",
+            "調味料と混ぜ合わせて餌子の駅を作る",
+            "餌子の皮で包む",
+            "蒸し器で蒸すか、フライパンで焙き餌子に"
+          ],
+          "special_notes": "最もシンプルで作りやすい野菜餌子の基本レシピ"
+        },
+        "claude": {
+          "alternative_name": "湯葉包みキノコ餌子",
+          "approach": "日本の伝統食材で上品な味",
+          "difficulty": "medium",
+          "prep_time": "25分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "14g",
+            "carbs": "10g",
+            "fat": "7g",
+            "calories": "150kcal",
+            "carb_reduction": "83%"
+          },
+          "ingredients": [
+            {"item": "湯葉", "amount": "8枚", "role": "皮の代替・和風"},
+            {"item": "椎茸", "amount": "100g", "role": "メイン食材・みじん"},
+            {"item": "エリンギ", "amount": "80g", "role": "食感・みじん"},
+            {"item": "キャベツ", "amount": "80g", "role": "甘み・シャキシャキ"},
+            {"item": "ニラ", "amount": "30g", "role": "香り・彩り"},
+            {"item": "留豆腐", "amount": "30g", "role": "コク・タンパク質"},
+            {"item": "醎油", "amount": "大さじ1", "role": "調味"},
+            {"item": "無糖甘酒", "amount": "小さじ1", "role": "甘み"},
+            {"item": "白ごま油", "amount": "小さじ1", "role": "香り"}
+          ],
+          "instructions": [
+            "湯葉を熱湯でさっと湯がいて柔らかくする",
+            "きのこをみじん切り、キャベツを千切りに",
+            "留豆腐を気持ち粗くつぶし、全材料を混ぜる",
+            "湯葉で丁寧に包み、蒸し器で12分蒸す",
+            "フライパンで軽く焙き目を付けて仕上げ"
+          ],
+          "special_notes": "湯葉の上品な風味ときのこの旨味を活かした和風餌子"
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "original_dish": "親子丼",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "スーパーフード親子丼",
+          "approach": "植物性スーパーフードで最大栄養",
+          "difficulty": "hard",
+          "prep_time": "25分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "26g",
+            "carbs": "14g",
+            "fat": "12g",
+            "calories": "250kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "カリフラワーライス", "amount": "300g", "role": "ご飯の代替"},
+            {"item": "チアシードエッグ", "amount": "大さじ3", "role": "卵の代替・結着"},
+            {"item": "キノア", "amount": "30g", "role": "鶏肉の代替・タンパク"},
+            {"item": "ヘンプシード", "amount": "大さじ1", "role": "完全タンパク質"},
+            {"item": "玉ねぎ", "amount": "1/2個", "role": "甘み・水分"},
+            {"item": "椎茸だし", "amount": "200ml", "role": "旨味ベース"},
+            {"item": "タマリ醤油", "amount": "大さじ2", "role": "グルテンフリー"},
+            {"item": "メープルシロップ", "amount": "小さじ1", "role": "甘み"},
+            {"item": "ココナッツオイル", "amount": "小さじ2", "role": "MCTオイル"}
+          ],
+          "instructions": [
+            "チアシードを水で戒しゲル状に、キノアを茹でる",
+            "玉ねぎをスライス、カリフラワーライスを温める",
+            "ココナッツオイルで玉ねぎを炒め、キノアを加える",
+            "だし、タマリ醤油、メープルシロップで味付け",
+            "チアシードエッグを回し入れて半熟状に、ヘンプシードと共にカリフラワーライスに盛り付け"
+          ],
+          "special_notes": "スーパーシードで最高の栄養密度を実現した親子丼"
+        },
+        "chatgpt": {
+          "alternative_name": "豆腐親子丼",
+          "approach": "豆腐でシンプルに作る定番",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "10分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "20g",
+            "carbs": "12g",
+            "fat": "8g",
+            "calories": "190kcal",
+            "carb_reduction": "87%"
+          },
+          "ingredients": [
+            {"item": "カリフラワーライス", "amount": "300g", "role": "ご飯の代替"},
+            {"item": "絹ごし豆腐", "amount": "200g", "role": "鶏肉の代替"},
+            {"item": "玉ねぎ", "amount": "1/2個", "role": "甘み・食感"},
+            {"item": "だしの素", "amount": "150ml", "role": "ベース"},
+            {"item": "醎油", "amount": "大さじ2", "role": "味付け"},
+            {"item": "砂糖", "amount": "小さじ1", "role": "甘み"},
+            {"item": "片栗粉", "amount": "小さじ1", "role": "とろみ"},
+            {"item": "ネギ", "amount": "適量", "role": "彩り"}
+          ],
+          "instructions": [
+            "豆腐を一口大に切り、玉ねぎをスライス",
+            "フライパンで玉ねぎを炒め、豆腐を加える",
+            "だし、醎油、砂糖で味付けして煮る",
+            "片栗粉でとろみを付け、カリフラワーライスに盛り付け",
+            "ネギを散らして完成"
+          ],
+          "special_notes": "最もシンプルで親しみやすい豆腐親子丼"
+        },
+        "claude": {
+          "alternative_name": "高野豆腐\"卵\"親子丼",
+          "approach": "日本の伝統食材で本格的な味",
+          "difficulty": "medium",
+          "prep_time": "20分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "22g",
+            "carbs": "10g",
+            "fat": "10g",
+            "calories": "205kcal",
+            "carb_reduction": "89%"
+          },
+          "ingredients": [
+            {"item": "カリフラワーライス", "amount": "300g", "role": "ご飯の代替"},
+            {"item": "高野豆腐", "amount": "2枚", "role": "鶏肉の代替・戸し済"},
+            {"item": "玉ねぎ", "amount": "1/2個", "role": "甘み・食感"},
+            {"item": "昆布椎茸だし", "amount": "200ml", "role": "本格旨味"},
+            {"item": "醎油", "amount": "大さじ2", "role": "和風調味"},
+            {"item": "無糖甘酒", "amount": "大さじ1", "role": "甘み・コク"},
+            {"item": "本ぐず", "amount": "小さじ1", "role": "とろみ・栄養"},
+            {"item": "細ネギ", "amount": "適量", "role": "彩り・香り"},
+            {"item": "白ごま油", "amount": "小さじ1", "role": "香り"}
+          ],
+          "instructions": [
+            "高野豆腐を戸して一口大にちぎる",
+            "玉ねぎをスライス、カリフラワーライスを温める",
+            "白ごま油で玉ねぎを炒め、高野豆腐を加える",
+            "だし、醎油、甘酒で味付けして煮る",
+            "本ぐずでとろみを付け、カリフラワーライスに盛り付け",
+            "細ネギを散らして仕上げ"
+          ],
+          "special_notes": "高野豆腐の結着性と本ぐずの栄養を活かした本格親子丼"
         }
       }
     }
