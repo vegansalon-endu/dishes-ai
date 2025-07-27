@@ -701,7 +701,7 @@
     },
     {
       "rank": 8,
-      "original_dish": "ハンバーグ",
+      "original_dish": "親子丼",
       "ai_recipes": {
         "gemini": {
           "alternative_name": "プロテインパワーハンバーグ",
@@ -802,112 +802,105 @@
     },
     {
       "rank": 9,
-      "original_dish": "餌子",
+      "original_dish": "とんかつ",
       "ai_recipes": {
         "gemini": {
-          "alternative_name": "プロバイオティクス餌子",
-          "approach": "発酵食品で腸内環境改善",
+          "alternative_name": "スーパーフードカツ",
+          "approach": "植物性スーパーフードで最大栄養",
           "difficulty": "hard",
           "prep_time": "30分",
           "cooking_time": "15分",
           "servings": 2,
           "nutrition": {
-            "protein": "16g",
-            "carbs": "12g",
-            "fat": "8g",
-            "calories": "175kcal",
-            "carb_reduction": "80%"
+            "protein": "28g",
+            "carbs": "8g",
+            "fat": "16g",
+            "calories": "265kcal",
+            "carb_reduction": "90%"
           },
           "ingredients": [
-            {"item": "湯葉", "amount": "8枚", "role": "皮の代替・タンパク質"},
-            {"item": "テンペ", "amount": "120g", "role": "発酵プロテイン・みじん"},
-            {"item": "キャベツ", "amount": "100g", "role": "食物繊維・みじん"},
-            {"item": "ザワークラウト", "amount": "30g", "role": "乳酸菌・酸味"},
-            {"item": "生姜", "amount": "10g", "role": "風味・抗炎症"},
-            {"item": "ニンニク", "amount": "1片", "role": "風味・抗菌"},
-            {"item": "白味噩", "amount": "小さじ1", "role": "発酵調味"},
-            {"item": "ごま油", "amount": "小さじ1", "role": "香り"}
+            {"item": "高野豆腐", "amount": "4枚", "role": "メイン食材・戸し済み"},
+            {"item": "ヘンプシード", "amount": "大さじ2", "role": "完全タンパク質"},
+            {"item": "アーモンド粉", "amount": "60g", "role": "衣・低糖質"},
+            {"item": "チアシード", "amount": "大さじ1", "role": "結着・オメガ3"},
+            {"item": "栄養酵母", "amount": "大さじ1", "role": "B群ビタミン"},
+            {"item": "ターメリック", "amount": "小さじ1", "role": "抗炎症・色"},
+            {"item": "アボカドオイル", "amount": "適量", "role": "揚げ用・良質脂質"}
           ],
           "instructions": [
-            "テンペを細かくみじん切りにする",
-            "キャベツとザワークラウトをみじん切りに",
-            "全材料を混ぜ合わせて餌子の駅を作る",
-            "湯葉で包み、蒸し器で15分蒸す",
-            "フライパンで軽く焦き目を付ける"
+            "高野豆腐を戸して薄切りにし、しっかり水切り",
+            "チアシードを水で戒しゲル状にする",
+            "アーモンド粉、ヘンプシード、栄養酵母、ターメリックで衣を作る",
+            "高野豆腐にチアシードゲルを塗り、衣をつける",
+            "アボカドオイル170°Cで両面きつね色に揚げる"
           ],
-          "special_notes": "発酵食品の組み合わせで腸内フローラを改善する餌子"
+          "special_notes": "スーパーシードで最高の栄養密度を実現したカツ"
         },
         "chatgpt": {
-          "alternative_name": "野菜餌子",
-          "approach": "シンプルで手軽な家庭料理",
+          "alternative_name": "厚揚げカツ",
+          "approach": "シンプルで経済的な基本レシピ",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "10分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "22g",
+            "carbs": "12g",
+            "fat": "14g",
+            "calories": "240kcal",
+            "carb_reduction": "88%"
+          },
+          "ingredients": [
+            {"item": "厚揚げ", "amount": "300g", "role": "メイン食材・8mm厚"},
+            {"item": "小麦粉", "amount": "大さじ3", "role": "下地"},
+            {"item": "豆乳", "amount": "50ml", "role": "液体"},
+            {"item": "パン粉", "amount": "60g", "role": "衣"},
+            {"item": "オリーブオイル", "amount": "適量", "role": "揚げ用"}
+          ],
+          "instructions": [
+            "厚揚げを8mm厚にスライスし、水切りする",
+            "小麦粉と豆乳でバッターを作る",
+            "厚揚げにバッターを絡め、パン粉をつける",
+            "170°Cのオイルで両面きつね色に揚げる"
+          ],
+          "special_notes": "最もシンプルで失敗しない厚揚げカツの基本レシピ"
+        },
+        "claude": {
+          "alternative_name": "豆腐ステーキカツ",
+          "approach": "日本の伝統食材で本格的な味",
           "difficulty": "medium",
           "prep_time": "20分",
           "cooking_time": "12分",
           "servings": 2,
           "nutrition": {
-            "protein": "12g",
-            "carbs": "15g",
-            "fat": "6g",
-            "calories": "155kcal",
-            "carb_reduction": "75%"
-          },
-          "ingredients": [
-            {"item": "餌子の皮", "amount": "20枚", "role": "市販の皮"},
-            {"item": "キャベツ", "amount": "150g", "role": "メイン食材"},
-            {"item": "ニラ", "amount": "50g", "role": "香り・栄養"},
-            {"item": "玉ねぎ", "amount": "1/4個", "role": "甘み"},
-            {"item": "生姜", "amount": "5g", "role": "風味"},
-            {"item": "醎油", "amount": "大さじ1", "role": "味付け"},
-            {"item": "ごま油", "amount": "小さじ1", "role": "香り"},
-            {"item": "片栗粉", "amount": "小さじ1", "role": "結着"}
-          ],
-          "instructions": [
-            "野菜を全てみじん切りにする",
-            "調味料と混ぜ合わせて餌子の駅を作る",
-            "餌子の皮で包む",
-            "蒸し器で蒸すか、フライパンで焙き餌子に"
-          ],
-          "special_notes": "最もシンプルで作りやすい野菜餌子の基本レシピ"
-        },
-        "claude": {
-          "alternative_name": "湯葉包みキノコ餌子",
-          "approach": "日本の伝統食材で上品な味",
-          "difficulty": "medium",
-          "prep_time": "25分",
-          "cooking_time": "12分",
-          "servings": 2,
-          "nutrition": {
-            "protein": "14g",
+            "protein": "24g",
             "carbs": "10g",
-            "fat": "7g",
-            "calories": "150kcal",
-            "carb_reduction": "83%"
+            "fat": "12g",
+            "calories": "230kcal",
+            "carb_reduction": "90%"
           },
           "ingredients": [
-            {"item": "湯葉", "amount": "8枚", "role": "皮の代替・和風"},
-            {"item": "椎茸", "amount": "100g", "role": "メイン食材・みじん"},
-            {"item": "エリンギ", "amount": "80g", "role": "食感・みじん"},
-            {"item": "キャベツ", "amount": "80g", "role": "甘み・シャキシャキ"},
-            {"item": "ニラ", "amount": "30g", "role": "香り・彩り"},
-            {"item": "留豆腐", "amount": "30g", "role": "コク・タンパク質"},
-            {"item": "醎油", "amount": "大さじ1", "role": "調味"},
-            {"item": "無糖甘酒", "amount": "小さじ1", "role": "甘み"},
-            {"item": "白ごま油", "amount": "小さじ1", "role": "香り"}
+            {"item": "木綿豆腐", "amount": "400g", "role": "メイン食材・厚切り"},
+            {"item": "おから粉", "amount": "40g", "role": "衣・低糖質"},
+            {"item": "本ぐず", "amount": "大さじ1", "role": "結着・栄養"},
+            {"item": "昆布だし", "amount": "小さじ1", "role": "旨味"},
+            {"item": "醎油", "amount": "小さじ1", "role": "下味"},
+            {"item": "白ごま油", "amount": "適量", "role": "揚げ用・香り"}
           ],
           "instructions": [
-            "湯葉を熱湯でさっと湯がいて柔らかくする",
-            "きのこをみじん切り、キャベツを千切りに",
-            "留豆腐を気持ち粗くつぶし、全材料を混ぜる",
-            "湯葉で丁寧に包み、蒸し器で12分蒸す",
-            "フライパンで軽く焙き目を付けて仕上げ"
+            "豆腐をしっかり水切りし、2cm厚にスライス",
+            "豆腐に醎油で軽く下味をつける",
+            "本ぐずと昆布だしを水で溶いてバッター作り",
+            "豆腐にバッターを絡め、おから粉をつける",
+            "白ごま油170°Cで両面きつね色に揚げる"
           ],
-          "special_notes": "湯葉の上品な風味ときのこの旨味を活かした和風餌子"
+          "special_notes": "本ぐずと昆布だしの旨味を活かした和風カツ"
         }
       }
     },
     {
       "rank": 10,
-      "original_dish": "親子丼",
+      "original_dish": "餌子",
       "ai_recipes": {
         "gemini": {
           "alternative_name": "スーパーフード親子丼",
