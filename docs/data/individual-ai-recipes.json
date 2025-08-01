@@ -1964,6 +1964,984 @@
           "special_notes": "豆乳つけダレで卵の代替を完璧に再現した本格すき焼き"
         }
       }
+    },
+    {
+      "rank": 21,
+      "original_dish": "煮魚（味噌煮など）",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "栄養強化豆腐の味噌煮",
+          "approach": "スーパーフードで栄養価を最大化",
+          "difficulty": "medium",
+          "prep_time": "20分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "25g",
+            "carbs": "10g",
+            "fat": "12g",
+            "calories": "235kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "木綿豆腐", "amount": "300g", "role": "メインプロテイン"},
+            {"item": "ヘンプシード", "amount": "大さじ2", "role": "完全たんぱく質"},
+            {"item": "海苔", "amount": "2枚", "role": "魚風味・ミネラル"},
+            {"item": "チアシード", "amount": "小さじ1", "role": "オメガ3・とろみ"},
+            {"item": "白味噌", "amount": "大さじ2", "role": "発酵調味料"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "自然な甘み"},
+            {"item": "昆布だし", "amount": "200ml", "role": "ベース"}
+          ],
+          "instructions": [
+            "豆腐を海苔で包み、チアシードをまぶす",
+            "だしで10分煮込む",
+            "味噌と甘酒で調味",
+            "ヘンプシードをトッピング"
+          ],
+          "special_notes": "チアシードとヘンプシードで栄養価を大幅強化"
+        },
+        "chatgpt": {
+          "alternative_name": "ナスの味噌煮（鯖風）",
+          "approach": "親しみやすい定番の味付け",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "6g",
+            "carbs": "12g",
+            "fat": "8g",
+            "calories": "135kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "ナス", "amount": "2本", "role": "厚い半月切り"},
+            {"item": "生姜", "amount": "1片", "role": "薄切り・風味"},
+            {"item": "昆布だし", "amount": "200ml", "role": "ベース"},
+            {"item": "赤味噌", "amount": "大さじ2", "role": "濃厚な味"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "自然な甘み"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "焼き用"}
+          ],
+          "instructions": [
+            "ナスを厚く切り、両面を焼く",
+            "だし、生姜、調味料を加える",
+            "落し蓋をして煮込む"
+          ],
+          "special_notes": "最もシンプルで失敗しない煮魚風"
+        },
+        "claude": {
+          "alternative_name": "海苔包み豆腐の味噌煮",
+          "approach": "伝統的な煮魚の技法を完全再現",
+          "difficulty": "medium",
+          "prep_time": "15分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "22g",
+            "carbs": "8g",
+            "fat": "11g",
+            "calories": "205kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "木綿豆腐", "amount": "300g", "role": "しっかり水切り"},
+            {"item": "焼き海苔", "amount": "2枚", "role": "魚の風味演出"},
+            {"item": "カブ", "amount": "2個", "role": "くし切り・すりおろし"},
+            {"item": "豆味噌", "amount": "大さじ1", "role": "深いコク"},
+            {"item": "甘酒", "amount": "小さじ1", "role": "自然な甘み"},
+            {"item": "昆布椎茸だし", "amount": "200ml", "role": "ベース"}
+          ],
+          "instructions": [
+            "豆腐を海苔で包み片栗粉をまぶす",
+            "カブと一緒に煮込む",
+            "すりおろしカブで自然なとろみ",
+            "味噌と甘酒で上品に調味"
+          ],
+          "special_notes": "カブの自然な甘みととろみで上品な仕上がり"
+        }
+      }
+    },
+    {
+      "rank": 22,
+      "original_dish": "野菜炒め",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "スーパーフード野菜炒め",
+          "approach": "栄養密度を最大化した炒め物",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "8分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "26g",
+            "carbs": "12g",
+            "fat": "14g",
+            "calories": "265kcal",
+            "carb_reduction": "75%"
+          },
+          "ingredients": [
+            {"item": "テンペ", "amount": "120g", "role": "発酵たんぱく質"},
+            {"item": "ケール", "amount": "100g", "role": "鉄分・ビタミンK"},
+            {"item": "ブロッコリー", "amount": "150g", "role": "ビタミンC・食物繊維"},
+            {"item": "パプリカ", "amount": "1個", "role": "β-カロテン"},
+            {"item": "ヘンプシード", "amount": "大さじ2", "role": "完全たんぱく質"},
+            {"item": "ココナッツオイル", "amount": "大さじ1", "role": "中鎖脂肪酸"},
+            {"item": "醤油", "amount": "大さじ1", "role": "調味"}
+          ],
+          "instructions": [
+            "テンペを薄切りにして焼く",
+            "ケールとブロッコリーを炒める",
+            "パプリカを加えて仕上げ",
+            "ヘンプシードをトッピング"
+          ],
+          "special_notes": "ケールとヘンプシードで栄養価を極限まで高めた炒め物"
+        },
+        "chatgpt": {
+          "alternative_name": "厚揚げの高たんぱく野菜炒め",
+          "approach": "家庭で作りやすい定番野菜炒め",
+          "difficulty": "easy",
+          "prep_time": "8分",
+          "cooking_time": "10分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "20g",
+            "carbs": "10g",
+            "fat": "12g",
+            "calories": "215kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "厚揚げ", "amount": "200g", "role": "短冊切り"},
+            {"item": "キャベツ", "amount": "150g", "role": "ざく切り"},
+            {"item": "ピーマン", "amount": "2個", "role": "細切り"},
+            {"item": "人参", "amount": "1/2本", "role": "細切り"},
+            {"item": "エリンギ", "amount": "2本", "role": "スライス"},
+            {"item": "醤油", "amount": "大さじ1", "role": "調味"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "炒め用"}
+          ],
+          "instructions": [
+            "厚揚げを炒めて香ばしく",
+            "硬い野菜から順に炒める",
+            "調味料で味付け",
+            "強火で仕上げる"
+          ],
+          "special_notes": "最も親しみやすく失敗しない野菜炒め"
+        },
+        "claude": {
+          "alternative_name": "テンペと彩り野菜の焦がし醤油炒め",
+          "approach": "香ばしさを追求した本格炒め物",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "8分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "24g",
+            "carbs": "9g",
+            "fat": "10g",
+            "calories": "205kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "テンペ", "amount": "140g", "role": "薄切り・発酵たんぱく"},
+            {"item": "ブロッコリー", "amount": "150g", "role": "小房・茎も使用"},
+            {"item": "パプリカ", "amount": "1個", "role": "細切り・彩り"},
+            {"item": "もやし", "amount": "100g", "role": "食感・ボリューム"},
+            {"item": "醤油", "amount": "大さじ1.5", "role": "焦がし醤油"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "香り"},
+            {"item": "ヘンプシード", "amount": "大さじ1", "role": "仕上げ"}
+          ],
+          "instructions": [
+            "テンペをカリッと焼く",
+            "野菜を強火で炒める",
+            "鍋肌から醤油を回し入れ香ばしく",
+            "ヘンプシードで栄養価アップ"
+          ],
+          "special_notes": "焦がし醤油の香りとテンペの食感が絶妙"
+        }
+      }
+    },
+    {
+      "rank": 23,
+      "original_dish": "ふりかけご飯",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "スーパーシードふりかけライス",
+          "approach": "種子類で栄養価を最大化",
+          "difficulty": "easy",
+          "prep_time": "20分",
+          "cooking_time": "5分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "22g",
+            "carbs": "10g",
+            "fat": "18g",
+            "calories": "285kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "カリフラワーライス", "amount": "300g", "role": "ベース"},
+            {"item": "ヘンプシード", "amount": "大さじ3", "role": "完全たんぱく質"},
+            {"item": "チアシード", "amount": "大さじ1", "role": "オメガ3"},
+            {"item": "フラックスシード", "amount": "大さじ1", "role": "リグナン"},
+            {"item": "かぼちゃの種", "amount": "大さじ2", "role": "亜鉛・マグネシウム"},
+            {"item": "海苔", "amount": "2枚", "role": "ヨウ素・ミネラル"},
+            {"item": "塩", "amount": "少々", "role": "調味"}
+          ],
+          "instructions": [
+            "カリフラワーライスを温める",
+            "種子類を軽く炒って香りを出す",
+            "海苔をちぎって混ぜる",
+            "ライスにたっぷりかける"
+          ],
+          "special_notes": "4種のスーパーシードで完璧な栄養バランス"
+        },
+        "chatgpt": {
+          "alternative_name": "海苔ごまふりかけライス",
+          "approach": "馴染みやすい定番ふりかけ",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "3分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "12g",
+            "carbs": "9g",
+            "fat": "8g",
+            "calories": "145kcal",
+            "carb_reduction": "92%"
+          },
+          "ingredients": [
+            {"item": "しらたきライス", "amount": "300g", "role": "低カロリーベース"},
+            {"item": "焼き海苔", "amount": "3枚", "role": "手でちぎる"},
+            {"item": "白ごま", "amount": "大さじ2", "role": "香り・栄養"},
+            {"item": "黒ごま", "amount": "大さじ1", "role": "彩り"},
+            {"item": "昆布茶", "amount": "小さじ1", "role": "旨味"},
+            {"item": "塩", "amount": "小さじ1/2", "role": "調味"}
+          ],
+          "instructions": [
+            "しらたきを米粒大に刻む",
+            "ふりかけ材料を混ぜる",
+            "温かいライスにかける"
+          ],
+          "special_notes": "最もシンプルで親しみやすいふりかけ"
+        },
+        "claude": {
+          "alternative_name": "高たんぱくふりかけライス",
+          "approach": "バランスの取れた栄養設計",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "5分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "19g",
+            "carbs": "8g",
+            "fat": "15g",
+            "calories": "235kcal",
+            "carb_reduction": "92%"
+          },
+          "ingredients": [
+            {"item": "カリフラワーライス", "amount": "300g", "role": "ベース"},
+            {"item": "ヘンプシード", "amount": "大さじ2", "role": "完全たんぱく質"},
+            {"item": "炒りごま", "amount": "大さじ2", "role": "香り・栄養"},
+            {"item": "砕いたアーモンド", "amount": "大さじ2", "role": "たんぱく質・食感"},
+            {"item": "ちぎった海苔", "amount": "1枚分", "role": "ミネラル"},
+            {"item": "ニュートリショナルイースト", "amount": "大さじ1", "role": "ビタミンB12"},
+            {"item": "塩", "amount": "少々", "role": "調味"}
+          ],
+          "instructions": [
+            "カリフラワーライスを温める",
+            "ふりかけ材料をすべて混ぜる",
+            "温かいライスにたっぷりかける",
+            "よく混ぜて完成"
+          ],
+          "special_notes": "ナッツとシードの組み合わせで理想的な栄養バランス"
+        }
+      }
+    },
+    {
+      "rank": 24,
+      "original_dish": "ラーメン",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "栄養強化豆乳ラーメン",
+          "approach": "プロテインパウダーで栄養価最大化",
+          "difficulty": "medium",
+          "prep_time": "20分",
+          "cooking_time": "15分",
+          "servings": 1,
+          "nutrition": {
+            "protein": "32g",
+            "carbs": "10g",
+            "fat": "16g",
+            "calories": "295kcal",
+            "carb_reduction": "88%"
+          },
+          "ingredients": [
+            {"item": "しらたき", "amount": "200g", "role": "麺代替"},
+            {"item": "無調整豆乳", "amount": "200ml", "role": "スープベース"},
+            {"item": "昆布だし", "amount": "200ml", "role": "旨味ベース"},
+            {"item": "大豆プロテインパウダー", "amount": "20g", "role": "たんぱく質強化"},
+            {"item": "テンペ", "amount": "60g", "role": "チャーシュー代替"},
+            {"item": "ヘンプシード", "amount": "大さじ2", "role": "完全たんぱく質"},
+            {"item": "味噌", "amount": "大さじ1", "role": "調味"}
+          ],
+          "instructions": [
+            "プロテインパウダーを豆乳に溶かす",
+            "だしと合わせてスープを作る",
+            "テンペをチャーシュー風に調理",
+            "全てを盛り付けてヘンプシードをトッピング"
+          ],
+          "special_notes": "プロテインパウダーで通常の3倍のたんぱく質を実現"
+        },
+        "chatgpt": {
+          "alternative_name": "醤油ラーメン",
+          "approach": "シンプルで親しみやすい醤油味",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "8分",
+          "servings": 1,
+          "nutrition": {
+            "protein": "20g",
+            "carbs": "7g",
+            "fat": "12g",
+            "calories": "205kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "しらたき", "amount": "200g", "role": "麺代替"},
+            {"item": "昆布椎茸だし", "amount": "300ml", "role": "スープベース"},
+            {"item": "醤油", "amount": "大さじ3", "role": "醤油ダレ"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "甘み"},
+            {"item": "厚揚げ", "amount": "80g", "role": "チャーシュー代替"},
+            {"item": "もやし", "amount": "50g", "role": "具材"},
+            {"item": "海苔", "amount": "1枚", "role": "トッピング"}
+          ],
+          "instructions": [
+            "厚揚げを醤油味で煮込む",
+            "だしにタレを加えてスープ作り",
+            "しらたきを温めて盛り付け"
+          ],
+          "special_notes": "最もベーシックで失敗しないラーメン"
+        },
+        "claude": {
+          "alternative_name": "濃厚ごま味噌豆乳タンタン麺",
+          "approach": "本格的な担々麺の味と食感を再現",
+          "difficulty": "medium",
+          "prep_time": "15分",
+          "cooking_time": "10分",
+          "servings": 1,
+          "nutrition": {
+            "protein": "26g",
+            "carbs": "8g",
+            "fat": "18g",
+            "calories": "295kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "しらたき", "amount": "200g", "role": "麺代替・アク抜き"},
+            {"item": "無調整豆乳", "amount": "150ml", "role": "スープベース"},
+            {"item": "昆布椎茸だし", "amount": "150ml", "role": "スープベース"},
+            {"item": "練りごま", "amount": "大さじ2", "role": "コク・香り"},
+            {"item": "味噌", "amount": "大さじ1", "role": "調味"},
+            {"item": "木綿豆腐", "amount": "100g", "role": "肉味噌代替"},
+            {"item": "チンゲン菜", "amount": "1株", "role": "彩り・栄養"}
+          ],
+          "instructions": [
+            "しらたきをしっかりアク抜き",
+            "豆腐をそぼろ状に炒める",
+            "豆乳、だし、練りごま、味噌でスープ作り",
+            "すべてを盛り付けて完成"
+          ],
+          "special_notes": "練りごまの濃厚さで本格的な担々麺の味を再現"
+        }
+      }
+    },
+    {
+      "rank": 25,
+      "original_dish": "刺身",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "スーパーフード刺身盛り",
+          "approach": "栄養価の高い植物性刺身",
+          "difficulty": "medium",
+          "prep_time": "2時間",
+          "cooking_time": "0分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "8g",
+            "carbs": "12g",
+            "fat": "14g",
+            "calories": "185kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "アボカド", "amount": "1個", "role": "オメガ3・クリーミー"},
+            {"item": "ビーツ", "amount": "小1個", "role": "薄切り・抗酸化"},
+            {"item": "昆布", "amount": "20cm", "role": "締める・ミネラル"},
+            {"item": "チアシード", "amount": "小さじ1", "role": "オメガ3"},
+            {"item": "わさび", "amount": "適量", "role": "辛味"},
+            {"item": "醤油", "amount": "適量", "role": "つけダレ"},
+            {"item": "大葉", "amount": "6枚", "role": "抗酸化・香り"}
+          ],
+          "instructions": [
+            "ビーツとアボカドを薄切り",
+            "昆布で2時間締める",
+            "チアシードをまぶす",
+            "刺身風に盛り付け"
+          ],
+          "special_notes": "ビーツとチアシードで抗酸化力とオメガ3を強化"
+        },
+        "chatgpt": {
+          "alternative_name": "人参サーモン風",
+          "approach": "見た目も楽しい植物性刺身",
+          "difficulty": "easy",
+          "prep_time": "30分",
+          "cooking_time": "0分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "2g",
+            "carbs": "6g",
+            "fat": "0g",
+            "calories": "30kcal",
+            "carb_reduction": "95%"
+          },
+          "ingredients": [
+            {"item": "人参", "amount": "1本", "role": "ピーラーで削る"},
+            {"item": "昆布だし", "amount": "100ml", "role": "漬け汁"},
+            {"item": "醤油", "amount": "大さじ1", "role": "漬け汁"},
+            {"item": "生姜汁", "amount": "小さじ1", "role": "風味"},
+            {"item": "大葉", "amount": "4枚", "role": "付け合わせ"},
+            {"item": "大根", "amount": "適量", "role": "桂むき"}
+          ],
+          "instructions": [
+            "人参をピーラーで薄く削る",
+            "調味液に30分漬ける",
+            "刺身風に盛り付け"
+          ],
+          "special_notes": "人参の色と食感がサーモンに驚くほど似ている"
+        },
+        "claude": {
+          "alternative_name": "アボカドとトマトの昆布締めカルパッチョ",
+          "approach": "伝統的な昆布締めの技法を活用",
+          "difficulty": "easy",
+          "prep_time": "1時間",
+          "cooking_time": "0分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "4g",
+            "carbs": "8g",
+            "fat": "12g",
+            "calories": "155kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "アボカド", "amount": "1個", "role": "薄切り・メイン"},
+            {"item": "トマト", "amount": "1個", "role": "湯むき・薄切り"},
+            {"item": "長芋", "amount": "50g", "role": "薄切り・食感"},
+            {"item": "出汁昆布", "amount": "15cm角", "role": "旨味・締める"},
+            {"item": "醤油", "amount": "適量", "role": "つけダレ"},
+            {"item": "わさび", "amount": "適量", "role": "薬味"},
+            {"item": "オリーブオイル", "amount": "小さじ1", "role": "仕上げ"}
+          ],
+          "instructions": [
+            "昆布を濡れ布巾で拭く",
+            "野菜を薄切りにして昆布で挟む",
+            "冷蔵庫で1時間以上寝かせる",
+            "カルパッチョ風に盛り付け"
+          ],
+          "special_notes": "昆布締めの伝統技法で野菜に深い旨味を与える"
+        }
+      }
+    },
+    {
+      "rank": 26,
+      "original_dish": "ナスの味噌田楽",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "栄養強化味噌田楽",
+          "approach": "ナッツとシードで栄養価アップ",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "10g",
+            "carbs": "10g",
+            "fat": "14g",
+            "calories": "195kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "ナス", "amount": "2本", "role": "メイン具材"},
+            {"item": "アーモンドバター", "amount": "大さじ1", "role": "たんぱく質・コク"},
+            {"item": "白味噌", "amount": "大さじ2", "role": "ベース"},
+            {"item": "ヘンプシード", "amount": "大さじ1", "role": "完全たんぱく質"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "自然な甘み"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "焼き用"}
+          ],
+          "instructions": [
+            "ナスを焼く",
+            "アーモンドバター、味噌、甘酒を混ぜる",
+            "ナスに塗ってグリル",
+            "ヘンプシードをトッピング"
+          ],
+          "special_notes": "アーモンドバターとヘンプシードで栄養価を大幅強化"
+        },
+        "chatgpt": {
+          "alternative_name": "甘酒味噌田楽",
+          "approach": "シンプルで親しみやすい田楽",
+          "difficulty": "easy",
+          "prep_time": "5分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "6g",
+            "carbs": "8g",
+            "fat": "7g",
+            "calories": "110kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "ナス", "amount": "2本", "role": "縦半分・格子状切り込み"},
+            {"item": "豆味噌", "amount": "大さじ2", "role": "田楽味噌ベース"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "自然な甘み"},
+            {"item": "白ごま", "amount": "大さじ1", "role": "すりごま・コク"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "焼き用"}
+          ],
+          "instructions": [
+            "ナスに切り込みを入れる",
+            "両面を焼く",
+            "田楽味噌を作って塗る",
+            "グリルで焼き色をつける"
+          ],
+          "special_notes": "最もベーシックで失敗しない田楽"
+        },
+        "claude": {
+          "alternative_name": "クルミ味噌田楽",
+          "approach": "クルミの自然な甘みとコクを活用",
+          "difficulty": "easy",
+          "prep_time": "8分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "8g",
+            "carbs": "8g",
+            "fat": "12g",
+            "calories": "165kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "ナス", "amount": "2本", "role": "縦半分・メイン"},
+            {"item": "赤味噌", "amount": "大さじ2", "role": "コク・深み"},
+            {"item": "生クルミ", "amount": "大さじ2", "role": "砕く・自然な甘み"},
+            {"item": "酒", "amount": "大さじ1", "role": "味噌をのばす"},
+            {"item": "ごま油", "amount": "適量", "role": "焼き用"}
+          ],
+          "instructions": [
+            "ナスに格子状の切り込み",
+            "両面を柔らかく焼く",
+            "クルミ味噌を作る",
+            "塗ってオーブントースターで焼く"
+          ],
+          "special_notes": "砂糖不使用でもクルミの自然な甘みでコク深い仕上がり"
+        }
+      }
+    },
+    {
+      "rank": 27,
+      "original_dish": "ポテトサラダ",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "スーパーフードホワイトサラダ",
+          "approach": "栄養密度を最大化した白いサラダ",
+          "difficulty": "medium",
+          "prep_time": "20分",
+          "cooking_time": "10分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "12g",
+            "carbs": "8g",
+            "fat": "10g",
+            "calories": "155kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "カリフラワー", "amount": "300g", "role": "ベース"},
+            {"item": "カシューナッツ", "amount": "50g", "role": "クリーミーさ・たんぱく質"},
+            {"item": "ヘンプシード", "amount": "大さじ2", "role": "完全たんぱく質"},
+            {"item": "チアシード", "amount": "大さじ1", "role": "オメガ3・とろみ"},
+            {"item": "レモン汁", "amount": "大さじ2", "role": "酸味・ビタミンC"},
+            {"item": "きゅうり", "amount": "1本", "role": "食感・水分"},
+            {"item": "塩・胡椒", "amount": "適量", "role": "調味"}
+          ],
+          "instructions": [
+            "カシューナッツを水に浸してからブレンド",
+            "カリフラワーを茹でて冷ます",
+            "野菜と混ぜてシードをトッピング",
+            "レモン汁で仕上げ"
+          ],
+          "special_notes": "カシューナッツとシード類で栄養価を大幅強化"
+        },
+        "chatgpt": {
+          "alternative_name": "クリーミーカリフラワーサラダ",
+          "approach": "親しみやすいポテサラ風味",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "8分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "8g",
+            "carbs": "7g",
+            "fat": "6g",
+            "calories": "105kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "カリフラワー", "amount": "1/2株", "role": "茹でて冷ます"},
+            {"item": "絹豆腐", "amount": "100g", "role": "水切り・クリーミーさ"},
+            {"item": "きゅうり", "amount": "1本", "role": "薄切り・塩もみ"},
+            {"item": "玉ねぎ", "amount": "1/4個", "role": "薄切り・塩もみ"},
+            {"item": "人参", "amount": "1/3本", "role": "細切り・茹で"},
+            {"item": "豆乳マヨネーズ", "amount": "大さじ3", "role": "結着・風味"},
+            {"item": "レモン汁", "amount": "小さじ1", "role": "酸味"}
+          ],
+          "instructions": [
+            "カリフラワーを茹でて冷ます",
+            "豆腐を滑らかに潰す",
+            "野菜の水気を切る",
+            "全材料を和える"
+          ],
+          "special_notes": "最も親しみやすいポテトサラダ風味"
+        },
+        "claude": {
+          "alternative_name": "カリフラワーと豆腐の白いサラダ",
+          "approach": "豆腐の滑らかさを活かしたサラダ",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "8分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "8g",
+            "carbs": "7g",
+            "fat": "6g",
+            "calories": "105kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "カリフラワー", "amount": "1/2株", "role": "メインベース"},
+            {"item": "絹豆腐", "amount": "100g", "role": "水切り・クリーミーさ"},
+            {"item": "きゅうり", "amount": "1本", "role": "薄切り・塩もみ"},
+            {"item": "玉ねぎ", "amount": "1/4個", "role": "薄切り・塩もみ"},
+            {"item": "豆乳マヨネーズ", "amount": "大さじ3", "role": "結着・風味"},
+            {"item": "レモン汁", "amount": "小さじ1", "role": "酸味"},
+            {"item": "塩・胡椒", "amount": "適量", "role": "調味"}
+          ],
+          "instructions": [
+            "カリフラワーを小房に分けて茹でる",
+            "豆腐を泡立て器で滑らかに潰す",
+            "野菜の水気をしっかり絞る",
+            "全材料を和えて味を調える"
+          ],
+          "special_notes": "豆腐がマヨネーズの役割を果たし全体をまろやかに"
+        }
+      }
+    },
+    {
+      "rank": 28,
+      "original_dish": "コロッケ",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "プロテイン強化コロッケ",
+          "approach": "植物性プロテインで栄養価最大化",
+          "difficulty": "hard",
+          "prep_time": "35分",
+          "cooking_time": "20分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "18g",
+            "carbs": "10g",
+            "fat": "16g",
+            "calories": "235kcal",
+            "carb_reduction": "82%"
+          },
+          "ingredients": [
+            {"item": "カリフラワー", "amount": "200g", "role": "ベース"},
+            {"item": "大豆プロテインパウダー", "amount": "30g", "role": "たんぱく質強化"},
+            {"item": "レンズ豆", "amount": "100g", "role": "茹でて潰す・たんぱく質"},
+            {"item": "ヘンプシード", "amount": "大さじ2", "role": "完全たんぱく質"},
+            {"item": "アーモンド粉", "amount": "50g", "role": "衣・たんぱく質"},
+            {"item": "チアシード", "amount": "大さじ1", "role": "結着・オメガ3"},
+            {"item": "米油", "amount": "適量", "role": "揚げ用"}
+          ],
+          "instructions": [
+            "レンズ豆を茹でて潰す",
+            "カリフラワーと混ぜてプロテインパウダーを加える",
+            "成形してチアシード衣をつける",
+            "アーモンド粉で最終仕上げして揚げる"
+          ],
+          "special_notes": "複数のプロテイン源で従来の2倍のたんぱく質を実現"
+        },
+        "chatgpt": {
+          "alternative_name": "カリフラワーコロッケ",
+          "approach": "親しみやすい家庭的なコロッケ",
+          "difficulty": "medium",
+          "prep_time": "25分",
+          "cooking_time": "15分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "12g",
+            "carbs": "9g",
+            "fat": "14g",
+            "calories": "195kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "カリフラワー", "amount": "300g", "role": "茹でて潰す"},
+            {"item": "玉ねぎ", "amount": "1/2個", "role": "みじん切り・炒める"},
+            {"item": "エリンギ", "amount": "2本", "role": "みじん切り・食感"},
+            {"item": "おからパウダー", "amount": "30g", "role": "衣・たんぱく質"},
+            {"item": "アーモンド粉", "amount": "30g", "role": "衣・コク"},
+            {"item": "豆乳", "amount": "大さじ3", "role": "衣付け"},
+            {"item": "米油", "amount": "適量", "role": "揚げ用"}
+          ],
+          "instructions": [
+            "カリフラワーを茹でて潰す",
+            "玉ねぎとエリンギを炒める",
+            "混ぜて成形",
+            "衣をつけて揚げ焼き"
+          ],
+          "special_notes": "最も作りやすく失敗しないコロッケ"
+        },
+        "claude": {
+          "alternative_name": "おからクリームコロッケ",
+          "approach": "おからでクリーミーな食感を実現",
+          "difficulty": "medium",
+          "prep_time": "30分",
+          "cooking_time": "15分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "15g",
+            "carbs": "8g",
+            "fat": "12g",
+            "calories": "185kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "おからパウダー", "amount": "60g", "role": "ベース・たんぱく質"},
+            {"item": "無調整豆乳", "amount": "200ml", "role": "クリーミーさ"},
+            {"item": "マッシュルーム", "amount": "100g", "role": "みじん切り・旨味"},
+            {"item": "玉ねぎ", "amount": "1/2個", "role": "みじん切り・甘み"},
+            {"item": "ニュートリショナルイースト", "amount": "大さじ1", "role": "チーズ風味"},
+            {"item": "アーモンド粉", "amount": "適量", "role": "衣"},
+            {"item": "米油", "amount": "適量", "role": "揚げ用"}
+          ],
+          "instructions": [
+            "玉ねぎとマッシュルームを炒める",
+            "おからパウダーに豆乳を少しずつ加えて練る",
+            "ニュートリショナルイーストで調味",
+            "成形して衣をつけ揚げ焼き"
+          ],
+          "special_notes": "おからと豆乳でバターや生クリーム不使用でもクリーミー"
+        }
+      }
+    },
+    {
+      "rank": 29,
+      "original_dish": "きんぴらごぼう",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "スーパー根菜きんぴら",
+          "approach": "根菜の栄養価を最大化",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "10分",
+          "servings": 3,
+          "nutrition": {
+            "protein": "12g",
+            "carbs": "15g",
+            "fat": "10g",
+            "calories": "185kcal",
+            "carb_reduction": "60%"
+          },
+          "ingredients": [
+            {"item": "ごぼう", "amount": "80g", "role": "食物繊維・風味"},
+            {"item": "人参", "amount": "1本", "role": "β-カロテン"},
+            {"item": "レンコン", "amount": "100g", "role": "ビタミンC・食感"},
+            {"item": "テンペ", "amount": "80g", "role": "細切り・たんぱく質"},
+            {"item": "ヘンプシード", "amount": "大さじ2", "role": "完全たんぱく質"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "セサミン"},
+            {"item": "醤油", "amount": "大さじ2", "role": "調味"}
+          ],
+          "instructions": [
+            "根菜類とテンペを細切り",
+            "ごま油で炒める",
+            "醤油で調味して炒り煮",
+            "ヘンプシードをトッピング"
+          ],
+          "special_notes": "テンペとヘンプシードで従来の3倍のたんぱく質"
+        },
+        "chatgpt": {
+          "alternative_name": "セロリのピリ辛きんぴら",
+          "approach": "低糖質でシャキシャキ食感",
+          "difficulty": "easy",
+          "prep_time": "8分",
+          "cooking_time": "6分",
+          "servings": 3,
+          "nutrition": {
+            "protein": "4g",
+            "carbs": "6g",
+            "fat": "5g",
+            "calories": "75kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "セロリ", "amount": "2本", "role": "斜め薄切り・メイン"},
+            {"item": "人参", "amount": "1/2本", "role": "細切り・彩り"},
+            {"item": "醤油", "amount": "大さじ1", "role": "調味"},
+            {"item": "酒", "amount": "大さじ1", "role": "風味"},
+            {"item": "ごま油", "amount": "小さじ1", "role": "炒め用"},
+            {"item": "輪切り唐辛子", "amount": "お好み", "role": "辛み"}
+          ],
+          "instructions": [
+            "セロリの筋を取り薄切り",
+            "ごま油と唐辛子で炒める",
+            "酒と醤油で調味",
+            "水分を飛ばして完成"
+          ],
+          "special_notes": "セロリの独特な風味と食感が新鮮"
+        },
+        "claude": {
+          "alternative_name": "高たんぱくきんぴら",
+          "approach": "伝統的なきんぴらに厚揚げでたんぱく質をプラス",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "8分",
+          "servings": 3,
+          "nutrition": {
+            "protein": "8g",
+            "carbs": "9g",
+            "fat": "8g",
+            "calories": "125kcal",
+            "carb_reduction": "75%"
+          },
+          "ingredients": [
+            {"item": "ごぼう", "amount": "100g", "role": "細切り・風味（少量使用）"},
+            {"item": "人参", "amount": "1本", "role": "細切り・甘み・彩り"},
+            {"item": "厚揚げ", "amount": "100g", "role": "細切り・たんぱく質"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "炒め用・香り"},
+            {"item": "唐辛子", "amount": "1本", "role": "輪切り・辛み"},
+            {"item": "醤油", "amount": "大さじ2", "role": "調味"},
+            {"item": "甘酒", "amount": "小さじ1", "role": "自然な甘み"},
+            {"item": "白ごま", "amount": "大さじ1", "role": "仕上げ・香り"}
+          ],
+          "instructions": [
+            "ごま油で唐辛子を炒めて香りを出す",
+            "ごぼう、人参、厚揚げを加えて炒める",
+            "醤油と甘酒を加えて炒り煮する",
+            "水分を飛ばして白ごまを振る"
+          ],
+          "special_notes": "厚揚げ追加で伝統的な味を保ちながらたんぱく質強化"
+        }
+      }
+    },
+    {
+      "rank": 30,
+      "original_dish": "茶碗蒸し",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "プロテイン強化茶碗蒸し",
+          "approach": "植物性プロテインで栄養価最大化",
+          "difficulty": "hard",
+          "prep_time": "25分",
+          "cooking_time": "20分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "18g",
+            "carbs": "8g",
+            "fat": "8g",
+            "calories": "165kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "絹豆腐", "amount": "200g", "role": "ベース"},
+            {"item": "大豆プロテインパウダー", "amount": "20g", "role": "たんぱく質強化"},
+            {"item": "昆布だし", "amount": "200ml", "role": "風味"},
+            {"item": "アガー", "amount": "4g", "role": "固める・海藻由来"},
+            {"item": "ヘンプシード", "amount": "大さじ1", "role": "完全たんぱく質"},
+            {"item": "湯葉", "amount": "30g", "role": "たんぱく質・食感"},
+            {"item": "椎茸", "amount": "4個", "role": "薄切り・旨味"}
+          ],
+          "instructions": [
+            "豆腐とプロテインパウダーをブレンド",
+            "だしとアガーを加えて加熱",
+            "具材を入れて蒸す",
+            "ヘンプシードをトッピング"
+          ],
+          "special_notes": "プロテインパウダーとヘンプシードで通常の2倍のたんぱく質"
+        },
+        "chatgpt": {
+          "alternative_name": "寒天茶碗蒸し",
+          "approach": "簡単で失敗しない寒天仕立て",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "10分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "10g",
+            "carbs": "6g",
+            "fat": "4g",
+            "calories": "90kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "無調整豆乳", "amount": "200ml", "role": "ベース"},
+            {"item": "昆布椎茸だし", "amount": "200ml", "role": "風味"},
+            {"item": "白だし", "amount": "小さじ1", "role": "調味"},
+            {"item": "粉寒天", "amount": "小さじ1", "role": "固める"},
+            {"item": "椎茸", "amount": "2個", "role": "薄切り・具材"},
+            {"item": "湯葉", "amount": "20g", "role": "手でちぎる・具材"},
+            {"item": "青ねぎ", "amount": "適量", "role": "小口切り・彩り"}
+          ],
+          "instructions": [
+            "豆乳、だし、調味料、寒天を混ぜる",
+            "火にかけて寒天を溶かす",
+            "具材を入れて冷やし固める"
+          ],
+          "special_notes": "最も簡単で失敗しない茶碗蒸し"
+        },
+        "claude": {
+          "alternative_name": "なめらか豆腐茶碗蒸し",
+          "approach": "葛粉で本格的な滑らか食感を実現",
+          "difficulty": "medium",
+          "prep_time": "15分",
+          "cooking_time": "15分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "12g",
+            "carbs": "7g",
+            "fat": "6g",
+            "calories": "125kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "絹豆腐", "amount": "300g", "role": "なめらかに潰す・ベース"},
+            {"item": "昆布椎茸だし", "amount": "200ml", "role": "温かい・風味"},
+            {"item": "醤油", "amount": "小さじ1", "role": "調味"},
+            {"item": "塩", "amount": "小さじ1/2", "role": "調味"},
+            {"item": "葛粉", "amount": "大さじ2", "role": "水で溶く・固める"},
+            {"item": "椎茸", "amount": "4個", "role": "薄切り・具材"},
+            {"item": "厚揚げ", "amount": "50g", "role": "小さく切る・具材"},
+            {"item": "三つ葉", "amount": "適量", "role": "飾り・香り"}
+          ],
+          "instructions": [
+            "豆腐をなめらかに潰す",
+            "温かいだし、調味料を加えて混ぜる",
+            "水溶き葛粉でとろみをつける",
+            "具材を入れて蒸し器で15分蒸す",
+            "三つ葉を飾って完成"
+          ],
+          "special_notes": "葛粉使用で本物の茶碗蒸しに最も近い滑らか食感"
+        }
+      }
     }
   ]
 }

@@ -1333,6 +1333,641 @@
           ]
         }
       ]
+    },
+    {
+      "rank": 21,
+      "original_dish": "煮魚（味噌煮など）",
+      "alternative_name": "厚揚げとカブの治部煮風",
+      "category": "主菜",
+      "variations": [
+        {
+          "name": "海苔包み豆腐の味噌煮",
+          "difficulty": "medium",
+          "prep_time": "15分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "22g",
+            "carbs": "8g",
+            "fat": "11g",
+            "calories": "205kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "木綿豆腐", "amount": "300g", "role": "しっかり水切り・メインプロテイン"},
+            {"item": "焼き海苔", "amount": "2枚", "role": "魚の風味演出・包む"},
+            {"item": "片栗粉", "amount": "小さじ1", "role": "薄くまぶす・最低限"},
+            {"item": "カブ", "amount": "2個", "role": "1個くし切り・1個すりおろし"},
+            {"item": "昆布椎茸だし", "amount": "200ml", "role": "ベース"},
+            {"item": "豆味噌", "amount": "大さじ1", "role": "深いコク"},
+            {"item": "甘酒", "amount": "小さじ1", "role": "自然な甘み"},
+            {"item": "生姜", "amount": "1片", "role": "薄切り・風味"}
+          ],
+          "instructions": [
+            "豆腐を厚切りにして海苔で包み、片栗粉を薄くまぶす",
+            "鍋にだし、生姜、くし切りカブを入れて煮る",
+            "カブが柔らかくなったら豆腐を加えて5分煮る",
+            "豆味噌、甘酒で調味し、すりおろしカブでとろみをつける"
+          ]
+        },
+        {
+          "name": "ナスの味噌煮（鯖風）",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "6g",
+            "carbs": "12g",
+            "fat": "8g",
+            "calories": "135kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "ナス", "amount": "2本", "role": "厚い半月切り・メイン具材"},
+            {"item": "生姜", "amount": "1片", "role": "薄切り・風味"},
+            {"item": "昆布椎茸だし", "amount": "200ml", "role": "ベース"},
+            {"item": "赤味噌", "amount": "大さじ2", "role": "濃厚な味"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "自然な甘み"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "焼き用"}
+          ],
+          "instructions": [
+            "ナスを厚く切り、ごま油で両面を焼く",
+            "だし、生姜、調味料を加える",
+            "落し蓋をして10分煮込む",
+            "味が染みたら完成"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "original_dish": "野菜炒め",
+      "alternative_name": "高たんぱく野菜炒め",
+      "category": "主菜",
+      "variations": [
+        {
+          "name": "テンペと彩り野菜の焦がし醤油炒め",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "8分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "24g",
+            "carbs": "9g",
+            "fat": "10g",
+            "calories": "205kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "テンペ", "amount": "140g", "role": "薄切り・メインプロテイン"},
+            {"item": "ブロッコリー", "amount": "150g", "role": "小房・茎も使用"},
+            {"item": "パプリカ", "amount": "1個", "role": "細切り・彩り"},
+            {"item": "もやし", "amount": "100g", "role": "食感・ボリューム"},
+            {"item": "にんにく", "amount": "1片", "role": "みじん切り・香り"},
+            {"item": "醤油", "amount": "大さじ1.5", "role": "焦がし醤油"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "炒め用・香り"},
+            {"item": "ヘンプシード", "amount": "大さじ1", "role": "仕上げ・たんぱく質"}
+          ],
+          "instructions": [
+            "テンペを薄切りにしてカリッと焼き、取り出す",
+            "にんにくと野菜を強火で炒める",
+            "テンペを戻し、鍋肌から醤油を回し入れる",
+            "香ばしく炒め合わせ、ヘンプシードを振る"
+          ]
+        },
+        {
+          "name": "厚揚げの高たんぱく野菜炒め",
+          "difficulty": "easy",
+          "prep_time": "8分",
+          "cooking_time": "10分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "20g",
+            "carbs": "10g",
+            "fat": "12g",
+            "calories": "215kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "厚揚げ", "amount": "200g", "role": "短冊切り・メインプロテイン"},
+            {"item": "キャベツ", "amount": "150g", "role": "ざく切り・甘み"},
+            {"item": "ピーマン", "amount": "2個", "role": "細切り・彩り"},
+            {"item": "人参", "amount": "1/2本", "role": "細切り・甘み"},
+            {"item": "エリンギ", "amount": "2本", "role": "スライス・食感"},
+            {"item": "昆布だし顆粒", "amount": "小さじ1", "role": "旨味"},
+            {"item": "醤油", "amount": "大さじ1", "role": "調味"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "炒め用"}
+          ],
+          "instructions": [
+            "厚揚げを炒めて香ばしさを出し、取り出す",
+            "硬い野菜から順に炒める",
+            "厚揚げを戻し、調味料で味付け",
+            "強火で一気に仕上げる"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "original_dish": "ふりかけご飯",
+      "alternative_name": "自家製プロテインふりかけ & カリフラワーライス",
+      "category": "主食",
+      "variations": [
+        {
+          "name": "高たんぱくふりかけライス",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "5分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "19g",
+            "carbs": "8g",
+            "fat": "15g",
+            "calories": "235kcal",
+            "carb_reduction": "92%"
+          },
+          "ingredients": [
+            {"item": "カリフラワーライス", "amount": "300g", "role": "ご飯代替・ベース"},
+            {"item": "ヘンプシード", "amount": "大さじ2", "role": "完全たんぱく質"},
+            {"item": "炒りごま", "amount": "大さじ2", "role": "香り・栄養"},
+            {"item": "砕いたアーモンド", "amount": "大さじ2", "role": "たんぱく質・食感"},
+            {"item": "ちぎった海苔", "amount": "1枚分", "role": "ミネラル・風味"},
+            {"item": "ニュートリショナルイースト", "amount": "大さじ1", "role": "チーズ風味・ビタミンB12"},
+            {"item": "塩", "amount": "少々", "role": "調味"}
+          ],
+          "instructions": [
+            "カリフラワーライスを温める",
+            "ふりかけ材料をすべて混ぜ合わせる",
+            "温かいライスにふりかけをたっぷりかける",
+            "よく混ぜて完成"
+          ]
+        },
+        {
+          "name": "海苔ごまふりかけライス",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "3分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "12g",
+            "carbs": "9g",
+            "fat": "8g",
+            "calories": "145kcal",
+            "carb_reduction": "92%"
+          },
+          "ingredients": [
+            {"item": "しらたきライス", "amount": "300g", "role": "ご飯代替・低カロリー"},
+            {"item": "焼き海苔", "amount": "3枚", "role": "手でちぎる・ミネラル"},
+            {"item": "白ごま", "amount": "大さじ2", "role": "香り・栄養"},
+            {"item": "黒ごま", "amount": "大さじ1", "role": "彩り・栄養"},
+            {"item": "昆布茶", "amount": "小さじ1", "role": "旨味"},
+            {"item": "塩", "amount": "小さじ1/2", "role": "調味"}
+          ],
+          "instructions": [
+            "しらたきを米粒大に刻んで炒める",
+            "ふりかけ材料を混ぜ合わせる",
+            "温かいしらたきライスにかける"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "original_dish": "ラーメン",
+      "alternative_name": "しらたき麺ラーメン",
+      "category": "主食",
+      "variations": [
+        {
+          "name": "濃厚ごま味噌豆乳タンタン麺",
+          "difficulty": "medium",
+          "prep_time": "15分",
+          "cooking_time": "10分",
+          "servings": 1,
+          "nutrition": {
+            "protein": "26g",
+            "carbs": "8g",
+            "fat": "18g",
+            "calories": "295kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "しらたき", "amount": "200g", "role": "麺代替・しっかりアク抜き"},
+            {"item": "無調整豆乳", "amount": "150ml", "role": "スープベース"},
+            {"item": "昆布椎茸だし", "amount": "150ml", "role": "スープベース"},
+            {"item": "練りごま", "amount": "大さじ2", "role": "コク・香り"},
+            {"item": "味噌", "amount": "大さじ1", "role": "調味"},
+            {"item": "木綿豆腐", "amount": "100g", "role": "肉味噌代替・そぼろ状"},
+            {"item": "チンゲン菜", "amount": "1株", "role": "彩り・栄養"},
+            {"item": "長ねぎ", "amount": "1/3本", "role": "斜め切り・香り"},
+            {"item": "ラー油", "amount": "適量", "role": "辛味・香り"}
+          ],
+          "instructions": [
+            "しらたきを下茹でしてアク抜き",
+            "豆腐を炒めてそぼろ状にし、味噌で調味",
+            "豆乳、だし、練りごま、味噌を混ぜてスープ作り",
+            "器にしらたきを入れ、スープを注ぎ、具をトッピング"
+          ]
+        },
+        {
+          "name": "醤油ラーメン",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "8分",
+          "servings": 1,
+          "nutrition": {
+            "protein": "20g",
+            "carbs": "7g",
+            "fat": "12g",
+            "calories": "205kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "しらたき", "amount": "200g", "role": "麺代替"},
+            {"item": "昆布椎茸だし", "amount": "300ml", "role": "スープベース"},
+            {"item": "醤油", "amount": "大さじ3", "role": "醤油ダレ"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "醤油ダレ・甘み"},
+            {"item": "厚揚げ", "amount": "80g", "role": "チャーシュー代替"},
+            {"item": "もやし", "amount": "50g", "role": "茹でる・食感"},
+            {"item": "海苔", "amount": "1枚", "role": "トッピング"},
+            {"item": "ヘンプシード", "amount": "大さじ1", "role": "たんぱく質"}
+          ],
+          "instructions": [
+            "厚揚げを醤油+甘酒で煮込んでチャーシュー風に",
+            "だしを温め、醤油ダレを加える",
+            "しらたきを温めて器に入れる",
+            "スープを注ぎ、具をトッピング"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "original_dish": "刺身",
+      "alternative_name": "ヴィーガン刺身3種",
+      "category": "副菜",
+      "variations": [
+        {
+          "name": "アボカドとトマトの昆布締めカルパッチョ",
+          "difficulty": "easy",
+          "prep_time": "1時間",
+          "cooking_time": "0分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "4g",
+            "carbs": "8g",
+            "fat": "12g",
+            "calories": "155kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "アボカド", "amount": "1個", "role": "薄切り・メイン具材"},
+            {"item": "トマト", "amount": "1個", "role": "湯むき・薄切り"},
+            {"item": "長芋", "amount": "50g", "role": "薄切り・食感"},
+            {"item": "出汁昆布", "amount": "15cm角", "role": "旨味・締める"},
+            {"item": "醤油", "amount": "適量", "role": "つけダレ"},
+            {"item": "わさび", "amount": "適量", "role": "薬味"},
+            {"item": "オリーブオイル", "amount": "小さじ1", "role": "仕上げ"}
+          ],
+          "instructions": [
+            "昆布を濡れ布巾で拭いて柔らかくする",
+            "アボカド、トマト、長芋を薄切りにする",
+            "昆布で挟んでラップし、冷蔵庫で1時間以上寝かせる",
+            "器に盛り、醤油・わさび・オリーブオイルを添える"
+          ]
+        },
+        {
+          "name": "人参サーモン風",
+          "difficulty": "easy",
+          "prep_time": "30分",
+          "cooking_time": "0分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "2g",
+            "carbs": "6g",
+            "fat": "0g",
+            "calories": "30kcal",
+            "carb_reduction": "95%"
+          },
+          "ingredients": [
+            {"item": "人参", "amount": "1本", "role": "厚めピーラー削り・メイン"},
+            {"item": "昆布だし", "amount": "100ml", "role": "漬け汁"},
+            {"item": "醤油", "amount": "大さじ1", "role": "漬け汁"},
+            {"item": "生姜汁", "amount": "小さじ1", "role": "風味"},
+            {"item": "大葉", "amount": "4枚", "role": "付け合わせ"},
+            {"item": "大根", "amount": "適量", "role": "桂むき・付け合わせ"}
+          ],
+          "instructions": [
+            "人参をピーラーで厚めに削る",
+            "だし、醤油、生姜汁に30分漬ける",
+            "刺身のように盛りつける",
+            "大葉、大根の桂むきを添える"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "original_dish": "ナスの味噌田楽",
+      "alternative_name": "クルミ味噌のせ焼きナス",
+      "category": "副菜",
+      "variations": [
+        {
+          "name": "甘酒味噌田楽",
+          "difficulty": "easy",
+          "prep_time": "5分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "6g",
+            "carbs": "8g",
+            "fat": "7g",
+            "calories": "110kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "ナス", "amount": "2本", "role": "縦半分・格子状切り込み"},
+            {"item": "豆味噌", "amount": "大さじ2", "role": "田楽味噌ベース"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "自然な甘み"},
+            {"item": "白ごま", "amount": "大さじ1", "role": "すりごま・コク"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "焼き用"}
+          ],
+          "instructions": [
+            "ナスに格子状の切り込みを入れる",
+            "ごま油で両面をじっくり焼く",
+            "豆味噌、甘酒、すりごまを混ぜて田楽味噌作り",
+            "焼いたナスに味噌を塗り、グリルで軽く焼く"
+          ]
+        },
+        {
+          "name": "クルミ味噌田楽",
+          "difficulty": "easy",
+          "prep_time": "8分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "8g",
+            "carbs": "8g",
+            "fat": "12g",
+            "calories": "165kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "ナス", "amount": "2本", "role": "縦半分・メイン"},
+            {"item": "赤味噌", "amount": "大さじ2", "role": "コク・深み"},
+            {"item": "生クルミ", "amount": "大さじ2", "role": "砕く・油分・甘み"},
+            {"item": "酒", "amount": "大さじ1", "role": "味噌をのばす"},
+            {"item": "ごま油", "amount": "適量", "role": "焼き用"}
+          ],
+          "instructions": [
+            "ナスの皮目に格子状の切り込み",
+            "フライパンで両面を柔らかく焼く",
+            "赤味噌、砕いたクルミ、酒を混ぜる",
+            "ナスに塗り、オーブントースターで焼き色をつける"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "original_dish": "ポテトサラダ",
+      "alternative_name": "カリフラワーと豆腐の白いサラダ",
+      "category": "副菜",
+      "variations": [
+        {
+          "name": "クリーミーカリフラワーサラダ",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "8分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "8g",
+            "carbs": "7g",
+            "fat": "6g",
+            "calories": "105kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "カリフラワー", "amount": "1/2株", "role": "茹でて冷ます・メインベース"},
+            {"item": "絹豆腐", "amount": "100g", "role": "水切り・クリーミーさ"},
+            {"item": "きゅうり", "amount": "1本", "role": "薄切り・塩もみ"},
+            {"item": "玉ねぎ", "amount": "1/4個", "role": "薄切り・塩もみ"},
+            {"item": "人参", "amount": "1/3本", "role": "細切り・さっと茹で"},
+            {"item": "豆乳マヨネーズ", "amount": "大さじ3", "role": "結着・風味"},
+            {"item": "レモン汁", "amount": "小さじ1", "role": "酸味"},
+            {"item": "塩・胡椒", "amount": "適量", "role": "調味"}
+          ],
+          "instructions": [
+            "カリフラワーを小房に分けて柔らかく茹でる",
+            "豆腐を泡立て器で滑らかに潰す",
+            "野菜の水気をしっかり絞る",
+            "全材料を和えて味を調える"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "original_dish": "コロッケ",
+      "alternative_name": "おからとマッシュルームのクリームコロッケ風",
+      "category": "主菜",
+      "variations": [
+        {
+          "name": "カリフラワーコロッケ",
+          "difficulty": "medium",
+          "prep_time": "25分",
+          "cooking_time": "15分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "12g",
+            "carbs": "9g",
+            "fat": "14g",
+            "calories": "195kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "カリフラワー", "amount": "300g", "role": "茹でて潰す・ベース"},
+            {"item": "玉ねぎ", "amount": "1/2個", "role": "みじん切り・炒める"},
+            {"item": "エリンギ", "amount": "2本", "role": "みじん切り・食感"},
+            {"item": "おからパウダー", "amount": "30g", "role": "衣・たんぱく質"},
+            {"item": "アーモンド粉", "amount": "30g", "role": "衣・コク"},
+            {"item": "豆乳", "amount": "大さじ3", "role": "衣付け"},
+            {"item": "塩・胡椒", "amount": "適量", "role": "調味"},
+            {"item": "米油", "amount": "適量", "role": "揚げ用"}
+          ],
+          "instructions": [
+            "カリフラワーを茹でて粗く潰す",
+            "玉ねぎとエリンギを炒めて冷ます",
+            "材料を混ぜて8等分し成形",
+            "豆乳→おから粉+アーモンド粉の順で衣付け",
+            "180℃で揚げ焼き"
+          ]
+        },
+        {
+          "name": "おからクリームコロッケ",
+          "difficulty": "medium",
+          "prep_time": "30分",
+          "cooking_time": "15分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "15g",
+            "carbs": "8g",
+            "fat": "12g",
+            "calories": "185kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "おからパウダー", "amount": "60g", "role": "ベース・たんぱく質"},
+            {"item": "無調整豆乳", "amount": "200ml", "role": "クリーミーさ"},
+            {"item": "マッシュルーム", "amount": "100g", "role": "みじん切り・旨味"},
+            {"item": "玉ねぎ", "amount": "1/2個", "role": "みじん切り・甘み"},
+            {"item": "ニュートリショナルイースト", "amount": "大さじ1", "role": "チーズ風味"},
+            {"item": "アーモンド粉", "amount": "適量", "role": "衣"},
+            {"item": "米油", "amount": "適量", "role": "揚げ用"}
+          ],
+          "instructions": [
+            "玉ねぎとマッシュルームを炒める",
+            "おからパウダーを加え、豆乳を少しずつ加えて練る",
+            "ニュートリショナルイーストで調味し、冷ます",
+            "成形して衣をつけ、揚げ焼きする"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "original_dish": "きんぴらごぼう",
+      "alternative_name": "セロリと人参のピリ辛きんぴら",
+      "category": "副菜",
+      "variations": [
+        {
+          "name": "高たんぱくきんぴら",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "8分",
+          "servings": 3,
+          "nutrition": {
+            "protein": "8g",
+            "carbs": "9g",
+            "fat": "8g",
+            "calories": "125kcal",
+            "carb_reduction": "75%"
+          },
+          "ingredients": [
+            {"item": "ごぼう", "amount": "100g", "role": "細切り・風味（少量使用）"},
+            {"item": "人参", "amount": "1本", "role": "細切り・甘み・彩り"},
+            {"item": "厚揚げ", "amount": "100g", "role": "細切り・たんぱく質"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "炒め用・香り"},
+            {"item": "唐辛子", "amount": "1本", "role": "輪切り・辛み"},
+            {"item": "醤油", "amount": "大さじ2", "role": "調味"},
+            {"item": "甘酒", "amount": "小さじ1", "role": "自然な甘み"},
+            {"item": "白ごま", "amount": "大さじ1", "role": "仕上げ・香り"}
+          ],
+          "instructions": [
+            "ごま油で唐辛子を炒めて香りを出す",
+            "ごぼう、人参、厚揚げを加えて炒める",
+            "醤油と甘酒を加えて炒り煮する",
+            "水分を飛ばして白ごまを振る"
+          ]
+        },
+        {
+          "name": "セロリのピリ辛きんぴら",
+          "difficulty": "easy",
+          "prep_time": "8分",
+          "cooking_time": "6分",
+          "servings": 3,
+          "nutrition": {
+            "protein": "4g",
+            "carbs": "6g",
+            "fat": "5g",
+            "calories": "75kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "セロリ", "amount": "2本", "role": "斜め薄切り・メイン"},
+            {"item": "人参", "amount": "1/2本", "role": "細切り・彩り"},
+            {"item": "醤油", "amount": "大さじ1", "role": "調味"},
+            {"item": "酒", "amount": "大さじ1", "role": "風味"},
+            {"item": "ごま油", "amount": "小さじ1", "role": "炒め用"},
+            {"item": "輪切り唐辛子", "amount": "お好み", "role": "辛み"}
+          ],
+          "instructions": [
+            "セロリの筋を取り斜め薄切りにする",
+            "ごま油と唐辛子を熱し、セロリと人参を炒める",
+            "酒と醤油を加えて炒りつける",
+            "水分を飛ばして完成"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "original_dish": "茶碗蒸し",
+      "alternative_name": "豆乳とだしのヴィーガンフラン",
+      "category": "副菜",
+      "variations": [
+        {
+          "name": "なめらか豆腐茶碗蒸し",
+          "difficulty": "medium",
+          "prep_time": "15分",
+          "cooking_time": "15分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "12g",
+            "carbs": "7g",
+            "fat": "6g",
+            "calories": "125kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "絹豆腐", "amount": "300g", "role": "なめらかに潰す・ベース"},
+            {"item": "昆布椎茸だし", "amount": "200ml", "role": "温かい・風味"},
+            {"item": "醤油", "amount": "小さじ1", "role": "調味"},
+            {"item": "塩", "amount": "小さじ1/2", "role": "調味"},
+            {"item": "葛粉", "amount": "大さじ2", "role": "水で溶く・固める"},
+            {"item": "椎茸", "amount": "4個", "role": "薄切り・具材"},
+            {"item": "厚揚げ", "amount": "50g", "role": "小さく切る・具材"},
+            {"item": "三つ葉", "amount": "適量", "role": "飾り・香り"}
+          ],
+          "instructions": [
+            "豆腐をなめらかに潰す",
+            "温かいだし、調味料を加えて混ぜる",
+            "水溶き葛粉でとろみをつける",
+            "具材を入れて器に分け、蒸し器で15分蒸す",
+            "三つ葉を飾って完成"
+          ]
+        },
+        {
+          "name": "寒天茶碗蒸し",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "10分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "10g",
+            "carbs": "6g",
+            "fat": "4g",
+            "calories": "90kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "無調整豆乳", "amount": "200ml", "role": "ベース"},
+            {"item": "昆布椎茸だし", "amount": "200ml", "role": "風味"},
+            {"item": "白だし", "amount": "小さじ1", "role": "調味"},
+            {"item": "粉寒天", "amount": "小さじ1", "role": "固める"},
+            {"item": "椎茸", "amount": "2個", "role": "薄切り・具材"},
+            {"item": "湯葉", "amount": "20g", "role": "手でちぎる・具材"},
+            {"item": "青ねぎ", "amount": "適量", "role": "小口切り・彩り"}
+          ],
+          "instructions": [
+            "鍋に豆乳、だし、調味料、粉寒天を入れる",
+            "よく混ぜて火にかけ、沸騰させて寒天を溶かす",
+            "器に具材を入れ、液を注ぐ",
+            "粗熱が取れたら冷蔵庫で冷やし固める",
+            "青ねぎを散らして完成"
+          ]
+        }
+      ]
     }
   ],
   "tips": {
