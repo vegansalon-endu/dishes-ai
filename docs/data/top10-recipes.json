@@ -743,6 +743,596 @@
           ]
         }
       ]
+    },
+    {
+      "rank": 11,
+      "original_dish": "麻婆豆腐",
+      "alternative_name": "きのこ麻婆豆腐",
+      "category": "主菜",
+      "variations": [
+        {
+          "name": "エリンギ椎茸の麻婆豆腐",
+          "difficulty": "medium",
+          "prep_time": "15分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "20g",
+            "carbs": "9g",
+            "fat": "12g",
+            "calories": "210kcal",
+            "carb_reduction": "70%"
+          },
+          "ingredients": [
+            {"item": "絹豆腐", "amount": "400g", "role": "メインプロテイン・2cm角"},
+            {"item": "エリンギ", "amount": "150g", "role": "みじん切り・肉様食感"},
+            {"item": "椎茸", "amount": "100g", "role": "みじん切り・旨味"},
+            {"item": "長ねぎ", "amount": "1本", "role": "みじん切り・香り"},
+            {"item": "生姜・にんにく", "amount": "各1片", "role": "みじん切り・香り"},
+            {"item": "豆板醤", "amount": "小さじ2", "role": "辛味・コク"},
+            {"item": "甜麺醤代替", "amount": "大さじ1", "role": "練りごま+甘酒小1"},
+            {"item": "醤油", "amount": "大さじ1", "role": "調味"},
+            {"item": "昆布椎茸だし", "amount": "150ml", "role": "ベース"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "香り・炒め用"},
+            {"item": "山椒粉", "amount": "適量", "role": "香辛料"}
+          ],
+          "instructions": [
+            "豆腐を熱湯でさっと茹でて水切り",
+            "ごま油で生姜、にんにく、豆板醤を炒めて香りを出す",
+            "エリンギ、椎茸を加え水分が飛ぶまで炒める",
+            "甜麺醤代替、醤油、だし汁を加える", 
+            "豆腐を加えて5分煮込み、長ねぎと山椒粉を散らす"
+          ]
+        },
+        {
+          "name": "テンペ麻婆豆腐",
+          "difficulty": "medium",
+          "prep_time": "15分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "24g",
+            "carbs": "10g",
+            "fat": "14g",
+            "calories": "245kcal",
+            "carb_reduction": "70%"
+          },
+          "ingredients": [
+            {"item": "絹豆腐", "amount": "300g", "role": "メインプロテイン・2cm角"},
+            {"item": "テンペ", "amount": "120g", "role": "粗ほぐし・高たんぱく"},
+            {"item": "長ねぎ", "amount": "1本", "role": "みじん切り・香り"},
+            {"item": "生姜・にんにく", "amount": "各1片", "role": "みじん切り・香り"},
+            {"item": "豆板醤", "amount": "小さじ2", "role": "辛味・コク"},
+            {"item": "甜麺醤代替", "amount": "大さじ1", "role": "練りごま+甘酒小1"},
+            {"item": "醤油", "amount": "大さじ1", "role": "調味"},
+            {"item": "昆布椎茸だし", "amount": "150ml", "role": "ベース"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "香り・炒め用"},
+            {"item": "山椒粉", "amount": "適量", "role": "香辛料"}
+          ],
+          "instructions": [
+            "豆腐を熱湯でさっと茹でて水切り",
+            "テンペを粗くほぐしておく",
+            "ごま油で生姜、にんにく、豆板醤を炒めて香りを出す",
+            "テンペを加え香ばしく炒める",
+            "甜麺醤代替、醤油、だし汁を加え、豆腐を入れて5分煮込む",
+            "長ねぎと山椒粉を散らす"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "original_dish": "焼き魚",
+      "alternative_name": "豆腐・きのこステーキ",
+      "category": "主菜",
+      "variations": [
+        {
+          "name": "豆腐の西京焼き風",
+          "difficulty": "easy",
+          "prep_time": "1日",
+          "cooking_time": "8分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "22g",
+            "carbs": "8g",
+            "fat": "12g",
+            "calories": "215kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "木綿豆腐", "amount": "1丁", "role": "しっかり水切り・厚さ半分"},
+            {"item": "白味噌", "amount": "大さじ3", "role": "味噌床"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "甘み・まろやか"},
+            {"item": "醤油", "amount": "小さじ1/2", "role": "調味"},
+            {"item": "ごま油", "amount": "適量", "role": "焼き用"}
+          ],
+          "instructions": [
+            "豆腐をしっかり水切りし、厚さを半分にカット",
+            "白味噌、甘酒、醤油を混ぜて味噌床を作る",
+            "豆腐全面に味噌床を塗り、冷蔵庫で1〜2日寝かせる",
+            "豆腐の味噌を軽く拭い、フライパンで弱火でじっくり焼く",
+            "両面に焼き色がついたら完成"
+          ]
+        },
+        {
+          "name": "エリンギの照り焼きステーキ",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "8分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "6g",
+            "carbs": "12g",
+            "fat": "8g",
+            "calories": "135kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "エリンギ", "amount": "4本", "role": "縦半分・厚切り"},
+            {"item": "醤油", "amount": "大さじ2", "role": "照り焼きタレ"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "甘み"},
+            {"item": "生姜すりおろし", "amount": "小さじ1", "role": "香り"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "焼き用"},
+            {"item": "白ごま", "amount": "適量", "role": "トッピング"}
+          ],
+          "instructions": [
+            "エリンギを縦半分に切り、表面に格子状の切り込み",
+            "醤油、甘酒、生姜を混ぜてタレを作る",
+            "フライパンでエリンギを両面焼く",
+            "タレを絡めて照り焼き状に",
+            "白ごまを振って完成"
+          ]
+        },
+        {
+          "name": "厚揚げの蒲焼き風",
+          "difficulty": "easy",
+          "prep_time": "5分",
+          "cooking_time": "10分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "20g",
+            "carbs": "10g",
+            "fat": "15g",
+            "calories": "240kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "厚揚げ", "amount": "300g", "role": "1cm厚スライス"},
+            {"item": "醤油", "amount": "大さじ2", "role": "蒲焼きタレ"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "甘み"},
+            {"item": "海苔", "amount": "1枚", "role": "魚の風味演出"},
+            {"item": "山椒粉", "amount": "少々", "role": "香辛料"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "焼き用"}
+          ],
+          "instructions": [
+            "厚揚げを1cm厚にスライス",
+            "表面に海苔を貼り付ける",
+            "フライパンで両面をこんがり焼く",
+            "醤油と甘酒を絡めて照り焼き状に",
+            "山椒粉を振って完成"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "original_dish": "オムライス",
+      "alternative_name": "豆腐スクランブルオムライス",
+      "category": "主食",
+      "variations": [
+        {
+          "name": "ふわふわ豆腐オムライス",
+          "difficulty": "medium",
+          "prep_time": "20分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "18g",
+            "carbs": "13g",
+            "fat": "14g",
+            "calories": "240kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "カリフラワーライス", "amount": "300g", "role": "米代替・ベース"},
+            {"item": "絹豆腐", "amount": "300g", "role": "卵代替・オム部分"},
+            {"item": "玉ねぎ", "amount": "1/2個", "role": "みじん切り・甘み"},
+            {"item": "ピーマン", "amount": "1個", "role": "みじん切り・彩り"},
+            {"item": "マッシュルーム", "amount": "4個", "role": "スライス・旨味"},
+            {"item": "トマトペースト", "amount": "大さじ2", "role": "ケチャップ風味"},
+            {"item": "ひよこ豆粉", "amount": "大さじ2", "role": "とろみ・たんぱく質"},
+            {"item": "ターメリック", "amount": "小さじ1/2", "role": "色付け"},
+            {"item": "昆布だし", "amount": "大さじ2", "role": "旨味"},
+            {"item": "オリーブオイル", "amount": "大さじ2", "role": "炒め用"},
+            {"item": "塩・胡椒", "amount": "適量", "role": "調味"}
+          ],
+          "instructions": [
+            "カリフラワーライスを玉ねぎ、ピーマン、マッシュルームと炒める",
+            "トマトペースト、昆布だしで味付けしケチャップライス風に",
+            "豆腐、ひよこ豆粉、ターメリック、塩を混ぜてオム生地作り",
+            "フライパンで薄焼きにしてオムレツ状に",
+            "ライスを包んで盛り付け"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "original_dish": "ハンバーグ",
+      "alternative_name": "テンペ・きのこハンバーグ",
+      "category": "主菜",
+      "variations": [
+        {
+          "name": "テンペクルミハンバーグ",
+          "difficulty": "medium",
+          "prep_time": "20分",
+          "cooking_time": "15分",
+          "servings": 4, 
+          "nutrition": {
+            "protein": "25g",
+            "carbs": "9g",
+            "fat": "16g",
+            "calories": "270kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "テンペ", "amount": "150g", "role": "細かく刻み・メインプロテイン"},
+            {"item": "生クルミ", "amount": "40g", "role": "細かく刻み・油分・コク"},
+            {"item": "玉ねぎ", "amount": "1/4個", "role": "みじん切り・甘み"},
+            {"item": "マッシュルーム", "amount": "4個", "role": "みじん切り・旨味"},
+            {"item": "醤油", "amount": "大さじ1", "role": "下味"},
+            {"item": "サイリウム", "amount": "小さじ2", "role": "つなぎ"},
+            {"item": "塩・胡椒・ナツメグ", "amount": "少々", "role": "調味"},
+            {"item": "オリーブオイル", "amount": "大さじ1", "role": "焼き用"}
+          ],
+          "instructions": [
+            "玉ねぎとマッシュルームを炒めて冷ます",
+            "テンペとクルミを細かく刻む",
+            "全材料をボウルで粘り気が出るまでよく混ぜる",
+            "4等分して小判形に成形",
+            "フライパンで両面をこんがり焼き、蓋をして中まで火を通す"
+          ]
+        },
+        {
+          "name": "きのこ豆腐ハンバーグ",
+          "difficulty": "medium",
+          "prep_time": "20分",
+          "cooking_time": "15分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "20g",
+            "carbs": "8g",
+            "fat": "12g",
+            "calories": "210kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "木綿豆腐", "amount": "300g", "role": "しっかり水切り・メインプロテイン"},
+            {"item": "椎茸", "amount": "6個", "role": "みじん切り・旨味"},
+            {"item": "エリンギ", "amount": "2本", "role": "みじん切り・食感"},
+            {"item": "玉ねぎ", "amount": "1/2個", "role": "みじん切り・甘み"},
+            {"item": "くるみ", "amount": "30g", "role": "砕く・コク"},
+            {"item": "アーモンド", "amount": "大さじ3", "role": "砕く・パン粉代替"},
+            {"item": "醤油", "amount": "小さじ1", "role": "下味"},
+            {"item": "塩・胡椒", "amount": "適量", "role": "調味"},
+            {"item": "オリーブオイル", "amount": "大さじ1", "role": "焼き用"}
+          ],
+          "instructions": [
+            "玉ねぎときのこを炒めて冷ます",
+            "豆腐を崩して全材料を混ぜる",
+            "4等分して成形",
+            "両面を焼いて完成",
+            "トマトソースやきのこソースを添える"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "original_dish": "だし巻き卵",
+      "alternative_name": "湯葉・豆腐だし巻き",
+      "category": "主菜",
+      "variations": [
+        {
+          "name": "湯葉豆腐ミルフィーユ",
+          "difficulty": "medium",
+          "prep_time": "25分",
+          "cooking_time": "15分", 
+          "servings": 2,
+          "nutrition": {
+            "protein": "19g",
+            "carbs": "7g",
+            "fat": "10g",
+            "calories": "185kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "絹豆腐", "amount": "200g", "role": "水切り不要・メインプロテイン"},
+            {"item": "生湯葉", "amount": "50g", "role": "層作り・食感"},
+            {"item": "昆布椎茸だし", "amount": "50ml", "role": "風味・ベース"},
+            {"item": "白だし", "amount": "小さじ1", "role": "調味・出汁風味"},
+            {"item": "片栗粉", "amount": "小さじ2", "role": "つなぎ・最低限"},
+            {"item": "ごま油", "amount": "少々", "role": "風味"}
+          ],
+          "instructions": [
+            "豆腐、だし、白だし、片栗粉をブレンダーで滑らかに",
+            "卵焼き器に生地の1/3を流し、湯葉を広げる",
+            "これを3回繰り返し層を作る",
+            "蒸し器で10〜15分蒸し固める",
+            "冷ましてから切り分ける"
+          ]
+        },
+        {
+          "name": "豆腐だし巻き", 
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "8分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "15g",
+            "carbs": "8g",
+            "fat": "9g",
+            "calories": "165kcal",
+            "carb_reduction": "90%"
+          },  
+          "ingredients": [
+            {"item": "絹豆腐", "amount": "300g", "role": "メインプロテイン"},
+            {"item": "ひよこ豆粉", "amount": "大さじ3", "role": "たんぱく質・とろみ"},
+            {"item": "昆布だし", "amount": "大さじ3", "role": "風味・ベース"},
+            {"item": "醤油", "amount": "小さじ1/2", "role": "調味"},
+            {"item": "ターメリック", "amount": "少々", "role": "色付け"},
+            {"item": "塩", "amount": "少々", "role": "調味"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "焼き用"}
+          ],
+          "instructions": [
+            "豆腐をなめらかに潰す",
+            "全材料を混ぜ合わせる",  
+            "卵焼き器で薄く焼き、巻いていく",
+            "4-5回に分けて巻き重ねる",
+            "形を整えて完成"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "original_dish": "天ぷら",
+      "alternative_name": "野菜の低糖質天ぷら",
+      "category": "主菜",
+      "variations": [
+        {
+          "name": "おから衣の野菜天ぷら",
+          "difficulty": "medium",
+          "prep_time": "20分",
+          "cooking_time": "15分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "12g",
+            "carbs": "14g",
+            "fat": "18g",
+            "calories": "255kcal",
+            "carb_reduction": "75%"
+          },
+          "ingredients": [
+            {"item": "なす", "amount": "1本", "role": "輪切り・メイン具材"},
+            {"item": "ししとう", "amount": "8本", "role": "そのまま・彩り"},
+            {"item": "椎茸", "amount": "4個", "role": "丸ごと・旨味"},
+            {"item": "大葉", "amount": "8枚", "role": "香り・彩り"},
+            {"item": "おからパウダー", "amount": "100g", "role": "衣・メイン"},
+            {"item": "アーモンド粉", "amount": "50g", "role": "衣・コク"},
+            {"item": "冷水", "amount": "120ml", "role": "衣・サクサク感"},
+            {"item": "塩", "amount": "小さじ1/4", "role": "衣・調味"},
+            {"item": "米油", "amount": "適量", "role": "揚げ用"}
+          ],
+          "instructions": [
+            "衣の材料を軽く混ぜる（混ぜすぎない）",
+            "野菜に衣をつけて170℃で揚げる",
+            "きつね色になったら油を切る",
+            "昆布だし+醤油+甘酒のつゆで",
+            "大根おろしを添えて"
+          ]
+        },
+        {
+          "name": "プロテイン衣天ぷら",
+          "difficulty": "medium", 
+          "prep_time": "15分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "20g",
+            "carbs": "8g", 
+            "fat": "18g",
+            "calories": "265kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "高野豆腐", "amount": "4枚", "role": "スティック状・メイン具材"},
+            {"item": "しめじ", "amount": "1パック", "role": "小房・旨味"}, 
+            {"item": "アボカド", "amount": "1個", "role": "厚切り・まろやか"},
+            {"item": "大豆プロテイン粉", "amount": "40g", "role": "衣・高たんぱく"},
+            {"item": "炭酸水", "amount": "80ml", "role": "衣・軽やか"},
+            {"item": "塩", "amount": "少々", "role": "調味"},
+            {"item": "米油", "amount": "適量", "role": "揚げ用"}
+          ],
+          "instructions": [
+            "高野豆腐を戻してスティック状に切る",
+            "プロテイン粉と炭酸水で軽い衣を作る",
+            "具材に衣をつけて180℃で1.5分揚げ",
+            "短時間でサクッと仕上げる",
+            "塩や天つゆでいただく"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "original_dish": "筑前煮",
+      "alternative_name": "根菜と厚揚げの煮物",
+      "category": "主菜",
+      "variations": [
+        {
+          "name": "厚揚げと根菜の炒り煮",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "20分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "18g",
+            "carbs": "12g",
+            "fat": "11g",
+            "calories": "205kcal",
+            "carb_reduction": "75%"
+          },
+          "ingredients": [
+            {"item": "厚揚げ", "amount": "200g", "role": "一口大・メインプロテイン"},
+            {"item": "大根", "amount": "200g", "role": "乱切り・ベース野菜"},
+            {"item": "人参", "amount": "1本", "role": "乱切り・甘み・彩り"},
+            {"item": "こんにゃく", "amount": "1枚", "role": "手でちぎる・食感"},
+            {"item": "椎茸", "amount": "6個", "role": "半分・旨味"},
+            {"item": "いんげん", "amount": "10本", "role": "彩り・食感"},
+            {"item": "昆布椎茸だし", "amount": "300ml", "role": "ベース"},
+            {"item": "醤油", "amount": "大さじ2", "role": "調味"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "甘み"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "炒め用・香り"}
+          ],
+          "instructions": [
+            "ごま油で厚揚げを炒めて取り出す",
+            "根菜類を加えて炒める",
+            "だしと調味料を加えて15分煮込む",
+            "厚揚げを戻し、いんげんを加えて5分煮る",
+            "汁気が少なくなったら完成"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "original_dish": "豚汁",
+      "alternative_name": "きのこ豆腐汁",
+      "category": "汁物",
+      "variations": [
+        {
+          "name": "テンペときのこの味噌汁",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "15分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "18g",
+            "carbs": "9g",
+            "fat": "8g",
+            "calories": "170kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "テンペ", "amount": "150g", "role": "1cm角・メインプロテイン"},
+            {"item": "椎茸", "amount": "6個", "role": "スライス・旨味"},
+            {"item": "えのき", "amount": "1パック", "role": "食感・ボリューム"},
+            {"item": "エリンギ", "amount": "2本", "role": "スライス・食感"},
+            {"item": "大根", "amount": "200g", "role": "いちょう切り・ベース"},
+            {"item": "人参", "amount": "1本", "role": "いちょう切り・甘み"},
+            {"item": "長ねぎ", "amount": "1本", "role": "斜め切り・香り"},
+            {"item": "こんにゃく", "amount": "1枚", "role": "短冊切り・食感"},
+            {"item": "昆布椎茸だし", "amount": "800ml", "role": "ベース"},
+            {"item": "味噌", "amount": "大さじ3", "role": "調味・コク"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "炒め用・香り"}
+          ],
+          "instructions": [
+            "ごま油でテンペを炒めて焼き色をつける",
+            "根菜類を加えて炒める",
+            "だしを加えて10分煮込む",
+            "きのこ類を加えて5分煮る",
+            "味噌を溶き入れ、ねぎを散らす"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "original_dish": "寿司",
+      "alternative_name": "キヌア・カリフラワー寿司",
+      "category": "主食",
+      "variations": [
+        {
+          "name": "キヌア寿司",
+          "difficulty": "medium",
+          "prep_time": "30分",
+          "cooking_time": "20分",
+          "servings": "20貫",
+          "nutrition": {
+            "protein": "12g",
+            "carbs": "15g",
+            "fat": "6g",
+            "calories": "155kcal",
+            "carb_reduction": "70%"
+          },
+          "ingredients": [
+            {"item": "キヌア", "amount": "100g", "role": "茹でて冷ます・シャリベース"},
+            {"item": "カリフラワーライス", "amount": "100g", "role": "シャリベース・食感"},
+            {"item": "米酢", "amount": "大さじ2", "role": "すし酢"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "すし酢・甘み"},
+            {"item": "塩", "amount": "小さじ1/2", "role": "すし酢・調味"},
+            {"item": "アボカド", "amount": "1個", "role": "スライス・ネタ"},
+            {"item": "きゅうり", "amount": "1本", "role": "細切り・ネタ"},
+            {"item": "人参", "amount": "1本", "role": "茹でてスライス・ネタ"},
+            {"item": "椎茸", "amount": "6個", "role": "甘辛煮・ネタ"},
+            {"item": "厚揚げ", "amount": "150g", "role": "照り焼き風・ネタ"},
+            {"item": "大葉", "amount": "10枚", "role": "香り・ネタ"}
+          ],
+          "instructions": [
+            "キヌアとカリフラワーを混ぜ、すし酢で味付け",
+            "椎茸を醤油+甘酒で甘辛煮に",
+            "厚揚げを照り焼き風に調理",
+            "手に水をつけてシャリを握る",
+            "各種ネタをのせて完成"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "original_dish": "すき焼き",
+      "alternative_name": "焼き豆腐と湯葉のすき鍋",
+      "category": "主菜",
+      "variations": [
+        {
+          "name": "ヘルシーきのこすき焼き",
+          "difficulty": "easy",
+          "prep_time": "15分",
+          "cooking_time": "20分",
+          "servings": 4,
+          "nutrition": {
+            "protein": "22g",
+            "carbs": "11g",
+            "fat": "12g",
+            "calories": "230kcal",
+            "carb_reduction": "80%"
+          },
+          "ingredients": [
+            {"item": "厚揚げ", "amount": "300g", "role": "厚切り・メインプロテイン"},
+            {"item": "焼き豆腐", "amount": "200g", "role": "食感・たんぱく質"},
+            {"item": "椎茸", "amount": "8個", "role": "旨味・食感"},
+            {"item": "エリンギ", "amount": "4本", "role": "斜め切り・食感"},
+            {"item": "えのき", "amount": "2パック", "role": "ボリューム"},
+            {"item": "白菜", "amount": "1/4個", "role": "ざく切り・甘み"},
+            {"item": "長ねぎ", "amount": "2本", "role": "斜め切り・香り"},
+            {"item": "春菊", "amount": "1束", "role": "香り・彩り"},
+            {"item": "しらたき", "amount": "2袋", "role": "食感・ボリューム"},
+            {"item": "昆布椎茸だし", "amount": "300ml", "role": "割り下ベース"},
+            {"item": "醤油", "amount": "大さじ4", "role": "割り下・調味"},
+            {"item": "甘酒", "amount": "大さじ2", "role": "割り下・甘み"},
+            {"item": "豆乳", "amount": "200ml", "role": "つけダレ・まろやか"},
+            {"item": "白味噌", "amount": "小さじ1", "role": "つけダレ・コク"}
+          ],
+          "instructions": [
+            "鍋に割り下（だし+醤油+甘酒）を煮立てる",
+            "厚揚げから焼いて香ばしさを出す",
+            "きのこ、野菜を順に加える",
+            "豆乳に白味噌を溶いたつけダレを作る",
+            "つけダレにつけて食べる"
+          ]
+        }
+      ]
     }
   ],
   "tips": {
