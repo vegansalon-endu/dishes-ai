@@ -1009,6 +1009,192 @@
           "special_notes": "和風きのこの旨味を活かした本格餃子"
         }
       }
+    },
+    {
+      "rank": 11,
+      "original_dish": "麻婆豆腐",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "スパイシーきのこ麻婆",
+          "approach": "複数きのこで肉の旨味を再現",
+          "difficulty": "medium",
+          "prep_time": "15分",
+          "cooking_time": "10分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "18g",
+            "carbs": "8g",
+            "fat": "11g",
+            "calories": "185kcal",
+            "carb_reduction": "75%"
+          },
+          "ingredients": [
+            {"item": "絹豆腐", "amount": "400g", "role": "メインプロテイン"},
+            {"item": "椎茸", "amount": "100g", "role": "旨味・みじん切り"},
+            {"item": "マイタケ", "amount": "80g", "role": "食感・みじん切り"},
+            {"item": "豆板醤", "amount": "小さじ2", "role": "辛味"},
+            {"item": "甜麺醤代替", "amount": "大さじ1", "role": "練りごま+甘酒"},
+            {"item": "醤油", "amount": "大さじ1", "role": "調味"},
+            {"item": "昆布だし", "amount": "150ml", "role": "ベース"}
+          ],
+          "instructions": [
+            "きのこをみじん切りにして炒める",
+            "豆板醤で香りを出し、甜麺醤代替を加える",
+            "豆腐とだしを加えて5分煮込む"
+          ],
+          "special_notes": "複数きのこで複雑な旨味を実現"
+        },
+        "chatgpt": {
+          "alternative_name": "クラシック豆腐麻婆",
+          "approach": "シンプルで定番の味付け",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "8分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "20g",
+            "carbs": "9g",
+            "fat": "10g",
+            "calories": "195kcal",
+            "carb_reduction": "70%"
+          },
+          "ingredients": [
+            {"item": "絹豆腐", "amount": "400g", "role": "メインプロテイン"},
+            {"item": "長ねぎ", "amount": "1本", "role": "香り・みじん切り"},
+            {"item": "生姜・にんにく", "amount": "各1片", "role": "香り"},
+            {"item": "豆板醤", "amount": "小さじ2", "role": "辛味"},
+            {"item": "醤油", "amount": "大さじ1", "role": "調味"},
+            {"item": "昆布だし", "amount": "150ml", "role": "ベース"},
+            {"item": "山椒粉", "amount": "適量", "role": "香辛料"}
+          ],
+          "instructions": [
+            "生姜、にんにく、豆板醤を炒める",
+            "だしと調味料を加える",
+            "豆腐を入れて煮込み、長ねぎを散らす"
+          ],
+          "special_notes": "最もベーシックで失敗しない麻婆豆腐"
+        },
+        "claude": {
+          "alternative_name": "エリンギ椎茸の麻婆豆腐",
+          "approach": "エリンギで肉様食感を追求",
+          "difficulty": "medium",
+          "prep_time": "15分",
+          "cooking_time": "12分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "20g",
+            "carbs": "9g",
+            "fat": "12g",
+            "calories": "210kcal",
+            "carb_reduction": "70%"
+          },
+          "ingredients": [
+            {"item": "絹豆腐", "amount": "400g", "role": "メインプロテイン"},
+            {"item": "エリンギ", "amount": "150g", "role": "肉様食感・みじん切り"},
+            {"item": "椎茸", "amount": "100g", "role": "旨味・みじん切り"},
+            {"item": "豆板醤", "amount": "小さじ2", "role": "辛味"},
+            {"item": "甜麺醤代替", "amount": "大さじ1", "role": "練りごま+甘酒"},
+            {"item": "醤油", "amount": "大さじ1", "role": "調味"},
+            {"item": "山椒粉", "amount": "適量", "role": "本格香辛料"}
+          ],
+          "instructions": [
+            "エリンギ、椎茸をみじん切りにして炒める",
+            "豆板醤で香りを出し、調味料を加える",
+            "豆腐を加えて煮込み、山椒粉で仕上げ"
+          ],
+          "special_notes": "エリンギの食感が本格的な麻婆豆腐を実現"
+        }
+      }
+    },
+    {
+      "rank": 12,
+      "original_dish": "焼き魚",
+      "ai_recipes": {
+        "gemini": {
+          "alternative_name": "ターメリック豆腐ステーキ",
+          "approach": "スパイスで魚の風味を演出",
+          "difficulty": "easy",
+          "prep_time": "30分",
+          "cooking_time": "8分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "22g",
+            "carbs": "6g",
+            "fat": "14g",
+            "calories": "220kcal",
+            "carb_reduction": "90%"
+          },
+          "ingredients": [
+            {"item": "木綿豆腐", "amount": "1丁", "role": "メインプロテイン"},
+            {"item": "ターメリック", "amount": "小さじ1", "role": "色付け・風味"},
+            {"item": "コリアンダー", "amount": "小さじ1/2", "role": "魚風味"},
+            {"item": "レモン汁", "amount": "大さじ1", "role": "魚風味"},
+            {"item": "塩", "amount": "小さじ1/2", "role": "調味"},
+            {"item": "オリーブオイル", "amount": "大さじ1", "role": "焼き用"}
+          ],
+          "instructions": [
+            "豆腐を水切りして厚切りにする",
+            "スパイス類で30分マリネ",
+            "フライパンで両面を焼く"
+          ],
+          "special_notes": "スパイスの組み合わせで魚の風味を再現"
+        },
+        "chatgpt": {
+          "alternative_name": "エリンギの照り焼きステーキ",
+          "approach": "きのこの食感で魚を代替",
+          "difficulty": "easy",
+          "prep_time": "10分",
+          "cooking_time": "8分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "6g",
+            "carbs": "12g",
+            "fat": "8g",
+            "calories": "135kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "エリンギ", "amount": "4本", "role": "メイン食材・厚切り"},
+            {"item": "醤油", "amount": "大さじ2", "role": "照り焼きタレ"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "甘み"},
+            {"item": "生姜", "amount": "小さじ1", "role": "香り"},
+            {"item": "ごま油", "amount": "大さじ1", "role": "焼き用"}
+          ],
+          "instructions": [
+            "エリンギを厚切りにして格子状に切り込み",
+            "タレを作って絡める",
+            "フライパンで照り焼きに"
+          ],
+          "special_notes": "エリンギの肉厚な食感が魚に近い"
+        },
+        "claude": {
+          "alternative_name": "豆腐の西京焼き風",
+          "approach": "伝統的な西京焼きを植物性で再現",
+          "difficulty": "easy",
+          "prep_time": "1日",
+          "cooking_time": "8分",
+          "servings": 2,
+          "nutrition": {
+            "protein": "22g",
+            "carbs": "8g",
+            "fat": "12g",
+            "calories": "215kcal",
+            "carb_reduction": "85%"
+          },
+          "ingredients": [
+            {"item": "木綿豆腐", "amount": "1丁", "role": "メインプロテイン"},
+            {"item": "白味噌", "amount": "大さじ3", "role": "味噌床"},
+            {"item": "甘酒", "amount": "大さじ1", "role": "甘み"},
+            {"item": "醤油", "amount": "小さじ1/2", "role": "調味"}
+          ],
+          "instructions": [
+            "味噌床を作り豆腐を1-2日漬ける",
+            "味噌を軽く拭い、弱火で焼く",
+            "両面に焼き色をつける"
+          ],
+          "special_notes": "発酵による深い旨味が本格的な西京焼きを再現"
+        }
+      }
     }
   ]
 }
